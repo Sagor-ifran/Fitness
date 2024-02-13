@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness || Gym & Fitness HTML Template</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/venobox.min.css">
+    <link rel="stylesheet" href="css/scroll_button.css">
+    <link rel="stylesheet" href="css/animated_barfiller.css">
+
+    <link rel="stylesheet" href="css/spacing.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <!--===============================
+        HEADER START
+    ================================-->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-5">
+                    <div class="wsus__header_left">
+                        <a href="mailto:example@gmail.com">
+                            <span><img src="images/mail_icon_1.png" alt="mail" class="img-fluid"></span>
+                            example@gmail.com
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-7">
+                    <ul class="wsus__header_right d-flex flex-wrap">
+                        <li>
+                            <select class="select_js">
+                                <option>English</option>
+                                <option>Arabic</option>
+                                <option>Japanis</option>
+                                <option>Chines</option>
+                                <option>Korean</option>
+                            </select>
+                        </li>
+                        <li>
+                            <select class="select_js">
+                                <option>USD</option>
+                                <option>EUR</option>
+                                <option>INR</option>
+                                <option>GBP</option>
+                                <option>CAD</option>
+                                <option>JPY</option>
+                            </select>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span><img src="images/user_icon_1.png" alt="user" class="img-fluid"></span>
+                                Profile
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--===============================
+        HEADER END
+    ================================-->
+
+
+    <!--============================
+        MENU START
+    =============================-->
+    <nav class="navbar navbar-expand-lg main_menu">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo.png" alt="Fitness" class="img-fluid">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="far fa-bars menu_icon_bar"></i>
+                <i class="far fa-times close_icon_close"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home <i class="far fa-angle-down"></i></a>
+                        <ul class="wsus__droap_menu">
+                            <li><a href="#">Home 01</a></li>
+                            <li><a href="#">Home 02</a></li>
+                            <li><a href="#">Home 03</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Classes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Membership</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pages <i class="far fa-angle-down"></i></a>
+                        <ul class="wsus__droap_menu">
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Services Details</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Blog Details</a></li>
+                            <li><a href="#">Error/404</a></li>
+                            <li><a href="#">Sign In</a></li>
+                            <li><a href="#">Sign Up</a></li>
+                            <li><a href="#">Forgot Password</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms And Conditio</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                </ul>
+                <ul class="right_menu d-flex flex-wrap align-items-center">
+                    <li>
+                        <a href="#">
+                            <span>
+                                <img src="images/cart_icon.png" alt="cart" class="img-fluid">
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                            aria-controls="offcanvasRight">
+                            <span>
+                                <img src="images/toggle_icon.png" alt="user" class="img-fluid">
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="wsus__menu_offconvas">
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"><i
+                        class="fal fa-times"></i></button>
+            </div>
+            <div class="offcanvas-body">
+                <a class="offcanvas_logo" href="index.html">
+                    <img src="images/logo.png" alt="Fitness" class="img-fluid">
+                </a>
+                <p class="description">Qui magni autem id omnis assumenda ut maxime Quis sed voluptatum modi, omnis
+                    tenetur est.</p>
+
+                <div class="offcanvas_contact">
+                    <h3>Contact Us</h3>
+                    <p>
+                        <span><img src="images/location_icon_1.png" alt="location" class="img-fluid w-100"></span>
+                        Cecilia 711-2880 Nulla St.
+                    </p>
+                    <a href="mailto:example@gmail.com">
+                        <span><img src="images/mail_icon_1.png" alt="mail" class="img-fluid w-100"></span>
+                        Cecilia 711-2880 Nulla St.
+                    </a>
+                    <a href="callto:1234567890">
+                        <span><img src="images/call_icon_1.png" alt="Call" class="img-fluid"></span>
+                        +(402) 763 282 46
+                    </a>
+                </div>
+                <ul class="d-flex flex-wrap">
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--============================
+        MENU END
+    =============================-->
+
+
+    <!--============================
+        BREADCRUMBS START
+    =============================-->
+    <section class="wsus__breadcrumb">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="wsus___breadcrumb_text">
+                        <h1>blog details</h1>
+                        <ul>
+                            <li><a href="#"><i class="fas fa-home-lg-alt"></i>Home</a></li>
+                            <li>blog details</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--============================
+        BREADCRUMBS END
+    =============================-->
+
+
+    <!--============================
+        BLOG DETAILS START
+    =============================-->
+    <section class="wsus__blog_details mt_120 xs_mt_100 mb_120 xs_mb_100">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-8">
+                    <div class="wsus__blog_details_left">
+                        <div class="wsus__blog_details_img_1">
+                            <img src="images/blog_details_img_1.jpg" alt="blog" class="img-fluid w-100">
+                        </div>
+                        <ul class="wsus__blog_details_img_info">
+                            <li>
+                                <span><img src="images/blog_owner.png" alt="blog" class="img-fluid w-100"></span>
+                                By Desmond Eagle
+                            </li>
+                            <li>
+                                <span><img src="images/calender_icon.png" alt="blog" class="img-fluid w-100"></span>
+                                March 23,2024
+                            </li>
+                            <li>
+                                <span><img src="images/comment_icon.png" alt="blog" class="img-fluid w-100"></span>
+                                3
+                            </li>
+                            <li>
+                                <span><img src="images/health_icon.png" alt="blog" class="img-fluid w-100"></span>
+                                Health
+                            </li>
+                        </ul>
+                        <h2>Elevating Your Exercise Routine for Optimal Fitness Outcomes.</h2>
+                        <p>Phasellus eu tristique sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Done
+                            laoreet augue sit amet quam vulputate, a blandit arcu eleifend. Nam convallis velit libero
+                            nec cursus nunc vehicula non. Ut posuere nibh at dapibus posuere.</p>
+                        <p class="mt_25">Duis mattis enim id labret accumsan Pellentesque molestie eleifend libero a
+                            pharetra Ut
+                            elementum enim vel ligula sollicitudin id porttitor augue fermentum Integer pretium quam.
+                        </p>
+                        <div class="row mt_45">
+                            <div class="col-xl-6">
+                                <div class="wsus__blog_details_img_2">
+                                    <div class="img">
+                                        <img src="images/blog_details_img_2.jpg" alt="blog" class="img-fluid w-100">
+                                    </div>
+                                    <p>Images by<a href="#"> @sample</a></p>
+                                </div>
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="wsus__blog_details_img_2">
+                                    <div class="img">
+                                        <img src="images/blog_details_img_3.jpg" alt="blog" class="img-fluid w-100">
+                                    </div>
+                                    <p>Images by<a href="#"> @sample</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <h2 class="mt_25">50 Days Warner Fitness Program</h2>
+                        <p class="mt_5">Fusce pellentesque nisi at sollicitudin suscipit pulvinar erat nec turpis
+                            gravida finibus
+                            felis fringilla hliquam imperdiet leo sed purus dapibus elementum. Donec eu nisl lacinia,
+                            tincidunt lorem eget felis neque nunc efficitur quam.</p>
+                        <div class="wsus__blog_details_queto">
+                            <span>“Donec dam rises impediment at qualm ac, bandit fugit elite nteger cursus eldt
+                                sagittas place rat Duis interdorm incident fermentum Null am ac gravida neque. Donec
+                                iaculis eleifend lacus non condimentum”</span>
+                        </div>
+                        <p class="mt_40">Phasellus eu tristique sapien. Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit Done laoree augue sit amet quam vulputate, a blandest arcus elegized. nam
+                            convallis velit libero nec cursus nunc vehicula non. Ut posuere nibh at dapibus posuere.</p>
+                        <div class="wsus__blog_details_video">
+                            <iframe width="560" height="315"
+                                src="https://www.youtube.com/embed/qV-kw7l_ZNk?si=WqR67q23rpP_-3Ih"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                        </div>
+                        <h2>Express Stress-Buster Bodyweight Workout in 5 Minutes.</h2>
+                        <p>Duis commodo, dui bibendum dignissim commodo, eros ante congue ante, sit amet eleifend nulla
+                            dolor vel velit. In mattis erat vel ipsum dictum, eulputate sapien euismod donec a purus
+                            ipsumDonec non nisl leo. Nunc vel lectus tellus. Nulla ac interdum lacus. Sed lobortis
+                            placerat tellus, ac tempo lorem placerat at. Nunc quis elit mi.</p>
+                        <div class="wsus__blog_details_tag_share">
+                            <div class="tags">
+                                <h6>Post Tags:</h6>
+                                <ul class="wsus__blog_details_tag">
+                                    <li><a href="#">Fitness</a></li>
+                                    <li><a href="#">Gym</a></li>
+                                    <li><a href="#">Sport</a></li>
+                                    <li><a href="#">Key</a></li>
+                                </ul>
+                            </div>
+                            <h6 class="share"><i class="far fa-share-alt"></i>25 Share</h6>
+                        </div>
+                        <div class="wsus__blog_post_direction">
+                            <div class="prev_post">
+                                <a href="#" class="icon"><i class="fal fa-angle-left"></i></a>
+                                <div class="text">
+                                    <h6>PREV POST</h6>
+                                    <a href="#" class="title">BENEFITS OF GOING TO THE GYM & DOING PHYSICAL
+                                        ACTIVITY.</a>
+                                </div>
+                            </div>
+                            <div class="next_post">
+                                <a href="#" class="icon"><i class="fal fa-angle-right"></i></a>
+                                <div class="text">
+                                    <h6>next POST</h6>
+                                    <a href="#" class="title">21 YEARS OF FITNESS EXCELLENCE & THE GRAND ANNIVERSARY
+                                        CELEBRATION</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wsus__blog_comments">
+                            <h4>Comments</h4>
+                            <div class="wsus__blog_single_comment">
+                                <div class="img">
+                                    <img src="images/comment_img_1.jpg" alt="comment" class="img-fluid w-100">
+                                </div>
+                                <div class="text">
+                                    <h5>Hugh Saturation</h5>
+                                    <span class="date">Feb 9, 2024 at 10:23</span>
+                                    <p>Duis commodo, dui bibendum dignissim commodo, eros ante congue ante, sit amet
+                                        eleifend nulla dolor vel velit. In mattis erat vel ipsum dictum, eulputate
+                                        sapien euismod donec a purus ipsumDonec non nisl leo. Nunc vel lectus tellus.
+                                    </p>
+                                    <a href="#">
+                                        <span><img src="images/reply.png" alt="reply" class="img-fluid w-100"></span>
+                                        Reply</a>
+                                </div>
+                            </div>
+                            <div class="wsus__blog_single_comment wsus__blog_comment_reply">
+                                <div class="img">
+                                    <img src="images/comment_img_2.jpg" alt="comment" class="img-fluid w-100">
+                                </div>
+                                <div class="text">
+                                    <h5>Hugh Saturation</h5>
+                                    <span class="date">Feb 9, 2024 at 10:23</span>
+                                    <p>Duis commodo, dui bibendum dignissim commodo, eros ante congue ante, sit amet
+                                        eleifend nulla dolor vel velit. In mattis erat vel ipsum dictum, eulputate
+                                        sapien euismod donec a purus ipsumDonec non nisl leo. Nunc vel lectus tellus.
+                                    </p>
+                                    <a href="#">
+                                        <span><img src="images/reply.png" alt="reply" class="img-fluid w-100"></span>
+                                        Reply</a>
+                                </div>
+                            </div>
+                        </div>
+                        <form action="#" class="wsus__blog_details_form">
+                            <h4>Leave a Comment</h4>
+                            <div class="row">
+                                <div class="col-xl-6">
+                                    <div class="wsus__blog_details_form_input">
+                                        <input type="text" placeholder="Name *">
+                                    </div>
+                                </div>
+                                <div class="col-xl-6">
+                                    <div class="wsus__blog_details_form_input">
+                                        <input type="e-mail" placeholder="E-mail *">
+                                    </div>
+                                </div>
+                                <div class="col-xl-12">
+                                    <div class="wsus__blog_details_form_input">
+                                        <input type="text" placeholder="Website *">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-12">
+                                <div class="wsus__blog_details_form_input">
+                                    <textarea rows="6" placeholder="Your Comment Here..."></textarea>
+                                </div>
+                            </div>
+                            <div class="col-xl-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Save my name, email, and website in this browser for the next time I
+                                        comment.
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-xl-12">
+                                <div class="wsus__blog_details_form_button">
+                                    <button class="common_btn common_btn_2">Submit Comment</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="sticky_sidebar">
+                        <div class="wsus__blog_details_right">
+                            <div class="wsus__blog_fitness_coach">
+                                <img src="images/blog_details_img_4.jpg" alt="blog" class="img-fluid w-100">
+                                <div class="wsus__blog_fitness_coach_name">
+                                    <a href="#" class="title">Hugh Saturation</a>
+                                    <span>Fitness Coach</span>
+                                </div>
+                            </div>
+                            <p>Phasellus eu tristique sapien. Lorem ipsum dolo sit ame
+                                consectetur adipiscing elit Done laoreet augue.</p>
+                            <form action="#">
+                                <input type="text" placeholder="Search Here....">
+                                <button><i class="far fa-search"></i></button>
+                            </form>
+                            <div class="wsus__blog_sidebar_wizard">
+                                <h4>CATEGORIES</h4>
+                                <ul class="wsus__blog_sidebar_category">
+                                    <li><a href="#"><i class="far fa-angle-right"></i>FITNESS (36)</a></li>
+                                    <li><a href="#"><i class="far fa-angle-right"></i>Food & Health (15)</a></li>
+                                    <li><a href="#"><i class="far fa-angle-right"></i>Nutrition (35)</a></li>
+                                    <li><a href="#"><i class="far fa-angle-right"></i>Bodybuilding (23)</a></li>
+                                    <li><a href="#"><i class="far fa-angle-right"></i>LIFESTYLE (57)</a></li>
+                                    <li><a href="#"><i class="far fa-angle-right"></i>SPORT SCIENCE (38)</a></li>
+                                </ul>
+                            </div>
+                            <div class="wsus__blog_sidebar_wizard">
+                                <h4>SIMMILAR READS</h4>
+                                <ul class="wsus__blog_sidebar_releted_blog">
+                                    <li>
+                                        <a href="#">
+                                            <span><img src="images/releted_blog_img_1.jpg" alt="blog"
+                                                    class="img-fluid w-100"></span>
+                                            <b class="title">HOW TO KEEP YOUR FITNESS ROUTINE FRESH & EXCITING.</b>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span><img src="images/releted_blog_img_2.jpg" alt="blog"
+                                                    class="img-fluid w-100"></span>
+                                            <b class="title">Swift Stress-Relief 5-Minute Bodyweight Session.</b>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span><img src="images/releted_blog_img_3.jpg" alt="blog"
+                                                    class="img-fluid w-100"></span>
+                                            <b class="title">Warner's 48-Day Health and Wellness Program.</b>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="wsus__blog_sidebar_wizard">
+                                <h4>Tags:</h4>
+                                <ul class="wsus__blog_details_tag">
+                                    <li><a href="#">Fitness</a></li>
+                                    <li><a href="#">Gym</a></li>
+                                    <li><a href="#">Sport</a></li>
+                                    <li><a href="#">Key</a></li>
+                                    <li><a href="#">Running</a></li>
+                                    <li><a href="#">Mind</a></li>
+                                    <li><a href="#">Mind</a></li>
+                                    <li><a href="#">Control</a></li>
+                                    <li><a href="#">Yoga</a></li>
+                                    <li><a href="#">Bench</a></li>
+                                </ul>
+                            </div>
+                            <div class="wsus__blog_sidebar_wizard">
+                                <h4>SOCIAL</h4>
+                                <ul class="wsus__blog_sidebar_icon d-flex flex-wrap">
+                                    <li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-instalod"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--============================
+        BLOG DETAILS END
+    =============================-->
+
+
+    <!--============================
+        SOCIAL MEDIA START
+    =============================-->
+    <section class="wsus__social_media">
+        <div class="row">
+            <div class="col-xl-12">
+                <ul class="d-flex flex-wrap">
+                    <li><a href="#" class="facebook">Facebook</a></li>
+                    <li><a href="#" class="insta">INSTRAGRAM</a></li>
+                    <li><a href="#" class="linkdin">Linkedin</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!--============================
+        SOCIAL MEDIA END
+    =============================-->
+
+
+    <!--============================
+        FOOTER START
+    =============================-->
+    <footer class="wsus__footer pt_120">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-xl-3">
+                    <div class="wsus__footer_left">
+                        <div class="wsus__footer_logo">
+                            <img src="images/logo.png" alt="logo" class="img-fluid w-100">
+                        </div>
+                        <p>Qui magni autem id omnis assumenda ut maxime Quis sed voluptatum modi, omnis tenetur est.</p>
+                        <ul class="d-flex flex-wrap">
+                            <li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-2">
+                    <div class="wsus__footer_manu">
+                        <h4>Usefull Link</h4>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Terms of Use</a></li>
+                            <li><a href="#">Our Services</a></li>
+                            <li><a href="#">Changelog</a></li>
+                            <li><a href="#">Privacy policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-2">
+                    <div class="wsus__footer_manu">
+                        <h4>Support Desk</h4>
+                        <ul>
+                            <li><a href="#">Packages Plan</a></li>
+                            <li><a href="#">Courses</a></li>
+                            <li><a href="#">Schedule</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="wsus__footer_right">
+                        <h4>Contact Us</h4>
+                        <ul>
+                            <li>
+                                <p>
+                                    <span><img src="images/location_icon_2.png" alt="icon"
+                                            class="img-fluid w-100"></span>
+                                    Cecilia 711-2880 Nulla St.
+                                </p>
+                            </li>
+                            <li>
+                                <a href="mailto:example@gmail.com">
+                                    <span><img src="images/sms.png" alt="icon" class="img-fluid w-100"></span>
+                                    example@gmail.com
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto:1234567890">
+                                    <span><img src="images/Calling.png" alt="icon" class="img-fluid w-100"></span>
+                                    +(402) 763 282 46
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="wsus__copy_right mt_115 xs_mt_95">
+                        <p><a href="#">2024 WebSolutionUS</a> All Rights Reserved.</p>
+                        <ul class="d-flex flex-wrap">
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Use</a></li>
+                            <li><a href="#">Cookie Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--============================
+        FOOTER END
+    =============================-->
+
+
+    <!--================================
+        SCROLL BUTTON START
+    =================================-->
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!--================================
+        SCROLL BUTTON END
+    =================================-->
+
+
+    <!--jquery library js-->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <!--bootstrap js-->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!--font-awesome js-->
+    <script src="js/Font-Awesome.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/venobox.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/scroll_button.js"></script>
+    <script src="js/animated_barfiller.js"></script>
+    <script src="js/jquery.countup.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/sticky_sidebar.js"></script>
+
+    <!--main/custom js-->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
