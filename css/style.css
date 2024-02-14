@@ -4708,14 +4708,45 @@ header {
     height: 525px;
 }
 
+.wsus__product_details_slider {
+    margin: 0 40px;
+}
+
 .wsus__product_details_slider_img {
-    margin: 0 12px;
+    height: 80px;
+    margin: 0px 7px;
     margin-top: 20px;
     cursor: pointer;
 }
 
+.wsus__product_details .nextArrow,
+.wsus__product_details .prevArrow {
+    top: 552px;
+    width: 35px;
+    height: 80px;
+    line-height: 80px !important;
+    border: 2px solid #EFF0F3;
+    box-shadow: none;
+}
+
+.wsus__product_details .nextArrow {
+    background: transparent;
+    border-color: var(--colorPrimary);
+}
+
+.wsus__product_details .nextArrow:hover,
+.wsus__product_details .prevArrow:hover {
+    background: transparent;
+    border-color: var(--colorPrimary);
+}
+
 .wsus__product_summary {
     margin-left: 85px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .wsus__product_summary h2 {
@@ -4877,10 +4908,6 @@ header {
     margin-left: 10px;
     color: var(--colorBlack);
     text-transform: uppercase;
-}
-
-.wsus__product_details_menu {
-    margin-top: 110px;
 }
 
 .wsus__product_description {
@@ -5071,12 +5098,40 @@ header {
     margin-right: 5px;
 }
 
-.wsus__blog_details_left h2 {
-    font-size: 36px;
+.wsus__blog_details_title h1,
+.wsus__blog_details_title h2,
+.wsus__blog_details_title h3,
+.wsus__blog_details_title h4,
+.wsus__blog_details_title h5,
+.wsus__blog_details_title h6 {
     font-weight: 600;
     line-height: 46px;
     margin-top: 15px;
     text-transform: uppercase;
+}
+
+.wsus__blog_details_title h1 {
+    font-size: 40px;
+}
+
+.wsus__blog_details_title h2 {
+    font-size: 36px;
+}
+
+.wsus__blog_details_title h3 {
+    font-size: 32px;
+}
+
+.wsus__blog_details_title h4 {
+    font-size: 28px;
+}
+
+.wsus__blog_details_title h5 {
+    font-size: 34px;
+}
+
+.wsus__blog_details_title h6 {
+    font-size: 20px;
 }
 
 .wsus__blog_details_left p {
@@ -5731,14 +5786,9 @@ header {
     padding: 20px 20px 20px 0px;
 }
 
-
-
-
-
 .wsus__contact_map {
     height: 700px;
 }
-
 
 .wsus__contact_map iframe {
     width: 100%;
@@ -5922,6 +5972,435 @@ header {
 /*===================================
     ERROR END
 ===================================*/
+
+
+/*===================================
+    PRIVACY POLICY START
+===================================*/
+
+.wsus__privacy_policy_text h1,
+.wsus__privacy_policy_text h2,
+.wsus__privacy_policy_text h3,
+.wsus__privacy_policy_text h4,
+.wsus__privacy_policy_text h5,
+.wsus__privacy_policy_text h6 {
+    margin-bottom: 25px;
+    margin-top: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.wsus__privacy_policy_text h1 {
+    font-size: 34px;
+}
+
+.wsus__privacy_policy_text h2 {
+    font-size: 30px;
+}
+
+.wsus__privacy_policy_text h3 {
+    font-size: 26px;
+}
+
+.wsus__privacy_policy_text h4 {
+    font-family: 22px;
+}
+
+.wsus__privacy_policy_text h5 {
+    font-size: 18px;
+}
+
+.wsus__privacy_policy_text h6 {
+    font-size: 16px;
+}
+
+.wsus__privacy_policy_text p {
+    margin-bottom: 20px;
+}
+
+.privacy_policy_text ol,
+.privacy_policy_text ul {
+    margin-top: 30px;
+}
+
+.wsus__privacy_policy_text ol li,
+.wsus__privacy_policy_text ul li {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 15px;
+    position: relative;
+    padding-left: 15px;
+    color: var(--paraColor);
+}
+
+.wsus__privacy_policy_text ol li::after,
+.wsus__privacy_policy_text ul li::after {
+    position: absolute;
+    content: "";
+    top: 10px;
+    left: 0px;
+    width: 5px;
+    height: 5px;
+    background: var(--paraColor);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.wsus__privacy_policy_text p a {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--colorBlack);
+}
+
+/*===================================
+    PRIVACY POLICY END
+===================================*/
+
+
+
+
+/*===================================
+    FAQ'S START
+===================================*/
+.wsus__faq_accordion_area .wsus__section_heading_3 {
+    text-align: left;
+}
+
+.wsus__faq_accordion .accordion-item {
+    margin-top: 20px;
+    border-bottom: none;
+    border: 1px solid rgba(23, 23, 24, 0.20) !important;
+    background: var(--colorWhite);
+}
+
+.wsus__faq_accordion .accordion-collapse {
+    border: none;
+    border-width: 0 1px;
+}
+
+.wsus__faq_accordion .accordion-header .accordion-button {
+    border: none;
+    border-radius: 0;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 30px;
+    text-align: left;
+    color: var(--colorBlack);
+    text-transform: capitalize;
+    background: var(--colorWhite);
+    padding: 30px 30px 30px 30px;
+    box-shadow: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+.wsus__faq_accordion .accordion-button:not(.collapsed) {
+    color: var(--colorBlack);
+}
+
+.wsus__faq_accordion .accordion-button:not(.collapsed)::after {
+    background-image: url(../images/mainus.png);
+}
+
+.wsus__faq_accordion .accordion-button::after {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-image: url(../images/plus.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 34px;
+    right: 30px;
+}
+
+.wsus__faq_accordion .accordion-body {
+    margin: 0px 30px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    border-top: 1px solid rgba(23, 23, 24, 0.20);
+    padding: 22px 0px 28px;
+    color: var(--paraColor);
+    text-transform: capitalize;
+}
+
+/*===================================
+    FAQ'S END
+===================================*/
+
+
+
+/*===================================
+    CHECKOUT START
+===================================*/
+.wsus__checkout {
+    position: relative;
+}
+
+.wsus__checkout::before {
+    position: absolute;
+    content: "";
+    background: url(../images/pricing_shape_2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 300px;
+    top: 200px;
+    left: 0;
+}
+
+.wsus__checkout::after {
+    position: absolute;
+    content: "";
+    background: url(../images/pricing_shape.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 120px;
+    height: 205px;
+    bottom: 25%;
+    right: 0;
+}
+
+.wsus__checkout_form {
+    padding: 20px 40px 42px 40px;
+    background: var(--colorWhite);
+    box-shadow: rgba(23, 23, 24, 0.04) 0px 6px 30px 0px;
+}
+
+.wsus__checkout_form_input label {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 24px;
+    color: var(--colorBlack);
+}
+
+.wsus__checkout_form_input input,
+.wsus__checkout_form_input textarea {
+    margin-top: 9px;
+    padding: 18px 20px;
+    background: transparent;
+    border-radius: 0;
+    border: 1px solid rgba(23, 23, 24, 0.20);
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+.wsus__checkout_form .select2-container .select2-selection--single {
+    height: 60px;
+}
+
+.wsus__checkout_form .select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 60px;
+}
+
+.wsus__checkout_form .select2-container--default .select2-selection--single {
+    border-radius: 0;
+    margin-top: 7px;
+    border: 1px solid rgba(23, 23, 24, 0.20);
+}
+
+.wsus__checkout_form .select2-container--default .select2-selection--single .select2-selection__arrow b {
+    width: 9px;
+    height: 9px;
+    margin-top: 17px;
+    right: 20px;
+}
+
+.wsus__order_summary {
+    background: var(--colorWhite);
+    box-shadow: 0px 6px 30px 0px rgba(23, 23, 24, 0.04);
+    padding-bottom: 1px;
+}
+
+.wsus__order_summary h3 {
+    font-size: 26px;
+    font-weight: 500;
+    padding: 30px 40px 34px 40px;
+    text-transform: uppercase;
+}
+
+.wsus__order_summary .price {
+    padding: 12px 40px 23px 40px;
+    border-top: 1px solid rgba(23, 23, 24, 0.1);
+    border-bottom: 1px solid rgba(23, 23, 24, 0.1);
+}
+
+.wsus__order_summary .price p {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 12px;
+    justify-content: space-between;
+    text-transform: capitalize;
+    color: var(--colorBlack);
+}
+
+.wsus__order_summary h6 {
+    margin: 15px 40px 0px 40px;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.wsus__order_summary h6 span {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.wsus__order_summary .bottom {
+    margin: 25px 40px 40px 40px;
+}
+
+.wsus__order_summary .coupon {
+    position: relative;
+}
+
+.wsus__order_summary .coupon input {
+    border: 1px solid rgba(23, 23, 24, 0.20);
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+.wsus__order_summary .coupon button {
+    position: absolute;
+    top: 7px;
+    right: 6px;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 6px 20px;
+    text-transform: uppercase;
+    background: var(--colorPrimary);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.wsus__order_summary .coupon button:hover {
+    color: var(--colorWhite);
+    background: var(--colorBlack);
+}
+
+.wsus__order_summary .common_btn {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.wsus__order_summary .common_btn:hover {
+    color: var(--colorWhite);
+}
+
+.wsus__order_summary .common_btn::after {
+    background: var(--colorBlack);
+}
+
+/*===================================
+    CHECKOUT END
+===================================*/
+
+
+
+
+
+/*===================================
+    PAYMENT START
+===================================*/
+
+.wsus__payment {}
+
+
+
+
+
+.wsus__checkout::before {
+    position: absolute;
+    content: "";
+    background: url(../images/pricing_shape_2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 300px;
+    top: 200px;
+    left: 0;
+}
+
+.wsus__checkout::after {
+    position: absolute;
+    content: "";
+    background: url(../images/pricing_shape.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 120px;
+    height: 205px;
+    bottom: 25%;
+    right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*===================================
+    PAYMENT END
+===================================*/
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

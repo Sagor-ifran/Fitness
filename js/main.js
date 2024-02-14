@@ -482,18 +482,27 @@ $(function () {
     });
 
 
+    //=======select2====== 
+    $(document).ready(function () {
+        $('.select_2').select2();
+    });
+
+
+
     // sticky sidebar 
     $(".sticky_sidebar").stickit({
         top: 80,
     })
 
 
-    // roduct_details slider
+    // product_details slider
     $('.slider-forFive').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
-        arrows: false,
+        arrows: true,
         asNavFor: '.slider-navFive',
+        nextArrow: '<i class="fal fa-angle-right nextArrow"></i>',
+        prevArrow: '<i class="fal fa-angle-left prevArrow"></i>',
     });
 
     $('.slider-navFive').slick({
