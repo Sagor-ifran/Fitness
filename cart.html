@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="css/responsive.css">
 </head>
 
-<body class="body_bg">
+<body>
 
     <!--===============================
         HEADER START
@@ -236,12 +236,12 @@
             <div class="row">
                 <div class="col-12">
                     <div class="wsus___breadcrumb_text">
-                        <h1>cart</h1>
+                        <h1>Cart Details</h1>
                         <ul>
                             <li>
                                 <a href="#"><i class="fas fa-home-lg-alt"></i>Home</a>
                             </li>
-                            <li>cart</li>
+                            <li>Cart Details</li>
                         </ul>
                     </div>
                 </div>
@@ -254,22 +254,150 @@
 
 
     <!--============================
-        PAYMENT START
+        CART START
     =============================-->
-    <section class="wsus__payment mt_110 xs_mt_90 mb_120">
+    <section class="wsus__cart mt_110 xs_mt_90 mb_120">
         <div class="container">
-            <div class="row">
-                <div class="col-xl-6 m-auto">
-                    <div class="wsus__section_headeing mb_50">
-                        <h2>Our Trusted <span>Partners</span></h2>
+            <div class="row justify-content-center">
+                <div class="col-xl-4">
+                    <ul class="wsus__payment_manu mb_60">
+                        <li><a href="cart.html" class="active">Cart List</a></li>
+                        <li><a href="checkout.html"> Check Out</a></li>
+                        <li><a href="payment.html">Payment</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-xl-10">
+                    <div class="wsus__cart_list">
+                        <div class="table-responsive">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th class="pro_img">Item</th>
+
+                                        <th class="pro_name">Name</th>
+
+                                        <th class="pro_select">Quantity</th>
+
+                                        <th class="pro_tk">Price</th>
+
+                                        <th class="pro_icon">Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="pro_img">
+                                            <img src="images/product_cart_1.jpg" alt="product" class="img-fluid w-100">
+                                        </td>
+
+                                        <td class="pro_name">
+                                            <a href="#">Black Sneakers</a>
+                                        </td>
+
+                                        <td class="pro_select">
+                                            <div class="quentity_btn">
+                                                <button class="btn btn-danger"><i class="fal fa-minus"></i></button>
+                                                <input type="text" placeholder="1">
+                                                <button class="btn btn-success"><i class="fal fa-plus"></i></button>
+                                            </div>
+                                        </td>
+
+                                        <td class="pro_tk">
+                                            <h6>$120.00</h6>
+                                        </td>
+
+                                        <td class="pro_icon">
+                                            <a href="#"><i class="fal fa-times"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="pro_img">
+                                            <img src="images/product_cart_2.jpg" alt="product" class="img-fluid w-100">
+                                        </td>
+
+                                        <td class="pro_name">
+                                            <a href="#">Black Sneakers</a>
+                                        </td>
+
+                                        <td class="pro_select">
+                                            <div class="quentity_btn">
+                                                <button class="btn btn-danger"><i class="fal fa-minus"></i></button>
+                                                <input type="text" placeholder="2">
+                                                <button class="btn btn-success"><i class="fal fa-plus"></i></button>
+                                            </div>
+                                        </td>
+
+                                        <td class="pro_tk">
+                                            <h6>$99.000</h6>
+                                        </td>
+
+                                        <td class="pro_icon">
+                                            <a href="#"><i class="fal fa-times"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="pro_img">
+                                            <img src="images/product_cart_3.jpg" alt="product" class="img-fluid w-100">
+                                        </td>
+
+                                        <td class="pro_name">
+                                            <a href="#">Black Sneakers</a>
+                                        </td>
+
+                                        <td class="pro_select">
+                                            <div class="quentity_btn">
+                                                <button class="btn btn-danger"><i class="fal fa-minus"></i></button>
+                                                <input type="text" placeholder="3">
+                                                <button class="btn btn-success"><i class="fal fa-plus"></i></button>
+                                            </div>
+                                        </td>
+
+                                        <td class="pro_tk">
+                                            <h6>$120.00</h6>
+                                        </td>
+
+                                        <td class="pro_icon">
+                                            <a href="#"><i class="fal fa-times"></i></a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
             </div>
 
+            <div class="row justify-content-center">
+                <div class="col-xl-10">
+                    <div class="wsus__cart_list_bottom">
+                        <div class="row">
+                            <div class="col-xl-5">
+                                <div class="wsus__cart_coupon">
+                                    <h4>Apply Coupon </h4>
+                                    <form action="#">
+                                        <input type="text" placeholder="Code Here">
+                                        <button type="submit" class="common_btn common_btn_2">Apply</button>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-xl-5">
+                                <div class="wsus__cart_list_pricing">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
         </div>
     </section>
     <!--============================
-        PAYMENT END
+        CART END
     =============================-->
 
 
