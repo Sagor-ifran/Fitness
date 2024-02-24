@@ -5759,20 +5759,6 @@ header {
     background: var(--colorPrimary);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .wsus__cart_list {
     padding-bottom: 35px;
     border-bottom: 1px solid rgba(23, 23, 24, 0.12);
@@ -5916,15 +5902,10 @@ header {
     color: red;
 }
 
-
-
-
-
-
-
-
-
-
+.wsus__cart_list_bottom {
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(23, 23, 24, 0.12);
+}
 
 .wsus__cart_coupon {
     margin-top: 58px;
@@ -5962,22 +5943,88 @@ header {
     background: var(--colorBlack);
 }
 
+.wsus__cart_list_pricing {
+    margin-top: 30px;
+}
+
+.wsus__cart_list_pricing h6,
+.wsus__cart_list_pricing h5,
+.wsus__cart_list_pricing p {
+    width: 100%;
+    text-align: end;
+    margin-left: 5px;
+}
+
+.wsus__cart_list_pricing h6 span,
+.wsus__cart_list_pricing h5 span,
+.wsus__cart_list_pricing p span {
+    display: inline-block;
+    width: 50%;
+    text-align: start;
+    margin-left: 55px;
+}
+
+.wsus__cart_list_pricing h6,
+.wsus__cart_list_pricing h6 span {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--paraColor);
+}
+
+.wsus__cart_list_pricing h6 span {
+    color: var(--colorBlack);
+}
+
+.wsus__cart_list_pricing p {
+    margin-top: 13px;
+}
+
+.wsus__cart_list_pricing p,
+.wsus__cart_list_pricing p span {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--headingFont);
+    text-transform: uppercase;
+}
+
+.wsus__cart_list_pricing p span {
+    color: var(--colorBlack);
+}
+
+.wsus__cart_list_pricing h5 {
+    margin-top: 20px;
+}
+
+.wsus__cart_list_pricing h5,
+.wsus__cart_list_pricing h5 span {
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.wsus__cart_list_bottom_btn {
+    gap: 6px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    padding: 35px 77px 35px 0px;
+    border-bottom: 1px solid rgba(23, 23, 24, 0.12);
+}
 
 
+.wsus__cart_list_bottom_btn .cont_shop {
+    background: var(--lightBg);
+}
 
 
+.wsus__cart_list_bottom_btn .common_btn::after {
+    background: var(--colorBlack);
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.wsus__cart_list_bottom_btn .common_btn:hover {
+    color: var(--colorWhite);
+}
 
 /*===================================
     CART  END
@@ -6019,7 +6066,6 @@ header {
 .form-check-input:checked[type=radio] {
     --bs-form-check-bg-image: url(../images/checkbox_img.png);
 }
-
 
 .form-check-input:focus {
     border: 1px solid rgba(23, 23, 24, 0.20);
@@ -6456,4 +6502,623 @@ header {
 
 /*===================================
     PAYMENT END
+===================================*/
+
+
+
+/*===================================
+    DASHBOARD PROFILE START
+===================================*/
+.wsus__dashboard_sidebar {
+    background: var(--colorWhite);
+    box-shadow: 0px 6px 30px 0px rgba(23, 23, 24, 0.04);
+}
+
+.wsus__dashboard_sidebar_top {
+    padding: 50px 0px 43px 0px;
+    text-align: center;
+}
+
+.wsus__dashboard_profile_img {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.wsus__dashboard_profile_img img {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.wsus__dashboard_profile_img label {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 70px;
+    right: -10px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    border: 1px solid rgba(23, 23, 24, 0.12);
+    background: var(--colorPrimary);
+    cursor: pointer;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.wsus__dashboard_profile_img label:hover {
+    background: var(--colorWhite);
+    border-color: var(--colorBlack);
+}
+
+.wsus__dashboard_sidebar_top h5 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 24px;
+    text-transform: capitalize;
+}
+
+.wsus__dashboard_sidebar_top p {
+    margin-top: 7px;
+}
+
+.wsus__deshboard_menu {
+    border-bottom: 1px solid rgba(23, 23, 24, 0.12) !important;
+}
+
+.wsus__deshboard_menu li a {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 20px 25px 20px 25px;
+    color: var(--colorBlack);
+    text-transform: capitalize;
+    border-top: 1px solid rgba(23, 23, 24, 0.12) !important;
+    border: 1px solid transparent;
+    background: var(--colorWhite);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.wsus__deshboard_menu li a:hover,
+.wsus__deshboard_menu li a.active {
+    background: var(--colorPrimary);
+    border-color: var(--colorBlack);
+    border-top-color: var(--colorBlack) !important;
+}
+
+.wsus__deshboard_menu li a i {
+    margin-right: 20px;
+}
+
+.wsus__dashboard_copy_right {
+    text-align: center;
+    padding: 75px 0px 20px 0px;
+}
+
+.wsus__profile_overview_text {
+    padding: 37px 40px 40px 40px;
+    text-align: center;
+    background: var(--colorWhite);
+    box-shadow: 0px 6px 30px 0px rgba(23, 23, 24, 0.04);
+}
+
+.wsus__profile_overview_text h4 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.wsus__profile_overview_text p {
+    text-align: center;
+}
+
+.wsus__profile_overview_text p i {
+    font-size: 35px;
+    color: var(--ratingColor);
+}
+
+.wsus__profile_overview_text .red i {
+    color: #ff5a5f;
+}
+
+.wsus__profile_overview_text .green i {
+    color: #1ec38b;
+}
+
+.wsus__profile_overview_title {
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    background: #f5980c59;
+    box-shadow: 0px 6px 30px 0px rgba(23, 23, 24, 0.04);
+}
+
+.wsus__profile_overview_title p {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--colorBlack);
+    text-transform: capitalize;
+}
+
+.wsus__profile_overview_title.red {
+    background: #ff5a5f96;
+}
+
+.wsus__profile_overview_title.green {
+    background: rgb(30 195 139 / 44%);
+}
+
+.wsus__profile_info {
+    margin-top: 40px;
+    padding: 43px 40px 50px 40px;
+    background: var(--colorWhite);
+    box-shadow: 0px 6px 30px 0px rgba(23, 23, 24, 0.04);
+}
+
+.wsus__profile_info h4 {
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.wsus__profile_info ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px 25px 24px 25px;
+    margin-top: 30px;
+    border: 1px solid rgba(23, 23, 24, 0.12);
+}
+
+.wsus__profile_info ul li {
+    width: 50%;
+    margin-top: 18px;
+    text-transform: capitalize;
+    color: var(--colorBlack);
+}
+
+.wsus__profile_info ul li span {
+    width: 130px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.wsus__profile_info a {
+    margin-top: 40px;
+}
+
+.wsus__profile_info .common_btn::after {
+    background: var(--colorBlack);
+}
+
+.wsus__profile_info .common_btn:hover {
+    color: var(--colorWhite);
+}
+
+/*===================================
+    DASHBOARD PROFILE END
+===================================*/
+
+
+/*===================================
+    DASHBOARD PROFILE EDIT START
+===================================*/
+.wsus__dashboard_profile_edit h4 {
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.wsus__dashboard_profile_edit_info {
+    margin-top: 30px;
+}
+
+.wsus__dashboard_profile_edit_info input {
+    margin-bottom: 20px;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+.wsus__dashboard_profile_edit_info .select2-container .select2-selection--single {
+    height: 50px;
+}
+
+.wsus__dashboard_profile_edit_info .select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 50px;
+}
+
+.wsus__dashboard_profile_edit_info .select2-container--default .select2-selection--single {
+    border: 1px solid rgb(228, 231, 233);
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
+
+.wsus__dashboard_profile_edit_info .select2-container--default .select2-selection--single .select2-selection__arrow b {
+    width: 8px;
+    height: 8px;
+    right: 20px;
+}
+
+.wsus__dashboard_profile_edit_info textarea {
+    margin-top: 20px;
+}
+
+.wsus__dashboard_profile_edit_info ul {
+    gap: 20px;
+    margin-top: 33px;
+}
+
+.wsus__dashboard_profile_edit_info ul li .common_btn::after {
+    background: var(--colorBlack);
+}
+
+.wsus__dashboard_profile_edit_info ul li .common_btn:hover {
+    color: var(--colorWhite);
+}
+
+.wsus__dashboard_profile_edit_info ul li a.common_btn {
+    background: red;
+    color: var(--colorWhite);
+}
+
+/*===================================
+    DASHBOARD PROFILE EDIT END
+===================================*/
+
+
+
+
+
+
+/*===================================
+    DASHBOARD ORDER START
+===================================*/
+
+/*===================================
+    DASHBOARD ORDER END
+===================================*/
+
+
+
+.wsus__my_property table {
+    margin: 0;
+}
+
+.wsus__my_property table tr td {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 20px;
+    border: none;
+    border-top: 1px solid #eee;
+    min-width: 200px;
+}
+
+.wsus__my_property .table,
+.wsus__dash_order .table {
+    border-left: 1px solid #eee;
+    margin: 0;
+    border-top: 1px solid #eee;
+}
+
+.wsus__my_property .table tr,
+.wsus__dash_order .table tr,
+.wsus__dash_invoice .table tr {
+    display: flex;
+    border-bottom-color: #eee !important;
+}
+
+.wsus__my_property .table tr th,
+.wsus__my_property .table tr td,
+.wsus__dash_order .table tr th,
+.wsus__dash_order .table tr td,
+.wsus__dash_invoice .table tr td {
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #eee;
+}
+
+.wsus__dash_invoice .table tfoot tr .total_text {
+    width: 75% !important;
+    text-align: right;
+}
+
+.wsus__dash_invoice .table tfoot tr .total_amount {
+    width: 25% !important;
+}
+
+.wsus__my_property .table tr th,
+.wsus__dash_order .table tr th,
+.wsus__dash_invoice .table tr th {
+    background: var(--colorGray) !important;
+    color: var(--colorBlack);
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+.wsus__my_property .image {
+    min-width: 160px;
+    width: 15%;
+}
+
+.wsus__my_property .image a {
+    width: 100%;
+    height: 100%;
+    padding: 5px 10px;
+}
+
+.wsus__my_property .title {
+    min-width: 280px;
+    width: 35%;
+}
+
+.wsus__my_property .purpose {
+    min-width: 120px;
+    width: 15%;
+}
+
+.wsus__my_property .purpose p {
+    color: var(--colorBlack);
+    text-transform: capitalize;
+}
+
+.wsus__my_property .status {
+    min-width: 130px;
+    width: 15%;
+}
+
+.wsus__my_property .status p {
+    color: var(--colorPrimary);
+    text-transform: capitalize;
+    font-weight: 600;
+    background: #ff5a5f17;
+    padding: 5px 13px;
+    font-size: 13px;
+    border-radius: 5px;
+}
+
+.wsus__my_property .status p.active {
+    color: #198754;
+    background: #19875412;
+    padding: 5px 13px;
+    font-size: 13px;
+    border-radius: 5px;
+}
+
+.wsus__my_property .actions {
+    min-width: 160px;
+    flex-direction: unset !important;
+    width: 20%;
+}
+
+.medicine_row_input button {
+    text-align: center;
+}
+
+.wsus__my_property .actions ul li a {
+    background: var(--colorPrimary);
+    color: var(--colorWhite);
+    border-radius: 3px;
+    margin: 0px 5px;
+    font-size: 13px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s ease;
+    -moz-transition: all linear .3s ease;
+    -ms-transition: all linear .3s ease;
+    -o-transition: all linear .3s ease;
+}
+
+.wsus__my_property .actions ul li a:hover {
+    background: var(--colorBlack);
+}
+
+.wsus__my_property .table td h5 {
+    text-transform: capitalize;
+    font-size: 16px;
+    color: var(--colorBlack);
+    font-weight: 600;
+}
+
+.wsus__my_property .table td .rating {
+    color: #DEC949;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.wsus__my_property .table td .rating span {
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+/*===================================
+    DASHBOARD WISHLIST START
+===================================*/
+
+/*===================================
+    DASHBOARD WISHLIST END
+===================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*===================================
+    DASHBOARD PRICING START
+===================================*/
+.wsus__dashboard_pricing .wsus__single_pricing {
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.wsus__dashboard_pricing .wsus__single_pricing:hover {
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+}
+
+/*===================================
+    DASHBOARD PRICING END
+===================================*/
+
+
+
+/*===================================
+    DASHBOARD REVIEW START
+===================================*/
+.wsus__dashboard_review .wsus__blog_single_comment {
+    margin-top: 0 !important;
+}
+
+.wsus__dashboard_review .wsus__product_review {
+    margin-top: 0 !important;
+    margin-bottom: 60px;
+}
+
+.wsus__dashboard_review .wsus__pagination ul li a {
+    background: var(--colorWhite);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.wsus__dashboard_review .wsus__pagination ul li a.active,
+.wsus__dashboard_review .wsus__pagination ul li a:hover {
+    background: var(--colorPrimary);
+}
+
+/*===================================
+    DASHBOARD REVIEW END
+===================================*/
+
+
+/*===================================
+    DASHBOARD CHANGE PASSWORD START
+===================================*/
+.wsus__dashboard_change_password h4 {
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.wsus__dashboard_change_password form {
+    margin-top: 10px;
+}
+
+.wsus__dashboard_change_password form input {
+    margin-top: 20px;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+.wsus__dashboard_change_password ul {
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.wsus__dashboard_change_password ul li .common_btn::after {
+    background: var(--colorBlack);
+}
+
+.wsus__dashboard_change_password ul li .common_btn:hover {
+    color: var(--colorWhite);
+}
+
+.wsus__dashboard_change_password ul li a.common_btn {
+    background: red;
+    color: var(--colorWhite);
+}
+
+/*===================================
+    DASHBOARD CHANGE PASSWORD END
+===================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*===================================
+    DASHBOARD PROFILE START
+===================================*/
+
+/*===================================
+    DASHBOARD PROFILE END
 ===================================*/
