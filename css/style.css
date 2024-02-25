@@ -579,6 +579,12 @@ header {
     padding: 0px;
 }
 
+.main_menu .navbar-nav .nav-item .nav-link i {
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
+
 .main_menu .navbar-nav .nav-item .nav-link::after {
     position: absolute;
     content: "";
@@ -652,6 +658,7 @@ header {
     position: relative;
     transition: all 0.3s linear 0s;
     opacity: 0.8;
+    text-transform: capitalize;
 }
 
 .main_menu .wsus__droap_menu li a:hover,
@@ -2019,7 +2026,8 @@ header {
     transition: all 0.3s linear 0s;
 }
 
-.wsus__footer_manu ul li a:hover {
+.wsus__footer_manu ul li a:hover,
+.wsus__footer_manu ul li a.active {
     color: var(--colorWhite);
 }
 
@@ -2105,7 +2113,8 @@ header {
     transition: all 0.3s linear 0s;
 }
 
-.wsus__copy_right ul li a:hover {
+.wsus__copy_right ul li a:hover,
+.wsus__copy_right ul li a.active {
     color: var(--colorWhite);
 }
 
@@ -6420,7 +6429,7 @@ header {
 
 .modal_payment_popup .modal-footer {
     border-top: 0;
-    margin-top: 30px;
+    padding-top: 30px;
 }
 
 .modal_payment_popup .modal-footer button {
@@ -6510,8 +6519,8 @@ header {
     DASHBOARD PROFILE START
 ===================================*/
 .wsus__dashboard_sidebar {
-    background: var(--colorWhite);
-    box-shadow: 0px 6px 30px 0px rgba(23, 23, 24, 0.04);
+    background: var(--lightBg);
+    height: 100%;
 }
 
 .wsus__dashboard_sidebar_top {
@@ -6524,11 +6533,13 @@ header {
     width: 120px;
     height: 120px;
     margin: 0 auto;
+    border: 5px solid var(--colorWhite);
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .wsus__dashboard_profile_img img {
@@ -6541,14 +6552,14 @@ header {
 
 .wsus__dashboard_profile_img label {
     position: absolute;
-    width: 30px;
-    height: 30px;
+    width: 33px;
+    height: 33px;
     top: 70px;
     right: -10px;
     text-align: center;
     line-height: 30px;
     border-radius: 50%;
-    border: 1px solid rgba(23, 23, 24, 0.12);
+    border: 2px solid var(--colorWhite);
     background: var(--colorPrimary);
     cursor: pointer;
     transition: all linear .3s;
@@ -6556,11 +6567,13 @@ header {
     -moz-transition: all linear .3s;
     -ms-transition: all linear .3s;
     -o-transition: all linear .3s;
+    font-size: 14px;
 }
 
 .wsus__dashboard_profile_img label:hover {
-    background: var(--colorWhite);
+    background: var(--colorBlack);
     border-color: var(--colorBlack);
+    color: var(--colorWhite);
 }
 
 .wsus__dashboard_sidebar_top h5 {
@@ -6572,10 +6585,7 @@ header {
 
 .wsus__dashboard_sidebar_top p {
     margin-top: 7px;
-}
-
-.wsus__deshboard_menu {
-    border-bottom: 1px solid rgba(23, 23, 24, 0.12) !important;
+    color: var(--colorBlack);
 }
 
 .wsus__deshboard_menu li a {
@@ -6585,9 +6595,7 @@ header {
     padding: 20px 25px 20px 25px;
     color: var(--colorBlack);
     text-transform: capitalize;
-    border-top: 1px solid rgba(23, 23, 24, 0.12) !important;
-    border: 1px solid transparent;
-    background: var(--colorWhite);
+    border-top: 1px solid var(--colorWhite);
     transition: all linear .3s;
     -webkit-transition: all linear .3s;
     -moz-transition: all linear .3s;
@@ -6598,77 +6606,57 @@ header {
 .wsus__deshboard_menu li a:hover,
 .wsus__deshboard_menu li a.active {
     background: var(--colorPrimary);
-    border-color: var(--colorBlack);
-    border-top-color: var(--colorBlack) !important;
+
 }
 
 .wsus__deshboard_menu li a i {
     margin-right: 20px;
 }
 
-.wsus__dashboard_copy_right {
+.wsus__profile_overview {
+    padding: 42px 40px 35px 40px;
     text-align: center;
-    padding: 75px 0px 20px 0px;
+    background: #ff5a5f;
 }
 
-.wsus__profile_overview_text {
-    padding: 37px 40px 40px 40px;
-    text-align: center;
-    background: var(--colorWhite);
-    box-shadow: 0px 6px 30px 0px rgba(23, 23, 24, 0.04);
-}
-
-.wsus__profile_overview_text h4 {
+.wsus__profile_overview h4 {
     font-size: 40px;
     font-weight: 600;
     margin-top: 15px;
+    color: var(--colorWhite);
 }
 
-.wsus__profile_overview_text p {
-    text-align: center;
-}
-
-.wsus__profile_overview_text p i {
+.wsus__profile_overview p i {
     font-size: 35px;
-    color: var(--ratingColor);
+    color: var(--colorWhite);
 }
 
-.wsus__profile_overview_text .red i {
-    color: #ff5a5f;
+.wsus__profile_overview .name {
+    font-size: 18px;
+    margin-top: 3px;
+    color: var(--colorWhite);
 }
 
-.wsus__profile_overview_text .green i {
-    color: #1ec38b;
+.wsus__profile_overview.green {
+    background: #1ec38b;
 }
 
-.wsus__profile_overview_title {
-    margin-top: 10px;
-    padding: 10px;
-    text-align: center;
-    background: #f5980c59;
-    box-shadow: 0px 6px 30px 0px rgba(23, 23, 24, 0.04);
-}
-
-.wsus__profile_overview_title p {
-    font-size: 20px;
-    font-weight: 500;
-    color: var(--colorBlack);
-    text-transform: capitalize;
-}
-
-.wsus__profile_overview_title.red {
-    background: #ff5a5f96;
-}
-
-.wsus__profile_overview_title.green {
-    background: rgb(30 195 139 / 44%);
+.wsus__profile_overview.orange {
+    background: orange;
 }
 
 .wsus__profile_info {
-    margin-top: 40px;
-    padding: 43px 40px 50px 40px;
+    margin-top: 15px;
+    padding: 50px 40px 43px 40px;
     background: var(--colorWhite);
-    box-shadow: 0px 6px 30px 0px rgba(23, 23, 24, 0.04);
+    border: 1px solid rgba(23, 23, 24, 0.12);
+}
+
+.wsus__profile_info_top {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .wsus__profile_info h4 {
@@ -6677,16 +6665,22 @@ header {
     text-transform: capitalize;
 }
 
+.wsus__profile_info .common_btn::after {
+    background: var(--colorBlack);
+}
+
+.wsus__profile_info .common_btn:hover {
+    color: var(--colorWhite);
+}
+
 .wsus__profile_info ul {
     display: flex;
     flex-wrap: wrap;
-    padding: 5px 25px 24px 25px;
     margin-top: 30px;
-    border: 1px solid rgba(23, 23, 24, 0.12);
 }
 
 .wsus__profile_info ul li {
-    width: 50%;
+    width: 100%;
     margin-top: 18px;
     text-transform: capitalize;
     color: var(--colorBlack);
@@ -6699,18 +6693,6 @@ header {
     font-weight: 600;
 }
 
-.wsus__profile_info a {
-    margin-top: 40px;
-}
-
-.wsus__profile_info .common_btn::after {
-    background: var(--colorBlack);
-}
-
-.wsus__profile_info .common_btn:hover {
-    color: var(--colorWhite);
-}
-
 /*===================================
     DASHBOARD PROFILE END
 ===================================*/
@@ -6719,7 +6701,7 @@ header {
 /*===================================
     DASHBOARD PROFILE EDIT START
 ===================================*/
-.wsus__dashboard_profile_edit h4 {
+.wsus__dashboard_main_contant h4 {
     font-size: 28px;
     font-weight: 600;
     text-transform: capitalize;
@@ -6788,25 +6770,116 @@ header {
 ===================================*/
 
 
-
-
-
-
 /*===================================
     DASHBOARD ORDER START
 ===================================*/
+.wsus__dashboard_order {
+    margin-top: 30px;
+}
+
+.wsus__dashboard_order .table {
+    border-left: 1px solid #eee;
+    margin: 0;
+    border-top: 1px solid #eee;
+}
+
+.wsus__dashboard_order .serial {
+    min-width: 100px;
+    width: 10%;
+}
+
+.wsus__dashboard_order .package {
+    min-width: 220px;
+    width: 25%;
+}
+
+.wsus__dashboard_order .p_date {
+    min-width: 170px;
+    width: 20%;
+}
+
+.wsus__dashboard_order .e_date {
+    min-width: 170px;
+    width: 20%;
+}
+
+.wsus__dashboard_order .price {
+    min-width: 120px;
+    width: 15%;
+}
+
+.wsus__dashboard_order .action {
+    min-width: 100px;
+    width: 10%;
+}
+
+.wsus__dashboard_order .table tr {
+    display: flex;
+    border-bottom-color: #eee !important;
+}
+
+.wsus__dashboard_order .table tr th,
+.wsus__dashboard_order .table tr td {
+    font-size: 16px;
+    padding: 12px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    border-right: 1px solid rgb(238, 238, 238);
+}
+
+.wsus__dashboard_order .table tr th {
+    color: var(--colorBlack);
+    text-transform: capitalize;
+    font-size: 16px;
+    background: var(--lightBg) !important;
+}
+
+.wsus__dashboard_order .active_package {
+    background: var(--lightBg);
+}
+
+.wsus__dashboard_order .action a {
+    color: red;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+    border: 1px solid rgb(238, 238, 238);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s ease;
+    -moz-transition: all linear .3s ease;
+    -ms-transition: all linear .3s ease;
+    -o-transition: all linear .3s ease;
+}
+
+.wsus__dashboard_order .action a:hover {
+    background: red;
+    border-color: red;
+    color: var(--colorWhite);
+}
 
 /*===================================
     DASHBOARD ORDER END
 ===================================*/
 
 
-
-.wsus__my_property table {
-    margin: 0;
+/*===================================
+    DASHBOARD WISHLIST START
+===================================*/
+.wsus__dashboard_wishlist {
+    margin-top: 30px;
 }
 
-.wsus__my_property table tr td {
+.wsus__dashboard_wishlist table {
+    margin: 0;
+    border-bottom: 1px solid #eee;
+}
+
+.wsus__dashboard_wishlist table tr td {
     font-size: 16px;
     font-weight: 400;
     padding: 10px 20px;
@@ -6815,25 +6888,19 @@ header {
     min-width: 200px;
 }
 
-.wsus__my_property .table,
-.wsus__dash_order .table {
+.wsus__dashboard_wishlist .table {
     border-left: 1px solid #eee;
     margin: 0;
     border-top: 1px solid #eee;
 }
 
-.wsus__my_property .table tr,
-.wsus__dash_order .table tr,
-.wsus__dash_invoice .table tr {
+.wsus__dashboard_wishlist .table tr {
     display: flex;
     border-bottom-color: #eee !important;
 }
 
-.wsus__my_property .table tr th,
-.wsus__my_property .table tr td,
-.wsus__dash_order .table tr th,
-.wsus__dash_order .table tr td,
-.wsus__dash_invoice .table tr td {
+.wsus__dashboard_wishlist .table tr th,
+.wsus__dashboard_wishlist .table tr td {
     padding: 10px 0px;
     display: flex;
     flex-direction: column;
@@ -6842,93 +6909,70 @@ header {
     border-right: 1px solid #eee;
 }
 
-.wsus__dash_invoice .table tfoot tr .total_text {
-    width: 75% !important;
-    text-align: right;
-}
-
-.wsus__dash_invoice .table tfoot tr .total_amount {
-    width: 25% !important;
-}
-
-.wsus__my_property .table tr th,
-.wsus__dash_order .table tr th,
-.wsus__dash_invoice .table tr th {
-    background: var(--colorGray) !important;
+.wsus__dashboard_wishlist .table tr th {
+    background: var(--lightBg) !important;
     color: var(--colorBlack);
     text-transform: capitalize;
     font-size: 16px;
 }
 
-.wsus__my_property .image {
+.wsus__dashboard_wishlist .image {
     min-width: 160px;
     width: 15%;
 }
 
-.wsus__my_property .image a {
+.wsus__dashboard_wishlist .image a {
     width: 100%;
     height: 100%;
-    padding: 5px 10px;
+    padding: 5px 15px;
 }
 
-.wsus__my_property .title {
+.wsus__dashboard_wishlist .details {
     min-width: 280px;
     width: 35%;
 }
 
-.wsus__my_property .purpose {
+.wsus__dashboard_wishlist .sale_tk {
     min-width: 120px;
     width: 15%;
 }
 
-.wsus__my_property .purpose p {
+.wsus__dashboard_wishlist .sale_tk p {
+    font-size: 18px;
+    font-weight: 700;
     color: var(--colorBlack);
     text-transform: capitalize;
 }
 
-.wsus__my_property .status {
+.wsus__dashboard_wishlist .status {
     min-width: 130px;
     width: 15%;
 }
 
-.wsus__my_property .status p {
-    color: var(--colorPrimary);
+.wsus__dashboard_wishlist .status p {
+    color: var(--colorWhite);
     text-transform: capitalize;
     font-weight: 600;
-    background: #ff5a5f17;
+    background: var(--colorBlack);
     padding: 5px 13px;
-    font-size: 13px;
-    border-radius: 5px;
+    font-size: 14px;
 }
 
-.wsus__my_property .status p.active {
-    color: #198754;
-    background: #19875412;
-    padding: 5px 13px;
-    font-size: 13px;
-    border-radius: 5px;
-}
-
-.wsus__my_property .actions {
+.wsus__dashboard_wishlist .actions {
     min-width: 160px;
     flex-direction: unset !important;
     width: 20%;
 }
 
-.medicine_row_input button {
-    text-align: center;
-}
-
-.wsus__my_property .actions ul li a {
-    background: var(--colorPrimary);
-    color: var(--colorWhite);
-    border-radius: 3px;
+.wsus__dashboard_wishlist .actions ul li a {
+    color: red;
     margin: 0px 5px;
-    font-size: 13px;
+    font-size: 16px;
     width: 30px;
     height: 30px;
     line-height: 30px;
     text-align: center;
+    border: 1px solid red;
     transition: all linear .3s;
     -webkit-transition: all linear .3s ease;
     -moz-transition: all linear .3s ease;
@@ -6936,51 +6980,36 @@ header {
     -o-transition: all linear .3s ease;
 }
 
-.wsus__my_property .actions ul li a:hover {
-    background: var(--colorBlack);
+.wsus__dashboard_wishlist .actions ul li a:hover {
+    background: red;
+    color: var(--colorWhite);
 }
 
-.wsus__my_property .table td h5 {
+.wsus__dashboard_wishlist .table td h5 {
     text-transform: capitalize;
-    font-size: 16px;
-    color: var(--colorBlack);
+    font-size: 20px;
     font-weight: 600;
 }
 
-.wsus__my_property .table td .rating {
-    color: #DEC949;
-    font-size: 14px;
-    margin-top: 5px;
+.wsus__dashboard_wishlist .table td h6 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 8px;
 }
 
-.wsus__my_property .table td .rating span {
-    font-size: 14px;
+.wsus__dashboard_wishlist .table td .rating {
+    font-size: 15px;
+    margin-top: 13px;
+    color: var(--ratingColor);
 }
 
-
-
-
-
-
-
-/*===================================
-    DASHBOARD WISHLIST START
-===================================*/
+.wsus__dashboard_wishlist .table td .rating span {
+    font-size: 15px;
+}
 
 /*===================================
     DASHBOARD WISHLIST END
 ===================================*/
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*===================================
@@ -6989,6 +7018,7 @@ header {
 .wsus__dashboard_pricing .wsus__single_pricing {
     margin-top: 0;
     margin-bottom: 25px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .wsus__dashboard_pricing .wsus__single_pricing:hover {
@@ -7008,6 +7038,10 @@ header {
 /*===================================
     DASHBOARD REVIEW START
 ===================================*/
+.wsus__dashboard_review {
+    margin-top: 30px;
+}
+
 .wsus__dashboard_review .wsus__blog_single_comment {
     margin-top: 0 !important;
 }
@@ -7015,20 +7049,6 @@ header {
 .wsus__dashboard_review .wsus__product_review {
     margin-top: 0 !important;
     margin-bottom: 60px;
-}
-
-.wsus__dashboard_review .wsus__pagination ul li a {
-    background: var(--colorWhite);
-    transition: all linear .3s;
-    -webkit-transition: all linear .3s;
-    -moz-transition: all linear .3s;
-    -ms-transition: all linear .3s;
-    -o-transition: all linear .3s;
-}
-
-.wsus__dashboard_review .wsus__pagination ul li a.active,
-.wsus__dashboard_review .wsus__pagination ul li a:hover {
-    background: var(--colorPrimary);
 }
 
 /*===================================
@@ -7039,17 +7059,15 @@ header {
 /*===================================
     DASHBOARD CHANGE PASSWORD START
 ===================================*/
-.wsus__dashboard_change_password h4 {
-    font-size: 28px;
-    font-weight: 600;
-    text-transform: capitalize;
+.wsus__dashboard_change_password {
+    margin-top: 30px;
 }
 
-.wsus__dashboard_change_password form {
+.wsus__dashboard_change_password {
     margin-top: 10px;
 }
 
-.wsus__dashboard_change_password form input {
+.wsus__dashboard_change_password input {
     margin-top: 20px;
     border-radius: 0;
     -webkit-border-radius: 0;

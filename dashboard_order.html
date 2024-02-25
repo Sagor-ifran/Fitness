@@ -15,13 +15,12 @@
     <link rel="stylesheet" href="css/scroll_button.css">
     <link rel="stylesheet" href="css/animated_barfiller.css">
     <link rel="stylesheet" href="css/select2.min.css">
-
     <link rel="stylesheet" href="css/spacing.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
 </head>
 
-<body class="body_bg">
+<body>
 
     <!--===============================
         HEADER START
@@ -91,7 +90,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav m-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Home <i class="far fa-angle-down"></i></a>
+                        <a class="nav-link" href="#">Home <i class="far fa-angle-down"></i></a>
                         <ul class="wsus__droap_menu">
                             <li><a href="index.html">Home 01</a></li>
                             <li><a href="index_2.html">Home 02</a></li>
@@ -99,32 +98,45 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="about_us.html">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Classes</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Membership</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pages <i class="far fa-angle-down"></i></a>
+                        <a class="nav-link" href="#">Classes <i class="far fa-angle-down"></i></a>
                         <ul class="wsus__droap_menu">
-                            <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Services Details</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Blog Details</a></li>
-                            <li><a href="#">Error/404</a></li>
-                            <li><a href="#">Sign In</a></li>
-                            <li><a href="#">Sign Up</a></li>
-                            <li><a href="#">Forgot Password</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Terms And Conditio</a></li>
+                            <li><a href="day_class.html">day class</a></li>
+                            <li><a href="class_timetable.html">class timetable</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Blog</a>
+                        <a class="nav-link" href="pricing.html">Membership</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Pages <i class="far fa-angle-down"></i></a>
+                        <ul class="wsus__droap_menu">
+                            <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="cart.html">shoping cart</a></li>
+                            <li><a href="checkout.html">checkout</a></li>
+                            <li><a href="payment.html">payment</a></li>
+                            <li><a href="products.html">product</a></li>
+                            <li><a href="programs.html">programs</a></li>
+                            <li><a href="services.html">services</a></li>
+                            <li><a href="trainer.html">trainers</a></li>
+                            <li><a href="blog_details.html">Blog Details</a></li>
+                            <li><a href="product_details.html">product details</a></li>
+                            <li><a href="program_details.html">program details</a></li>
+                            <li><a href="service_details.html">service details</a></li>
+                            <li><a href="trainer_details.html">trainer details</a></li>
+                            <li><a href="dashboard_profile.html" class="active">dashboard</a></li>
+                            <li><a href="faq.html">faq's</a></li>
+                            <li><a href="login.html">log in</a></li>
+                            <li><a href="registration.html">resistration</a></li>
+                            <li><a href="error.html">Error/404</a></li>
+                            <li><a href="privacy_policy.html">Privacy Policy</a></li>
+                            <li><a href="terms_condition.html">Terms And Conditio</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blogs.html">Blog</a>
                     </li>
                 </ul>
                 <ul class="right_menu d-flex flex-wrap align-items-center">
@@ -186,6 +198,7 @@
             </div>
         </div>
     </nav>
+
 
     <div class="wsus__menu_offconvas">
         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight">
@@ -301,16 +314,162 @@
                                 <a href="#"><i class="fas fa-unlock-alt" aria-hidden="true"></i> log out</a>
                             </li>
                         </ul>
-                        <div class="wsus__dashboard_copy_right">
-                            <p>©2024 Websolutionus</p>
-                        </div>
                     </div>
                 </div>
                 <div class="col-xl-9">
-                    <div class="wsus__dashboard_order">
-
-
-
+                    <div class="wsus__dashboard_main_contant">
+                        <h4>Order</h4>
+                        <div class="wsus__dashboard_order">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="table-responsive">
+                                        <table class="table">
+                                            <tbody>
+                                                <tr>
+                                                    <th class="serial">serial</th>
+                                                    <th class="package">package</th>
+                                                    <th class="p_date">Purchase Date</th>
+                                                    <th class="e_date">Expired Date</th>
+                                                    <th class="price">Price</th>
+                                                    <th class="action">action</th>
+                                                </tr>
+                                                <tr>
+                                                    <td class="serial">1</td>
+                                                    <td class="package">one day pass </td>
+                                                    <td class="p_date">26-02-2024</td>
+                                                    <td class="e_date">27-04-2024</td>
+                                                    <td class="price">free</td>
+                                                    <td class="action"><a href="dashboard_invoice.html"><i
+                                                                class="far fa-eye" aria-hidden="true"></i></a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="serial">2</td>
+                                                    <td class="package">monthly pass</td>
+                                                    <td class="p_date">20-03-2024</td>
+                                                    <td class="e_date">21-04-2024</td>
+                                                    <td class="price">$150</td>
+                                                    <td class="action"><a href="dashboard_invoice.html"><i
+                                                                class="far fa-eye" aria-hidden="true"></i></a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="serial">3</td>
+                                                    <td class="package active_package">
+                                                        annual pass
+                                                    </td>
+                                                    <td class="p_date">20-01-2024</td>
+                                                    <td class="e_date">20-01-2025</td>
+                                                    <td class="price">$450</td>
+                                                    <td class="action"><a href="dashboard_invoice.html"><i
+                                                                class="far fa-eye" aria-hidden="true"></i></a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="serial">4</td>
+                                                    <td class="package">special pass</td>
+                                                    <td class="p_date">10-05-2024</td>
+                                                    <td class="e_date">30-02-2026</td>
+                                                    <td class="price">$1990</td>
+                                                    <td class="action"><a href="dashboard_invoice.html"><i
+                                                                class="far fa-eye" aria-hidden="true"></i></a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="serial">5</td>
+                                                    <td class="package">one day pass </td>
+                                                    <td class="p_date">26-02-2024</td>
+                                                    <td class="e_date">27-04-2024</td>
+                                                    <td class="price">free</td>
+                                                    <td class="action"><a href="dashboard_invoice.html"><i
+                                                                class="far fa-eye" aria-hidden="true"></i></a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="serial">6</td>
+                                                    <td class="package">monthly pass</td>
+                                                    <td class="p_date">20-03-2024</td>
+                                                    <td class="e_date">21-04-2024</td>
+                                                    <td class="price">$150</td>
+                                                    <td class="action"><a href="dashboard_invoice.html"><i
+                                                                class="far fa-eye" aria-hidden="true"></i></a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="serial">7</td>
+                                                    <td class="package">
+                                                        annual pass
+                                                    </td>
+                                                    <td class="p_date">20-01-2024</td>
+                                                    <td class="e_date">20-01-2025</td>
+                                                    <td class="price">$450</td>
+                                                    <td class="action"><a href="dashboard_invoice.html"><i
+                                                                class="far fa-eye" aria-hidden="true"></i></a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="serial">8</td>
+                                                    <td class="package">special pass</td>
+                                                    <td class="p_date">10-05-2024</td>
+                                                    <td class="e_date">30-02-2026</td>
+                                                    <td class="price">$1990</td>
+                                                    <td class="action"><a href="dashboard_invoice.html"><i
+                                                                class="far fa-eye" aria-hidden="true"></i></a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="serial">9</td>
+                                                    <td class="package">one day pass </td>
+                                                    <td class="p_date">26-02-2024</td>
+                                                    <td class="e_date">27-04-2024</td>
+                                                    <td class="price">free</td>
+                                                    <td class="action"><a href="dashboard_invoice.html"><i
+                                                                class="far fa-eye" aria-hidden="true"></i></a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="serial">10</td>
+                                                    <td class="package">monthly pass</td>
+                                                    <td class="p_date">20-03-2024</td>
+                                                    <td class="e_date">21-04-2024</td>
+                                                    <td class="price">$150</td>
+                                                    <td class="action"><a href="dashboard_invoice.html"><i
+                                                                class="far fa-eye" aria-hidden="true"></i></a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="serial">11</td>
+                                                    <td class="package">
+                                                        annual pass
+                                                    </td>
+                                                    <td class="p_date">20-01-2024</td>
+                                                    <td class="e_date">20-01-2025</td>
+                                                    <td class="price">$450</td>
+                                                    <td class="action"><a href="dashboard_invoice.html"><i
+                                                                class="far fa-eye" aria-hidden="true"></i></a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="serial">12</td>
+                                                    <td class="package">special pass</td>
+                                                    <td class="p_date">10-05-2024</td>
+                                                    <td class="e_date">30-02-2026</td>
+                                                    <td class="price">$1990</td>
+                                                    <td class="action"><a href="dashboard_invoice.html"><i
+                                                                class="far fa-eye" aria-hidden="true"></i></a></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="wsus__pagination mt_60">
+                                        <nav aria-label="...">
+                                            <ul class="pagination justify-content-center">
+                                                <li class="page-item"><a class="page-link" href="#"><i
+                                                            class="far fa-angle-left" aria-hidden="true"></i></a></li>
+                                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                                <li class="page-item"><a class="page-link active" href="#">2</a></li>
+                                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                                <li class="page-item"><a class="page-link" href="#"><i
+                                                            class="far fa-angle-right" aria-hidden="true"></i></a></li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -363,11 +522,11 @@
                     <div class="wsus__footer_manu">
                         <h4>Usefull Link</h4>
                         <ul>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Terms of Use</a></li>
-                            <li><a href="#">Our Services</a></li>
+                            <li><a href="about_us.html">About Us</a></li>
+                            <li><a href="terms_condition.html">Terms of Use</a></li>
+                            <li><a href="services.html">Our Services</a></li>
                             <li><a href="#">Changelog</a></li>
-                            <li><a href="#">Privacy policy</a></li>
+                            <li><a href="privacy_policy.html">Privacy policy</a></li>
                         </ul>
                     </div>
                 </div>
@@ -375,11 +534,11 @@
                     <div class="wsus__footer_manu">
                         <h4>Support Desk</h4>
                         <ul>
-                            <li><a href="#">Packages Plan</a></li>
-                            <li><a href="#">Courses</a></li>
-                            <li><a href="#">Schedule</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="pricing.html">Packages Plan</a></li>
+                            <li><a href="day_class.html">Courses</a></li>
+                            <li><a href="class_timetable.html">Schedule</a></li>
+                            <li><a href="blogs.html">Blog</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
                         </ul>
                     </div>
                 </div>
@@ -415,8 +574,8 @@
                     <div class="wsus__copy_right mt_115 xs_mt_95">
                         <p><a href="#">2024 WebSolutionUS</a> All Rights Reserved.</p>
                         <ul class="d-flex flex-wrap">
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Terms of Use</a></li>
+                            <li><a href="privacy_policy.html">Privacy Policy</a></li>
+                            <li><a href="terms_condition.html">Terms of Use</a></li>
                             <li><a href="#">Cookie Policy</a></li>
                         </ul>
                     </div>
@@ -458,7 +617,6 @@
     <script src="js/jquery.waypoints.min.js"></script>
     <script src="js/sticky_sidebar.js"></script>
     <script src="js/select2.min.js"></script>
-
     <!--main/custom js-->
     <script src="js/main.js"></script>
 
