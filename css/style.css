@@ -552,7 +552,7 @@ header {
     height: 70px;
     background: rgba(255, 255, 255, 0.06);
     backdrop-filter: blur(65px);
-    z-index: 999;
+    z-index: 99;
     transition: all 0.3s linear 0s;
 }
 
@@ -930,7 +930,51 @@ header {
 .main_menu.menu_fix {
     background: var(--colorBlack);
     top: 0px;
+    z-index: 9999;
 }
+
+
+
+.navbar-toggler {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background: var(--colorPrimary);
+    color: var(--colorBlack);
+    padding: 0;
+    box-shadow: none !important;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border: none;
+}
+
+.navbar-toggler.show {
+    background: red;
+    color: var(--colorWhite);
+}
+
+.navbar-toggler .close_icon_close {
+    display: none;
+}
+
+.navbar-toggler.show .close_icon_close {
+    display: inline-block;
+}
+
+.navbar-toggler.show .menu_icon_bar {
+    display: none;
+}
+
+
+
+
+
+
+
+
 
 /* menu end */
 
@@ -6821,7 +6865,7 @@ header {
 .wsus__dashboard_order .table tr th,
 .wsus__dashboard_order .table tr td {
     font-size: 16px;
-    padding: 12px 0px;
+    padding: 12px 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6864,6 +6908,90 @@ header {
 
 /*===================================
     DASHBOARD ORDER END
+===================================*/
+
+
+/*===================================
+    DASHBOARD INVOICE START
+===================================*/
+.wsus__dashboard_invoice {
+    margin-top: 30px;
+    padding: 40px 30px 40px 30px;
+    border: 1px solid rgba(23, 23, 24, 0.12);
+}
+
+.wsus__dashboard_invoice_left h5 {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.wsus__dashboard_invoice_left p {
+    margin-top: 3px;
+    text-transform: capitalize;
+}
+
+.wsus__dashboard_invoice_logo {
+    width: 100%;
+    display: block;
+}
+
+.wsus__dashboard_invoice_right {
+    text-align: right;
+}
+
+.wsus__dashboard_invoice .table {
+    margin-top: 33px;
+    margin-bottom: 0;
+    border-left: 1px solid rgb(238, 238, 238);
+}
+
+.wsus__dashboard_invoice .table tr {
+    display: flex;
+    border-bottom-color: rgb(238, 238, 238) !important;
+}
+
+.wsus__dashboard_invoice .table tr th {
+    background: var(--lightBg) !important;
+    color: var(--colorBlack);
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+.wsus__dashboard_invoice .table tr th,
+.wsus__dashboard_invoice .table tr td {
+    display: block;
+    padding: 12px 10px;
+    border-right: 1px solid rgb(238, 238, 238);
+    width: 25%;
+    min-width: 170px;
+}
+
+.wsus__dashboard_invoice .table tr td {
+    color: var(--colorBlack);
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+.wsus__dashboard_invoice .table tfoot tr .total_text {
+    width: 75% !important;
+    text-align: right;
+}
+
+.wsus__dashboard_invoice .table tfoot tr .total_amount {
+    width: 25% !important;
+}
+
+.wsus__dashboard_invoice .common_btn::after {
+    background: var(--colorBlack);
+}
+
+.wsus__dashboard_invoice .common_btn:hover {
+    color: var(--colorWhite);
+}
+
+/*===================================
+    DASHBOARD INVOICE END
 ===================================*/
 
 
@@ -7096,47 +7224,4 @@ header {
 
 /*===================================
     DASHBOARD CHANGE PASSWORD END
-===================================*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*===================================
-    DASHBOARD PROFILE START
-===================================*/
-
-/*===================================
-    DASHBOARD PROFILE END
 ===================================*/

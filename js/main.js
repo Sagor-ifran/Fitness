@@ -58,6 +58,7 @@ $(function () {
                 breakpoint: 576,
                 settings: {
                     slidesToShow: 1,
+                    dots: false
                 }
             }
         ]
@@ -77,7 +78,7 @@ $(function () {
             {
                 breakpoint: 1200,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 2,
                 }
             },
             {
@@ -122,6 +123,16 @@ $(function () {
         asNavFor: '.slider-nav',
         nextArrow: '<i class="fal fa-angle-right nextArrow"></i>',
         prevArrow: '<i class="fal fa-angle-left prevArrow"></i>',
+
+        responsive: [
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                    arrows: false
+                }
+            }
+        ]
     });
 
     $('.slider-nav').slick({
@@ -579,9 +590,9 @@ $(function () {
 
 
     //=======SMALL DEVICE MENU ICON======
-    // $(".navbar-toggler").on("click", function () {
-    //     $(".navbar-toggler").toggleClass("show");
-    // });
+    $(".navbar-toggler").on("click", function () {
+        $(".navbar-toggler").toggleClass("show");
+    });
 
 
 
