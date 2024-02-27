@@ -198,6 +198,20 @@ $(function () {
         nextArrow: '<i class="fal fa-angle-right nextArrow"></i>',
         prevArrow: '<i class="fal fa-angle-left prevArrow"></i>',
 
+
+        responsive: [
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                    arrows: false,
+                }
+            }
+        ]
+
+
+
+
     });
 
 
@@ -252,13 +266,13 @@ $(function () {
             {
                 breakpoint: 1200,
                 settings: {
-                    slidesToShow: 4,
+                    slidesToShow: 3,
                 }
             },
             {
                 breakpoint: 992,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 2,
                 }
             },
             {
@@ -292,6 +306,68 @@ $(function () {
             {
                 breakpoint: 1200,
                 settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                    arrows: false,
+                }
+            }
+        ]
+    });
+
+
+    // banner 3 slider
+    $('.banner_3_slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 4000,
+        dots: true,
+        arrows: false,
+        fade: true,
+
+        responsive: [
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                    dots: false,
+                }
+            }
+        ]
+    });
+
+
+    // program 4 slider
+    $('.program_4_slider').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 4000,
+        dots: false,
+        arrows: false,
+        fade: false,
+
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
                     slidesToShow: 4,
                 }
             },
@@ -317,28 +393,6 @@ $(function () {
     });
 
 
-    // banner 3 slider
-    $('.banner_3_slider').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 4000,
-        dots: true,
-        arrows: false,
-        fade: true,
-    });
-
-
-    // program 4 slider
-    $('.program_4_slider').slick({
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 4000,
-        dots: false,
-        arrows: false,
-        fade: false,
-    });
 
     // testimonial 3 slide
     $('.slider-for2').slick({
@@ -349,6 +403,16 @@ $(function () {
         arrows: false,
         dots: true,
         asNavFor: '.slider-nav2',
+
+        responsive: [
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                    dots: false,
+                }
+            }
+        ]
     });
 
     $('.slider-nav2').slick({
@@ -379,13 +443,13 @@ $(function () {
             {
                 breakpoint: 1200,
                 settings: {
-                    slidesToShow: 4,
+                    slidesToShow: 3,
                 }
             },
             {
                 breakpoint: 992,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 2,
                 }
             },
             {
@@ -398,6 +462,7 @@ $(function () {
                 breakpoint: 576,
                 settings: {
                     slidesToShow: 1,
+                    arrows: false,
                 }
             }
         ]

@@ -32,6 +32,92 @@
     ============================*/
 
 
+    /*============================
+        HOME PAGE 2 START
+    ============================*/
+    .wsus__programe_2_item .img {
+        height: 270px;
+    }
+
+    .wsus__machine_2_img {
+        height: 545px;
+    }
+
+    .wsus__testimonial_2 .nextArrow {
+        right: 65px;
+    }
+
+    .wsus__testimonial_2 .prevArrow {
+        right: 125px;
+    }
+
+
+    /*============================
+        HOME PAGE 2 END
+    ============================*/
+
+
+
+    /*============================
+        HOME PAGE 3 START
+    ============================*/
+    .wsus__banner_3_slider .wsus__banner_slider_text {
+        padding-top: 90px;
+    }
+
+    .wsus__footer_3 {
+        padding-left: 0px;
+    }
+
+    .wsus__footer_3 .wsus__footer_left {
+        padding-left: 20px;
+    }
+
+    .wsus__footer_3_right_link {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .wsus__footer_3_right {
+        padding-left: 20px;
+    }
+
+    /*============================
+        HOME PAGE 3 END
+    ============================*/
+
+
+
+
+
+    /*============================
+        ABOUT START
+    ============================*/
+    .wsus___breadcrumb_text {
+        padding: 180px 0px 90px;
+    }
+
+    .wsus__video_button {
+        height: 940px;
+    }
+
+    .wsus__join_event_2 .play_btn {
+        left: 501px;
+        transform: translate(0px, -220%);
+    }
+
+
+    .wsus__counter::after {
+        display: none;
+    }
+
+    /*============================
+        ABOUT END
+    ============================*/
+
+
+
+
 
 }
 
@@ -73,7 +159,6 @@
         display: none;
     }
 
-
     .wsus__pricing::after {
         display: none;
     }
@@ -99,10 +184,146 @@
         z-index: 1;
     }
 
+    .wsus__footer::after {
+        width: 230px;
+        height: 192px;
+    }
 
     /*============================
     HOME PAGE 1 END
     ============================*/
+
+
+    /*============================
+        HOME PAGE 2 START
+    ============================*/
+    .programe_2_slider .wsus__programe_2_item {
+        margin: 0 12px;
+    }
+
+
+    .wsus__programe_2_item .img {
+        height: 265px;
+    }
+
+    .wsus__programe_2_item .title {
+        font-size: 20px;
+        padding: 0px 10px;
+    }
+
+
+    .wsus__machine_2_img {
+        height: 465px;
+    }
+
+    .wsus__testimonial_2_area {
+        margin-left: 150px;
+    }
+
+    .wsus__testimonial_2 .nextArrow {
+        right: 55px;
+    }
+
+    .wsus__testimonial_2 .prevArrow {
+        right: 115px;
+    }
+
+    /*============================
+        HOME PAGE 2 END
+    ============================*/
+
+
+
+
+    /*============================
+        HOME PAGE 3 START
+    ============================*/
+    .wsus__banner_3_slider .wsus__banner_slider_text {
+        width: 80%;
+        padding-top: 90px;
+    }
+
+    .wsus__join_event {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+
+    .wsus__testimonial_3 {
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+
+    /* footer start */
+
+    .wsus__footer_3 {
+        padding-left: 0px;
+    }
+
+    .wsus__footer_3 .wsus__footer_left {
+        padding-left: 20px;
+    }
+
+    .wsus__footer_3_right_link {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .wsus__footer_3_right {
+        padding-left: 20px;
+    }
+
+    .wsus__download_link ul li a {
+        padding: 10px 10px;
+    }
+
+    /* footer end */
+
+    /*============================
+        HOME PAGE 3 END
+    ============================*/
+
+
+
+    /*============================
+        ABOUT START
+    ============================*/
+    .wsus___breadcrumb_text {
+        padding: 180px 0px 90px;
+    }
+
+    .wsus__why_choose_us_img {
+        height: 410px;
+    }
+
+    .wsus__video_button {
+        height: 940px;
+    }
+
+    .wsus__join_event_2 .play_btn {
+        left: 501px;
+        transform: translate(0px, -220%);
+    }
+
+    .wsus__counter_img {
+        height: 485px;
+    }
+
+    .wsus__counter::after {
+        display: none;
+    }
+
+    /*============================
+        ABOUT END
+    ============================*/
+
+
+
+
+
+
+
 
 
 
@@ -124,7 +345,6 @@
     .right_menu li .wsus__droap_cart {
         left: -212px;
     }
-
 
     .wsus__program_area::after {
         display: none;
@@ -187,11 +407,9 @@
         font-size: 28px;
     }
 
-
     .wsus__footer_left {
         margin-bottom: 70px;
     }
-
 
     .wsus__footer_right {
         z-index: 1;
@@ -209,21 +427,208 @@
 
 
 
+    /*============================
+        HOME PAGE 2 START
+    ============================*/
+
+    .wsus__banner_2_slider_text h1 {
+        font-size: 80px;
+        line-height: 80px;
+    }
+
+    .wsus__section_heading_2 h2 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+
+    .programe_2_slider .wsus__programe_2_item {
+        margin: 0px 10px;
+    }
+
+    .wsus__programe_2_item .img {
+        height: 280px;
+    }
+
+    .wsus__machine_2_img {
+        height: 470px;
+    }
+
+    .wsus__programe_2_item .title {
+        font-size: 20px;
+        padding: 0px;
+    }
+
+
+    .wsus__pricing_2_item {
+        margin-top: 30px;
+    }
+
+    .wsus__pricing_2_item_1 {
+        margin-top: 135px !important;
+    }
+
+    .wsus__product_item .img {
+        height: 365px;
+    }
+
+    .wsus__testimonial_2 .nextArrow {
+        right: 30px;
+    }
+
+    .wsus__testimonial_2 .prevArrow {
+        right: 90px;
+    }
+
+    .wsus__testimonial_2_area {
+        margin-left: 30px;
+    }
+
+    /*============================
+        HOME PAGE 2 END
+    ============================*/
 
 
 
 
+    /*============================
+        HOME PAGE 3 START
+    ============================*/
+    .wsus__banner_3_slider .wsus__banner_slider_text {
+        width: 75%;
+        padding-top: 60px;
+    }
+
+    .wsus__banner_3_slider .wsus__banner_slider_text h1 {
+        font-size: 90px;
+        line-height: 90px;
+    }
+
+
+    .wsus__program_3_item {
+        height: 450px;
+    }
+
+    .wsus__machine_2_img {
+        height: 470px;
+    }
+
+    .wsus__join_event {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .wsus__video_button {
+        height: 520px;
+    }
+
+    .wsus__testimonial_3 {
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    .wsus__testimonial_3_slide_text {
+        margin: 0px 12px;
+        padding: 75px 70px 150px 0px;
+    }
+
+    .wsus__blog_3_item {
+        height: 350px;
+    }
+
+    .wsus__blog_3_overly .text .common_btn {
+        margin-top: 38px;
+    }
 
 
 
+    /* footer start */
+
+    .wsus__footer_3 {
+        padding-left: 0px;
+    }
+
+    .wsus__footer_3 .wsus__footer_left {
+        margin-top: 100px;
+        padding-left: 30px;
+    }
+
+    .wsus__footer_3_right_link {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .wsus__footer_3 .wsus__footer_manu {
+        padding-left: 30px;
+    }
+
+    .wsus__footer_3 .wsus__footer_right {
+        padding-left: 30px;
+        margin-top: 40px;
+    }
+
+    .wsus__footer_3_right {
+        padding-top: 0;
+    }
+
+    .wsus__download_link {
+        margin-top: 40px;
+        padding-left: 30px;
+    }
+
+    /* footer end */
+
+    /*============================
+        HOME PAGE 3 END
+    ============================*/
 
 
 
+    /*============================
+        ABOUT START
+    ============================*/
+    .wsus___breadcrumb_text {
+        padding: 180px 0px 90px;
+    }
+
+
+    .wsus__why_choose_us_img {
+        height: 350px;
+    }
+
+    .wsus__video_button {
+        height: 940px;
+    }
+
+    .wsus__join_event_2 .play_btn {
+        left: 357px;
+        transform: translate(0px, -220%);
+    }
+
+    .wsus__counter_img {
+        height: 410px;
+    }
+
+    .wsus__counter::after {
+        display: none;
+    }
+
+    /*============================
+        ABOUT END
+    ============================*/
 
 
 
+    /*============================
+        DAY CLASS START
+    ============================*/
+    .wsus__photo_gallery_item {
+        height: 295px;
+    }
 
-
+    /*============================
+        DAY CLASS END
+    ============================*/
 
 
 
@@ -400,11 +805,9 @@
         font-size: 28px;
     }
 
-
     .wsus__footer_left {
         margin-bottom: 50px;
     }
-
 
     .wsus__footer_right {
         z-index: 1;
@@ -427,10 +830,336 @@
 
 
 
+    /*============================
+        HOME PAGE 2 START
+    ============================*/
+    /* heder start */
+    /* heder end */
+
+
+
+    /* main menu start */
+    /* main menu end */
+
+
+
+    /* banner start */
+    .wsus__banner_2_slider_text h1 {
+        font-size: 70px;
+        line-height: 70px;
+    }
+
+    .wsus__banner_2_slider_text {
+        padding: 225px 12px 220px;
+    }
+
+    .wsus__banner_2_slider_item {
+        height: 700px;
+    }
+
+    /* banner end */
+
+
+    /* program start */
+    .wsus__programe_2_item .img {
+        height: 310px;
+    }
+
+    .wsus__section_heading_2 h2 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .wsus__programe_2_content {
+        padding: 0px 22px;
+    }
+
+    .programe_2_slider .wsus__programe_2_item {
+        margin: 0px 12px;
+    }
+
+    .wsus__programe_2_item .title {
+        padding: 0;
+    }
+
+
+    /* program end */
+
+
+
+    /* machine start */
+    .wsus__machine_2_img {
+        height: 450px;
+    }
+
+    /* machine end */
+
+
+
+    /* pricing start */
+    .wsus__pricing_2_item {
+        margin-top: 30px;
+    }
+
+    .wsus__pricing_2_item_1 {
+        margin-top: 135px !important;
+    }
+
+    /* pricing end */
+
+
+
+    /* product start */
+    .wsus__product_item .img {
+        height: 400px;
+    }
+
+    /* product end */
+
+
+    /* testimonial start */
+    .wsus__testimonial_2_area {
+        margin-left: 12px;
+    }
+
+    .wsus__testimonial_2_item .text p {
+        line-height: initial;
+    }
+
+    .wsus__testimonial_2_item .text {
+        padding: 23px 20px 40px;
+    }
+
+    .wsus__testimonial_2 .prevArrow {
+        right: 80px;
+    }
+
+    .wsus__testimonial_2 .nextArrow {
+        right: 20px;
+    }
+
+    /* testimonial end */
+
+
+    /* blog start */
+    .wsus__blog_2_img {
+        height: 400px;
+    }
+
+    /* blog end */
+    /*============================
+        HOME PAGE 2 END
+    ============================*/
+
+
+
+    /*============================
+        HOME PAGE 3 START
+    ============================*/
+    /* main menu start */
+    .main_menu_3 .container::after {
+        width: 97.2%;
+    }
+
+    .main_menu .navbar-brand {
+        padding-left: 5px;
+    }
+
+    .navbar-toggler {
+        margin-right: 20px;
+    }
+
+    /* main menu end */
 
 
 
 
+    /* banner start */
+    .wsus__banner_3_slider .wsus__banner_slider_text h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .wsus__banner_3_slider .wsus__banner_slider_text {
+        width: 70%;
+        padding-top: 190px;
+        padding-bottom: 120px;
+    }
+
+    .wsus__banner_3_slider {
+        height: auto;
+    }
+
+    .wsus__banner_3_slider div {
+        height: auto;
+    }
+
+    /* banner end */
+
+
+
+    /* program start */
+    .wsus__program_3_item {
+        height: 400px;
+    }
+
+    .wsus__program_4_overly .text .title {
+        font-size: 24px;
+    }
+
+    .wsus__section_heading_3 h2 {
+        font-size: 30px;
+        line-height: initial;
+    }
+
+    /* program end */
+
+
+    /* join event start */
+    .wsus__join_event {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .wsus__video_button {
+        height: 420px;
+    }
+
+    .wsus__video_button .play_btn {
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+    }
+
+    .wsus__join_event_form {
+        padding: 60px 30px 60px 30px;
+    }
+
+    .wsus__join_event_right {
+        padding: 50px 40px;
+    }
+
+    /* join event end */
+
+
+    /* testimonial start */
+    .wsus__testimonial_3 {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .wsus__testimonial_3_slide_text {
+        padding: 35px 30px 140px 0px;
+    }
+
+
+    /* testimonial end */
+
+
+    /*  blog start */
+    .wsus__blog_3_item {
+        height: 385px;
+    }
+
+    .wsus__blog_3_overly .text .common_btn {
+        margin-top: 38px;
+    }
+
+    /*  blog end */
+
+
+
+    /* footer start */
+
+    .wsus__footer_3 {
+        padding-left: 0px;
+    }
+
+    .wsus__footer_3 .wsus__footer_left {
+        margin-top: 100px;
+        padding-left: 12px;
+    }
+
+    .wsus__footer_3_right_link {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .wsus__footer_3 .wsus__footer_manu {
+        padding-left: 12px;
+    }
+
+    .wsus__footer_3 .wsus__footer_right {
+        padding-left: 12px;
+        margin-top: 40px;
+    }
+
+    .wsus__footer_3_right {
+        padding-top: 30px;
+
+    }
+
+    .wsus__download_link {
+        margin-top: 40px;
+        padding-left: 12px;
+    }
+
+    /* footer end */
+
+    /*============================
+        HOME PAGE 3 END
+    ============================*/
+
+
+    /*============================
+        ABOUT START
+    ============================*/
+    .wsus___breadcrumb_text {
+        padding: 180px 0px 90px;
+    }
+
+    .wsus__why_choose_us_img {
+        height: 630px;
+        margin-top: 60px;
+    }
+
+    .wsus__video_button {
+        height: 930px;
+    }
+
+    .wsus__join_event_2 .play_btn {
+        left: 335px;
+        transform: translate(0px, -290%);
+    }
+
+    .wsus__counter::after {
+        display: none;
+    }
+
+    .wsus__counter_img {
+        height: 750px;
+        margin-top: 60px;
+    }
+
+    /*============================
+        ABOUT END
+    ============================*/
+
+
+    /*============================
+        DAY CLASS START
+    ============================*/
+    .wsus__photo_gallery_item {
+        height: 460px;
+    }
+
+    .wsus__service_details_text {
+        margin-bottom: 60px;
+    }
+
+    /*============================
+        DAY CLASS END
+    ============================*/
 
 
 
@@ -725,16 +1454,383 @@
 
 
 
+    /*============================
+        HOME PAGE 2 START
+    ============================*/
+    /* heder start */
+    /* heder end */
+
+
+
+    /* main menu start */
+    /* main menu end */
+
+
+
+    /* banner start */
+    .wsus__banner_2_slider_text h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .wsus__banner_2_slider_text {
+        padding: 220px 12px 220px;
+    }
+
+    .wsus__banner_2_slider_item {
+        height: 600px;
+    }
+
+    /* banner end */
+
+
+    /* program start */
+    .wsus__programe_2_item .img {
+        height: 350px;
+    }
+
+    .wsus__section_heading_2 h2 {
+        font-size: 30px;
+        line-height: initial;
+    }
+
+    .wsus__programe_2_content {
+        padding: 0px 22px;
+    }
+
+    .programe_2_slider .wsus__programe_2_item {
+        margin: 0px 12px;
+    }
+
+    .wsus__programe_2_item .title {
+        font-size: 20px;
+        padding: 0px 25px;
+    }
+
+
+    /* program end */
+
+
+
+    /* machine start */
+    .wsus__machine_2_img {
+        height: 500px;
+    }
+
+    .wsus__machine_2_text {
+        margin-top: 30px;
+    }
+
+    /* machine end */
+
+
+
+    /* pricing start */
+    .wsus__pricing_2_item_1 {
+        margin-bottom: 30px;
+    }
+
+    /* pricing end */
+
+
+
+    /* product start */
+    .wsus__product_item .img {
+        height: 300px;
+    }
+
+    .wsus__modal_img {
+        height: 200px;
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    .wsus__modal_text h2 {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+
+    /* product end */
+
+
+    /* testimonial start */
+    .wsus__testimonial_2_area {
+        margin-left: 12px;
+    }
+
+    .wsus__testimonial_2_item .text p {
+        line-height: initial;
+    }
+
+    .wsus__testimonial_2_item .text {
+        padding: 23px 20px 40px;
+    }
+
+    .wsus__testimonial_2 .prevArrow {
+        right: 80px;
+    }
+
+    .wsus__testimonial_2 .nextArrow {
+        right: 20px;
+    }
+
+    /* testimonial end */
+
+
+    /* blog start */
+    .wsus__blog_2_img {
+        height: 300px;
+    }
+
+    /* blog end */
+    /*============================
+        HOME PAGE 2 END
+    ============================*/
+
+
+
+    /*============================
+        HOME PAGE 3 START
+    ============================*/
+    /* main menu start */
+    .main_menu_3 .container::after {
+        width: 96.2%;
+    }
+
+    .main_menu .navbar-brand {
+        padding-left: 5px;
+    }
+
+    .navbar-toggler {
+        margin-right: 20px;
+    }
+
+    /* main menu end */
 
 
 
 
+    /* banner start */
+    .wsus__banner_3_slider .wsus__banner_slider_text h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .wsus__banner_3_slider .wsus__banner_slider_text {
+        width: 100%;
+        padding-top: 90px;
+        padding-bottom: 20px;
+    }
+
+    .wsus__banner_3_slider {
+        height: auto;
+    }
+
+    .wsus__banner_3_slider div {
+        height: auto;
+    }
+
+    /* banner end */
 
 
 
+    /* program start */
+    .wsus__program_3_item {
+        height: 500px;
+    }
+
+    .wsus__program_4_overly .text .title {
+        font-size: 24px;
+    }
+
+    .wsus__section_heading_3 h2 {
+        font-size: 30px;
+        line-height: initial;
+    }
+
+    /* program end */
+
+
+    /* join event start */
+    .wsus__join_event {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .wsus__video_button {
+        height: 320px;
+    }
+
+    .wsus__video_button .play_btn {
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+    }
+
+    .wsus__join_event_form {
+        padding: 50px 20px 50px 20px;
+    }
+
+    .wsus__join_event_right {
+        padding: 50px 40px;
+    }
+
+    /* join event end */
+
+
+    /* testimonial start */
+    .wsus__testimonial_3 {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .wsus__testimonial_3_slide_text {
+        padding: 35px 30px 140px 0px;
+    }
+
+
+    .wsus__testimonial_3_slide_img_area {
+        text-align: center;
+        margin: auto;
+    }
+
+    /* testimonial end */
+
+
+    /*  blog start */
+
+    .wsus__blog_3_item {
+        height: 340px;
+    }
+
+    .wsus__blog_3_overly .text .common_btn {
+        margin-top: 38px;
+    }
+
+    /*  blog end */
+
+
+    /* footer start */
+
+    .wsus__footer_3 {
+        padding-left: 0px;
+    }
+
+    .wsus__footer_3 .wsus__footer_left {
+        margin-top: 100px;
+        padding-left: 12px;
+    }
+
+    .wsus__footer_3_right_link {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .wsus__footer_3 .wsus__footer_manu {
+        padding-left: 12px;
+    }
+
+    .wsus__footer_3 .wsus__footer_right {
+        padding-left: 12px;
+    }
+
+    .wsus__footer_3_right {
+        padding-top: 30px;
+
+    }
+
+    .wsus__download_link {
+        margin-top: 40px;
+        padding-left: 12px;
+    }
+
+    /* footer end */
+    /*============================
+        HOME PAGE 3 END
+    ============================*/
 
 
 
+    /*============================
+        ABOUT START
+    ============================*/
+    .wsus___breadcrumb_text h1 {
+        font-size: 30px;
+    }
+
+    .wsus___breadcrumb_text {
+        padding: 150px 0px 50px;
+    }
+
+
+    .wsus___breadcrumb_text ul li,
+    .wsus___breadcrumb_text ul li a {
+        font-size: 14px;
+    }
+
+    .wsus__why_choose_us_text ul li {
+        width: 100%;
+    }
+
+    .wsus__why_choose_us_img {
+        height: 470px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    .wsus__join_event_2_text {
+        padding: 0;
+    }
+
+    .wsus__join_event_2 .play_btn {
+        left: 240px;
+        transform: translate(0px, -284%);
+    }
+
+    .wsus__video_button {
+        height: 800px;
+    }
+
+    .wsus__join_event_2_text {
+        padding: 60px 0px;
+    }
+
+    .wsus__counter::after {
+        display: none;
+    }
+
+    .wsus__counter_img {
+        height: 560px;
+        margin-top: 60px;
+    }
+
+    /*============================
+        ABOUT END
+    ============================*/
+
+
+    /*============================
+        DAY CLASS START
+    ============================*/
+    .wsus__photo_gallery_item {
+        height: 340px;
+    }
+
+    .wsus__service_details_top .text {
+        width: 82%;
+    }
+
+    .wsus__service_details_text .list li {
+        width: 100%;
+    }
+
+    .wsus__service_details_text {
+        margin-bottom: 40px;
+    }
+
+    /*============================
+        DAY CLASS END
+    ============================*/
 
 
 
@@ -1072,19 +2168,367 @@
 
 
 
+    /*============================
+        HOME PAGE 2 START
+    ============================*/
+    /* heder start */
+    /* heder end */
+
+
+
+    /* main menu start */
+    /* main menu end */
+
+
+
+    /* banner start */
+    .wsus__banner_2_slider_text h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .wsus__banner_2_slider_text {
+        padding: 220px 12px 220px;
+    }
+
+    .wsus__banner_2_slider_item {
+        height: 600px;
+    }
+
+    /* banner end */
+
+
+    /* program start */
+    .wsus__section_heading_2 h2 {
+        font-size: 30px;
+        line-height: initial;
+    }
+
+    .wsus__programe_2_content {
+        padding: 0px 22px;
+    }
+
+    .programe_2_slider .wsus__programe_2_item {
+        margin: 0;
+    }
+
+    .wsus__programe_2_item .title {
+        font-size: 20px;
+    }
+
+    /* program end */
+
+
+
+    /* machine start */
+    .wsus__machine_2_img {
+        height: auto;
+    }
+
+    .wsus__machine_2_text {
+        margin-top: 30px;
+    }
+
+    /* machine end */
+
+
+
+    /* pricing start */
+    .wsus__pricing_2_item_1 {
+        margin-bottom: 30px;
+    }
+
+    /* pricing end */
+
+
+
+    /* product start */
+    .wsus__product_item .img {
+        height: auto;
+    }
+
+    .wsus__product .modal-body {
+        display: none;
+    }
+
+    /* product end */
+
+
+    /* testimonial start */
+    .wsus__testimonial_2_area {
+        margin-left: 12px;
+    }
+
+    .wsus__testimonial_2_item .text p {
+        line-height: initial;
+    }
+
+    .wsus__testimonial_2_item .text {
+        padding: 23px 20px 40px;
+    }
+
+    /* testimonial end */
+
+
+    /* blog start */
+    .wsus__blog_2_img {
+        height: 365px;
+    }
+
+    /* blog end */
+    /*============================
+        HOME PAGE 2 END
+    ============================*/
 
 
 
 
 
+    /*============================
+        HOME PAGE 3 START
+    ============================*/
+    /* main menu start */
+    .main_menu_3 .container::after {
+        width: 93.2%;
+    }
+
+    .main_menu .navbar-brand {
+        padding-left: 5px;
+    }
+
+    .navbar-toggler {
+        margin-right: 20px;
+    }
+
+    /* main menu end */
 
 
 
 
+    /* banner start */
+    .wsus__banner_3_slider .wsus__banner_slider_text h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .wsus__banner_3_slider .wsus__banner_slider_text {
+        width: 100%;
+        padding-top: 90px;
+        padding-bottom: 20px;
+    }
+
+    .wsus__banner_3_slider {
+        height: auto;
+    }
+
+    .wsus__banner_3_slider div {
+        height: auto;
+    }
+
+    /* banner end */
 
 
 
+    /* program start */
 
+    .wsus__program_3_overly .text .title {
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .wsus__program_3_item {
+        height: 350px;
+    }
+
+    .wsus__program_4_overly .text .title {
+        font-size: 24px;
+    }
+
+    .wsus__section_heading_3 h2 {
+        font-size: 30px;
+        line-height: initial;
+    }
+
+    /* program end */
+
+
+    /* join event start */
+    .wsus__join_event {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .wsus__video_button {
+        height: 320px;
+    }
+
+    .wsus__video_button .play_btn {
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+    }
+
+    .wsus__join_event_form {
+        padding: 50px 20px 50px 20px;
+    }
+
+    .wsus__join_event_right {
+        padding: 50px 40px;
+    }
+
+    /* join event end */
+
+
+    /* testimonial start */
+    .wsus__testimonial_3 {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .wsus__testimonial_3_slide_text {
+        padding: 35px 30px 140px 0px;
+    }
+
+
+    .wsus__testimonial_3_slide_img_area {
+        margin-top: 0px;
+        margin-left: 18px;
+    }
+
+    /* testimonial end */
+
+
+    /*  blog start */
+
+    .wsus__blog_3_item {
+        height: 340px;
+    }
+
+    .wsus__blog_3_overly .text .common_btn {
+        margin-top: 38px;
+    }
+
+    /*  blog end */
+
+
+
+    /* footer start */
+
+    .wsus__footer_3 {
+        padding-left: 0px;
+    }
+
+    .wsus__footer_3 .wsus__footer_left {
+        margin-top: 100px;
+        padding-left: 12px;
+    }
+
+    .wsus__footer_3_right_link {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .wsus__footer_3 .wsus__footer_manu {
+        padding-left: 12px;
+    }
+
+    .wsus__footer_3 .wsus__footer_right {
+        padding-left: 12px;
+    }
+
+    .wsus__footer_3_right {
+        padding-top: 30px;
+
+    }
+
+    .wsus__download_link {
+        margin-top: 40px;
+        padding-left: 12px;
+    }
+
+    /* footer end */
+
+    /*============================
+        HOME PAGE 3 END
+    ============================*/
+
+
+
+    /*============================
+        ABOUT START
+    ============================*/
+    .wsus___breadcrumb_text h1 {
+        font-size: 30px;
+    }
+
+    .wsus___breadcrumb_text {
+        padding: 150px 0px 50px;
+    }
+
+
+    .wsus___breadcrumb_text ul li,
+    .wsus___breadcrumb_text ul li a {
+        font-size: 14px;
+    }
+
+    .wsus__why_choose_us_text ul li {
+        width: 100%;
+    }
+
+    .wsus__why_choose_us_img {
+        height: auto;
+        margin-top: 50px;
+        margin-bottom: 180px;
+    }
+
+    .wsus__join_event_2_text {
+        padding: 0;
+    }
+
+    .wsus__join_event_2 .play_btn {
+        display: none;
+    }
+
+    .wsus__counter::after {
+        display: none;
+    }
+
+    .wsus__counter_img {
+        height: auto;
+        margin-top: 60px;
+    }
+
+    /*============================
+        ABOUT END
+    ============================*/
+
+
+    /*============================
+        DAY CLASS START
+    ============================*/
+    .wsus__photo_gallery_item {
+        height: auto;
+    }
+
+    .wsus__service_details_text .list li {
+        width: 100%;
+    }
+
+    .wsus__service_details_text {
+        margin-bottom: 40px;
+    }
+
+    .wsus__video_button {
+        height: 180px;
+    }
+
+    .wsus__join_event_bottom {
+        margin-top: 100px;
+    }
+
+    /*============================
+        DAY CLASS END
+    ============================*/
 
 
 

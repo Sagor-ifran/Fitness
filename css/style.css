@@ -2231,11 +2231,11 @@ header {
 
 
 /* banner 2 start */
-
 .wsus__banner_2_slider_item {
     background-size: cover !important;
     background-position: center center !important;
     background-repeat: no-repeat !important;
+    height: 800px;
 }
 
 .wsus_banner_2_overly {
