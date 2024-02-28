@@ -3737,6 +3737,15 @@ header {
     margin: 25px 0px 0px;
 }
 
+.wsus__blog_grid .wsus__pagination ul li a {
+    background: var(--colorWhite);
+}
+
+.wsus__blog_grid .wsus__pagination ul li a.active,
+.wsus__blog_grid .wsus__pagination ul li a:hover {
+    background: var(--colorPrimary);
+}
+
 /*===================================
     BLOG END
 ===================================*/
@@ -4258,7 +4267,9 @@ header {
     position: relative;
 }
 
-.wsus__experience_img {}
+.wsus__experience_img {
+    height: 510px;
+}
 
 .wsus__experience_text {}
 
@@ -5162,6 +5173,11 @@ header {
 
 .wsus__blog_details_form .form-check-input:focus {
     box-shadow: none;
+}
+
+.wsus__blog_details_form .form-check-input:checked {
+    background-color: blue;
+    border-color: blue;
 }
 
 .wsus__blog_details_form .form-check label {
@@ -6253,6 +6269,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     margin-top: 20px;
+    align-items: center;
 }
 
 .wsus__billing_product li .img {
@@ -6473,6 +6490,7 @@ header {
 
 .modal_payment_popup .modal-footer {
     border-top: 0;
+    padding-right: 0;
     padding-top: 30px;
 }
 

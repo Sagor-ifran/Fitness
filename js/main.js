@@ -473,7 +473,7 @@ $(function () {
     $('.count').countUp();
 
 
-    //program slider
+    //gallery slider
     $('.gallery_slider').slick({
         slidesToShow: 6,
         slidesToScroll: 1,
@@ -486,13 +486,13 @@ $(function () {
             {
                 breakpoint: 1200,
                 settings: {
-                    slidesToShow: 5,
+                    slidesToShow: 4,
                 }
             },
             {
                 breakpoint: 992,
                 settings: {
-                    slidesToShow: 4,
+                    slidesToShow: 2,
                 }
             },
             {
@@ -610,13 +610,13 @@ $(function () {
             {
                 breakpoint: 1200,
                 settings: {
-                    slidesToShow: 4,
+                    slidesToShow: 3,
                 }
             },
             {
                 breakpoint: 992,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 2,
                 }
             },
             {
@@ -629,6 +629,7 @@ $(function () {
                 breakpoint: 576,
                 settings: {
                     slidesToShow: 1,
+                    arrows: false,
                 }
             }
         ]
