@@ -5624,6 +5624,7 @@ header {
     font-size: 18px;
     font-weight: 500;
     margin-top: 8px;
+    text-align: center;
 }
 
 .wsus__error_area .common_btn {
@@ -6784,6 +6785,7 @@ header {
 
 .wsus__dashboard_profile_edit_info .select2-container .select2-selection--single {
     height: 50px;
+    margin-bottom: 20px;
 }
 
 .wsus__dashboard_profile_edit_info .select2-container--default .select2-selection--single .select2-selection__rendered {
@@ -6805,9 +6807,6 @@ header {
     right: 20px;
 }
 
-.wsus__dashboard_profile_edit_info textarea {
-    margin-top: 20px;
-}
 
 .wsus__dashboard_profile_edit_info ul {
     gap: 20px;

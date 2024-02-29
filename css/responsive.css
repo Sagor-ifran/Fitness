@@ -3,6 +3,7 @@
     /*============================
     HOME PAGE 1 START
     ============================*/
+
     .right_menu li .wsus__droap_cart {
         left: -187px;
     }
@@ -32,9 +33,30 @@
     ============================*/
 
 
+
     /*============================
         HOME PAGE 2 START
     ============================*/
+
+    .main_menu_2 .navbar-brand {
+        position: initial;
+        padding: 0;
+        fill: none;
+        backdrop-filter: blur(0px);
+    }
+
+    .main_menu_2 .navbar-nav {
+        margin-left: auto;
+    }
+
+    .main_menu_2.menu_fix .navbar-brand {
+        padding: 0;
+    }
+
+    .wsus__header_2 .wsus__header_left p {
+        padding-left: 0;
+    }
+
     .wsus__programe_2_item .img {
         height: 270px;
     }
@@ -51,7 +73,6 @@
         right: 125px;
     }
 
-
     /*============================
         HOME PAGE 2 END
     ============================*/
@@ -61,6 +82,7 @@
     /*============================
         HOME PAGE 3 START
     ============================*/
+
     .wsus__banner_3_slider .wsus__banner_slider_text {
         padding-top: 90px;
     }
@@ -88,11 +110,10 @@
 
 
 
-
-
     /*============================
         ABOUT START
     ============================*/
+
     .wsus___breadcrumb_text {
         padding: 180px 0px 90px;
     }
@@ -118,7 +139,6 @@
         transform: translate(0px, -231%);
     }
 
-
     .wsus__counter::after {
         display: none;
     }
@@ -128,9 +148,11 @@
     ============================*/
 
 
+
     /*============================
         CONTACT START
     ============================*/
+
     .wsus__contact {
         margin-right: 60px;
         margin-left: 60px;
@@ -141,9 +163,11 @@
     ============================*/
 
 
+
     /*============================
         TRAINER START
     ============================*/
+
     .wsus__trainer_page {
         padding-left: 30px;
         padding-right: 30px;
@@ -159,12 +183,28 @@
 
 
 
+    /*============================
+        LOGIN & REG START
+    ============================*/
 
+    .wsus__login {
+        margin-right: 52px;
+        margin-left: 52px;
+    }
 
+    .wsus__login_contant {
+        padding: 28px 40px 35px 15px;
+    }
+
+    .wsus__login_others_option {
+        justify-content: center;
+    }
+
+    /*============================
+        LOGIN & REG END
+    ============================*/
 
 }
-
-
 
 
 
@@ -173,6 +213,7 @@
     /*============================
     HOME PAGE 1 START
     ============================*/
+
     .right_menu li .wsus__droap_cart {
         left: -197px;
     }
@@ -237,13 +278,33 @@
     ============================*/
 
 
+
     /*============================
         HOME PAGE 2 START
     ============================*/
+
+    .main_menu_2 .navbar-brand {
+        position: initial;
+        padding: 0;
+        fill: none;
+        backdrop-filter: blur(0px);
+    }
+
+    .main_menu_2 .navbar-nav {
+        margin-left: auto;
+    }
+
+    .main_menu_2.menu_fix .navbar-brand {
+        padding: 0;
+    }
+
+    .wsus__header_2 .wsus__header_left p {
+        padding-left: 0;
+    }
+
     .programe_2_slider .wsus__programe_2_item {
         margin: 0 12px;
     }
-
 
     .wsus__programe_2_item .img {
         height: 265px;
@@ -253,7 +314,6 @@
         font-size: 20px;
         padding: 0px 10px;
     }
-
 
     .wsus__machine_2_img {
         height: 465px;
@@ -281,10 +341,14 @@
 
 
 
-
     /*============================
         HOME PAGE 3 START
     ============================*/
+
+    .main_menu_3 .right_menu li .wsus__droap_cart {
+        left: -218px;
+    }
+
     .wsus__banner_3_slider .wsus__banner_slider_text {
         width: 80%;
         padding-top: 90px;
@@ -299,7 +363,6 @@
         margin-left: 60px;
         margin-right: 60px;
     }
-
 
     /* footer start */
 
@@ -335,6 +398,7 @@
     /*============================
         ABOUT START
     ============================*/
+
     .wsus___breadcrumb_text {
         padding: 180px 0px 90px;
     }
@@ -381,6 +445,7 @@
     /*============================
         DAY CLASS START
     ============================*/
+
     .wsus__photo_gallery_2 .wsus__photo_gallery_item {
         height: 350px;
     }
@@ -394,9 +459,11 @@
     ============================*/
 
 
+
     /*============================
         CONTACT START
     ============================*/
+
     .wsus__contact {
         margin-right: 40px;
         margin-left: 40px;
@@ -442,9 +509,11 @@
     ============================*/
 
 
+
     /*============================
         CHECKOUT START
     ============================*/
+
     .wsus__billing_product li .text {
         width: 60%;
     }
@@ -455,10 +524,10 @@
 
 
 
-
     /*============================
         TRAINER START
     ============================*/
+
     .wsus__trainer_page {
         padding-left: 30px;
         padding-right: 30px;
@@ -469,9 +538,11 @@
     ============================*/
 
 
+
     /*============================
         BLOG DETAILS START
     ============================*/
+
     .wsus__blog_details_img_1 {
         height: 420px;
     }
@@ -480,11 +551,9 @@
         height: 330px;
     }
 
-
     .wsus__blog_details_video {
         height: 400px;
     }
-
 
     .wsus__blog_single_comment .text {
         width: 85%;
@@ -503,6 +572,7 @@
     /*============================
         PRODUCT DETAILS START
     ============================*/
+
     .wsus__product_description_img {
         height: 360px;
     }
@@ -514,6 +584,7 @@
     /*============================
         PRODUCT DETAILS END
     ============================*/
+
 
 
     /*============================
@@ -536,9 +607,12 @@
         PROGRAM DETAILS END
     ============================*/
 
+
+
     /*============================
         TRAINER DETAILS START
     ============================*/
+
     .wsus__experience_img {
         height: 440px;
     }
@@ -549,10 +623,30 @@
 
 
 
+    /*============================
+        LOGIN & REG START
+    ============================*/
 
+    .wsus__login {
+        margin-right: 43px;
+        margin-left: 43px;
+    }
 
+    .wsus__login_contant {
+        padding: 28px 40px 35px 15px;
+    }
 
+    .wsus__login_others_option {
+        gap: 25px;
+    }
 
+    .wsus__login_others_option {
+        justify-content: center;
+    }
+
+    /*============================
+        LOGIN & REG END
+    ============================*/
 
 
 }
@@ -564,6 +658,7 @@
     /*============================
     HOME PAGE 1 START
     ============================*/
+
     .main_menu .navbar-nav .nav-item .nav-link {
         margin: 0px 15px;
     }
@@ -657,6 +752,25 @@
         HOME PAGE 2 START
     ============================*/
 
+    .main_menu_2 .navbar-brand {
+        position: initial;
+        padding: 0;
+        fill: none;
+        backdrop-filter: blur(0px);
+    }
+
+    .main_menu_2 .navbar-nav {
+        margin-left: auto;
+    }
+
+    .main_menu_2.menu_fix .navbar-brand {
+        padding: 0;
+    }
+
+    .wsus__header_2 .wsus__header_left p {
+        padding-left: 0;
+    }
+
     .wsus__banner_2_slider_text h1 {
         font-size: 80px;
         line-height: 80px;
@@ -666,7 +780,6 @@
         font-size: 50px;
         line-height: 50px;
     }
-
 
     .programe_2_slider .wsus__programe_2_item {
         margin: 0px 10px;
@@ -684,7 +797,6 @@
         font-size: 20px;
         padding: 0px;
     }
-
 
     .wsus__pricing_2_item {
         margin-top: 30px;
@@ -716,10 +828,19 @@
 
 
 
-
     /*============================
         HOME PAGE 3 START
     ============================*/
+
+    .main_menu_3 .container::after {
+        left: 12px;
+        width: 97.6%;
+    }
+
+    .main_menu_3 .right_menu li .wsus__droap_cart {
+        left: -220px;
+    }
+
     .wsus__banner_3_slider .wsus__banner_slider_text {
         width: 75%;
         padding-top: 60px;
@@ -730,6 +851,11 @@
         line-height: 90px;
     }
 
+    .wsus__banner_slider_text h1,
+    .wsus__banner_slider_text h1 span {
+        font-size: 80px;
+        line-height: 80px;
+    }
 
     .wsus__program_3_item {
         height: 450px;
@@ -765,7 +891,6 @@
     .wsus__blog_3_overly .text .common_btn {
         margin-top: 38px;
     }
-
 
 
     /* footer start */
@@ -813,6 +938,7 @@
     /*============================
         ABOUT START
     ============================*/
+
     .wsus___breadcrumb_text {
         padding: 180px 0px 90px;
     }
@@ -859,6 +985,7 @@
     /*============================
         DAY CLASS START
     ============================*/
+
     .wsus__photo_gallery_2 .wsus__photo_gallery_item {
         height: 300px;
     }
@@ -876,9 +1003,11 @@
     ============================*/
 
 
+
     /*============================
         CONTACT START
     ============================*/
+
     .wsus__contact {
         margin-right: 40px;
         margin-left: 40px;
@@ -906,7 +1035,6 @@
 
 
 
-
     /*============================
         CART START
     ============================*/
@@ -919,6 +1047,7 @@
     /*============================
         CART END
     ============================*/
+
 
 
     /*============================
@@ -934,9 +1063,11 @@
     ============================*/
 
 
+
     /*============================
         TRAINER START
     ============================*/
+
     .wsus__trainer_page {
         padding-left: 30px;
         padding-right: 30px;
@@ -949,8 +1080,23 @@
 
 
     /*============================
+        SERVICE START
+    ============================*/
+
+    .decision_last_item .img::after {
+        display: block;
+    }
+
+    /*============================
+        SERVICE END
+    ============================*/
+
+
+
+    /*============================
         BLOG DETAILS START
     ============================*/
+
     .wsus__blog_details_img_1 {
         height: 530px;
     }
@@ -977,9 +1123,11 @@
     ============================*/
 
 
+
     /*============================
         PRODUCT DETAILS START
     ============================*/
+
     .wsus__product_details_slide_show_img {
         height: 525px;
     }
@@ -1001,6 +1149,7 @@
     /*============================
         PROGRAM DETAILS START
     ============================*/
+
     .wsus__trainer_details_text {
         padding-left: 0;
         margin-top: 60px;
@@ -1027,6 +1176,7 @@
     /*============================
         TRAINER DETAILS START
     ============================*/
+
     .wsus__experience_img {
         height: 560px;
     }
@@ -1045,20 +1195,64 @@
 
 
 
+    /*============================
+        FAQ'S START
+    ============================*/
+
+    .wsus__faq_accordion_area {
+        margin-bottom: 60px;
+    }
+
+    /*============================
+        FAQ'S END
+    ============================*/
 
 
 
+    /*============================
+        LOGIN & REG START
+    ============================*/
+
+    .wsus__login {
+        margin-right: 28px;
+        margin-left: 28px;
+    }
+
+    .wsus__login_contant {
+        padding: 28px 40px 35px 15px;
+    }
+
+    .wsus__login_others_option {
+        gap: 25px;
+    }
+
+    .wsus__login_others_option {
+        justify-content: center;
+    }
+
+    /*============================
+        LOGIN & REG END
+    ============================*/
 
 
 
+    /*============================
+        DASHBOARD START
+    ============================*/
 
+    /* pricing start */
+    .wsus__dashboard_review .text {
+        width: 80%;
+    }
+
+    /* pricing end */
+
+    /*============================
+        DASHBOARD END
+    ============================*/
 
 
 }
-
-
-
-
 
 
 
@@ -1069,6 +1263,7 @@
     ============================*/
 
     /* main menu start */
+
     .navbar>.container {
         padding: 7px 0px;
     }
@@ -1128,7 +1323,18 @@
 
     /* main menu end */
 
+    .wsus__banner_slider_text h1,
+    .wsus__banner_slider_text h1 span {
+        font-size: 49px;
+        line-height: 65px;
+    }
+
+    .wsus__banner_slider_text p {
+        max-width: 75%;
+    }
+
     /* program start */
+
     .wsus__program_area::after {
         display: none;
     }
@@ -1160,8 +1366,8 @@
     /* program end */
 
 
-
     /* machine start */
+
     .wsus__machine_text {
         margin-top: 20px;
     }
@@ -1175,6 +1381,7 @@
     }
 
     /* machine end */
+
 
     .wsus__single_trainer {
         height: 400px;
@@ -1252,13 +1459,39 @@
         HOME PAGE 2 START
     ============================*/
     /* heder start */
+    .wsus__header_2 .wsus__header_left p {
+        padding-left: 0;
+    }
+
     /* heder end */
 
 
-
     /* main menu start */
-    /* main menu end */
 
+    .main_menu_2 .navbar-brand {
+        position: initial;
+        padding: 0px 0px 0px 11px;
+        fill: none;
+        backdrop-filter: blur(0px);
+    }
+
+    .main_menu_2.menu_fix .navbar-brand {
+        padding: 0px 0px 0px 10px;
+    }
+
+    .main_menu_2 .navbar-collapse {
+        margin-top: 12px;
+    }
+
+    .main_menu_2 .navbar-nav {
+        background: var(--colorBlack);
+    }
+
+    .main_menu_2 .right_menu {
+        background: var(--colorBlack);
+    }
+
+    /* main menu end */
 
 
     /* banner start */
@@ -1268,7 +1501,7 @@
     }
 
     .wsus__banner_2_slider_text {
-        padding: 225px 12px 220px;
+        padding: 300px 12px 120px;
     }
 
     .wsus__banner_2_slider_item {
@@ -1300,12 +1533,11 @@
         padding: 0;
     }
 
-
     /* program end */
 
 
-
     /* machine start */
+
     .wsus__machine_2_img {
         height: 450px;
     }
@@ -1313,8 +1545,8 @@
     /* machine end */
 
 
-
     /* pricing start */
+
     .wsus__pricing_2_item {
         margin-top: 30px;
     }
@@ -1326,8 +1558,8 @@
     /* pricing end */
 
 
-
     /* product start */
+
     .wsus__product_item .img {
         height: 400px;
     }
@@ -1336,6 +1568,7 @@
 
 
     /* testimonial start */
+
     .wsus__testimonial_2_area {
         margin-left: 12px;
     }
@@ -1360,11 +1593,13 @@
 
 
     /* blog start */
+
     .wsus__blog_2_img {
         height: 400px;
     }
 
     /* blog end */
+
     /*============================
         HOME PAGE 2 END
     ============================*/
@@ -1374,25 +1609,40 @@
     /*============================
         HOME PAGE 3 START
     ============================*/
+
     /* main menu start */
+
     .main_menu_3 .container::after {
-        width: 97.2%;
+        width: 100%;
+        left: 0;
     }
 
-    .main_menu .navbar-brand {
-        padding-left: 12px;
+    .main_menu_3>.container {
+        padding: 15px 0px;
+        height: 70px !important;
     }
 
-    .navbar-toggler {
-        margin-right: 12px;
+    .main_menu_3.menu_fix {
+        top: -8px;
+    }
+
+    .main_menu_3 .navbar-brand {
+        padding-left: 20px;
+    }
+
+    .main_menu_3 .navbar-toggler {
+        margin-right: 20px;
+    }
+
+    .main_menu_3 .navbar-brand {
+        margin-left: 0px;
     }
 
     /* main menu end */
 
 
-
-
     /* banner start */
+
     .wsus__banner_3_slider .wsus__banner_slider_text h1 {
         font-size: 50px;
         line-height: 50px;
@@ -1400,7 +1650,7 @@
 
     .wsus__banner_3_slider .wsus__banner_slider_text {
         width: 70%;
-        padding-top: 190px;
+        padding-top: 290px;
         padding-bottom: 120px;
     }
 
@@ -1415,8 +1665,8 @@
     /* banner end */
 
 
-
     /* program start */
+
     .wsus__program_3_item {
         height: 400px;
     }
@@ -1434,6 +1684,7 @@
 
 
     /* join event start */
+
     .wsus__join_event {
         padding-left: 0;
         padding-right: 0;
@@ -1457,6 +1708,7 @@
 
 
     /* testimonial start */
+
     .wsus__testimonial_3 {
         margin-left: 0px;
         margin-right: 0px;
@@ -1466,11 +1718,11 @@
         padding: 35px 30px 140px 0px;
     }
 
-
     /* testimonial end */
 
 
     /*  blog start */
+
     .wsus__blog_3_item {
         height: 385px;
     }
@@ -1480,7 +1732,6 @@
     }
 
     /*  blog end */
-
 
 
     /* footer start */
@@ -1510,7 +1761,6 @@
 
     .wsus__footer_3_right {
         padding-top: 30px;
-
     }
 
     .wsus__download_link {
@@ -1528,6 +1778,7 @@
     /*============================
         ABOUT START
     ============================*/
+
     .wsus___breadcrumb_text {
         padding: 180px 0px 90px;
     }
@@ -1580,6 +1831,7 @@
     /*============================
         DAY CLASS START
     ============================*/
+
     .wsus__photo_gallery_2 .wsus__photo_gallery_item {
         height: 460px;
     }
@@ -1605,9 +1857,11 @@
     ============================*/
 
 
+
     /*============================
         CONTACT START
     ============================*/
+
     .wsus__contact {
         margin-right: 40px;
         margin-left: 40px;
@@ -1638,6 +1892,7 @@
     /*============================
         CART START
     ============================*/
+
     .wsus__cart_coupon form input {
         width: 210px;
     }
@@ -1654,6 +1909,7 @@
     /*============================
         CART END
     ============================*/
+
 
 
     /*============================
@@ -1673,6 +1929,7 @@
     /*============================
         TRAINER START
     ============================*/
+
     .wsus__trainer_page {
         padding-left: 30px;
         padding-right: 30px;
@@ -1683,9 +1940,25 @@
     ============================*/
 
 
+
+    /*============================
+        SERVICE START
+    ============================*/
+
+    .decision_last_item .img::after {
+        display: block;
+    }
+
+    /*============================
+        SERVICE END
+    ============================*/
+
+
+
     /*============================
         BLOG DETAILS START
     ============================*/
+
     .wsus__blog_details_img_1 {
         height: 400px;
     }
@@ -1693,7 +1966,6 @@
     .wsus__blog_details_img_2 .img {
         height: 390px;
     }
-
 
     .wsus__blog_details_video {
         height: 400px;
@@ -1729,6 +2001,7 @@
     /*============================
         PRODUCT DETAILS START
     ============================*/
+
     .wsus__product_details_slide_show_img {
         height: 525px;
     }
@@ -1765,11 +2038,11 @@
     /*============================
         PROGRAM DETAILS START
     ============================*/
+
     .wsus__trainer_details_text {
         padding-left: 0;
         margin-top: 60px;
     }
-
 
     .wsus__trainer_details::after {
         display: none;
@@ -1788,9 +2061,11 @@
     ============================*/
 
 
+
     /*============================
         TRAINER DETAILS START
     ============================*/
+
     .wsus__experience_img {
         height: 850px;
     }
@@ -1817,12 +2092,71 @@
 
 
 
+    /*============================
+        FAQ'S START
+    ============================*/
 
+    .wsus__faq_accordion_area {
+        margin-bottom: 60px;
+    }
+
+    /*============================
+        FAQ'S END
+    ============================*/
+
+
+
+    /*============================
+        LOGIN & REG START
+    ============================*/
+
+    .wsus__login {
+        margin-right: 35px;
+        margin-left: 36px;
+    }
+
+    .wsus__login_contant h2 {
+        font-size: 30px;
+    }
+
+    .wsus__login_others_option {
+        justify-content: center;
+    }
+
+    /*============================
+        LOGIN & REG END
+    ============================*/
+
+
+
+    /*============================
+        ERROR START
+    ============================*/
+
+    .wsus__error_area h2 {
+        font-size: 45px;
+    }
+
+    /*============================
+        ERROR END
+    ============================*/
+
+
+
+    /*============================
+        DASHBOARD START
+    ============================*/
+
+    .wsus__dashboard_main_contant {
+        margin-top: 60px;
+    }
+
+    /*============================
+        DASHBOARD END
+    ============================*/
 
 
 }
-
-
 
 
 
@@ -1831,7 +2165,9 @@
     /*============================
     HOME PAGE 1 START
     ============================*/
+
     /* heder start */
+
     .wsus__header_right li a {
         border: 0;
         padding-right: 0;
@@ -1841,6 +2177,7 @@
 
 
     /* main menu start */
+
     .navbar>.container {
         padding: 7px 0px;
     }
@@ -1902,6 +2239,11 @@
 
 
     /* banner start */
+
+    .wsus__banner_slider_text {
+        padding-top: 130px;
+    }
+
     .wsus__banner_slider {
         height: auto;
     }
@@ -1928,6 +2270,7 @@
 
 
     /* program start */
+
     .wsus__section_headeing h2,
     .wsus__section_headeing h2 span {
         font-size: 30px;
@@ -1944,7 +2287,6 @@
     }
 
     /* program end */
-
 
 
     /* machine start */
@@ -1980,7 +2322,6 @@
     }
 
     /* machine end */
-
 
 
     /* triner start */
@@ -2020,7 +2361,6 @@
     /* pricing end */
 
 
-
     /* testimonial start */
 
     .wsus__testimonial::after {
@@ -2040,10 +2380,8 @@
     /* testimonial end */
 
 
-
-
-
     /* blog start */
+
     .wsus__blog .prevArrow {
         right: 70px;
     }
@@ -2059,8 +2397,8 @@
     /* blog end */
 
 
-
     /* social media start */
+
     .wsus__social_media ul li a {
         padding: 17px 0px 21px;
         font-size: 20px;
@@ -2070,6 +2408,7 @@
 
 
     /* footer start */
+
     .wsus__footer::after {
         display: none;
     }
@@ -2097,36 +2436,71 @@
     }
 
     /* footer end */
+
     /*============================
     HOME PAGE 1 END
     ============================*/
 
 
 
-
-
-
     /*============================
         HOME PAGE 2 START
     ============================*/
+
     /* heder start */
+
+    .wsus__header_2 .wsus__header_right {
+        margin-top: 10px;
+    }
+
+    .wsus__header_2 .wsus__header_right li a {
+        display: none;
+    }
+
+    .wsus__header_2 .wsus__header_left p {
+        padding-left: 0;
+    }
+
     /* heder end */
 
 
-
     /* main menu start */
+
+    .main_menu_2 .navbar-brand {
+        position: initial;
+        padding: 0px 0px 0px 11px;
+        fill: none;
+        backdrop-filter: blur(0px);
+    }
+
+    .main_menu_2.menu_fix .navbar-brand {
+        padding: 0px 0px 0px 10px;
+    }
+
+    .main_menu_2 .navbar-collapse {
+        margin-top: 12px;
+    }
+
+    .main_menu_2 .navbar-nav {
+        background: var(--colorBlack);
+    }
+
+    .main_menu_2 .right_menu {
+        background: var(--colorBlack);
+    }
+
     /* main menu end */
 
 
-
     /* banner start */
+
     .wsus__banner_2_slider_text h1 {
         font-size: 50px;
         line-height: 50px;
     }
 
     .wsus__banner_2_slider_text {
-        padding: 220px 12px 220px;
+        padding: 280px 12px 120px;
     }
 
     .wsus__banner_2_slider_item {
@@ -2137,6 +2511,7 @@
 
 
     /* program start */
+
     .wsus__programe_2_item .img {
         height: 350px;
     }
@@ -2159,12 +2534,11 @@
         padding: 0px 25px;
     }
 
-
     /* program end */
 
 
-
     /* machine start */
+
     .wsus__machine_2_img {
         height: 500px;
     }
@@ -2176,8 +2550,8 @@
     /* machine end */
 
 
-
     /* pricing start */
+
     .wsus__pricing_2_item_1 {
         margin-bottom: 30px;
     }
@@ -2185,8 +2559,8 @@
     /* pricing end */
 
 
-
     /* product start */
+
     .wsus__product_item .img {
         height: 300px;
     }
@@ -2206,6 +2580,7 @@
 
 
     /* testimonial start */
+
     .wsus__testimonial_2_area {
         margin-left: 12px;
     }
@@ -2230,11 +2605,13 @@
 
 
     /* blog start */
+
     .wsus__blog_2_img {
         height: 300px;
     }
 
     /* blog end */
+
     /*============================
         HOME PAGE 2 END
     ============================*/
@@ -2244,25 +2621,46 @@
     /*============================
         HOME PAGE 3 START
     ============================*/
+
+    .wsus__banner_slider_text h1,
+    .wsus__banner_slider_text h1 span {
+        font-size: 49px;
+        line-height: 65px;
+    }
+
     /* main menu start */
+
     .main_menu_3 .container::after {
-        width: 96.2%;
+        width: 100%;
+        left: 0;
     }
 
-    .main_menu .navbar-brand {
-        padding-left: 12px;
+    .main_menu_3>.container {
+        padding: 15px 0px;
+        height: 70px !important;
     }
 
-    .navbar-toggler {
-        margin-right: 14px;
+    .main_menu_3.menu_fix {
+        top: -8px;
+    }
+
+    .main_menu_3 .navbar-brand {
+        padding-left: 20px;
+    }
+
+    .main_menu_3 .navbar-toggler {
+        margin-right: 20px;
+    }
+
+    .main_menu_3 .navbar-brand {
+        margin-left: 0px;
     }
 
     /* main menu end */
 
 
-
-
     /* banner start */
+
     .wsus__banner_3_slider .wsus__banner_slider_text h1 {
         font-size: 50px;
         line-height: 50px;
@@ -2270,7 +2668,7 @@
 
     .wsus__banner_3_slider .wsus__banner_slider_text {
         width: 100%;
-        padding-top: 90px;
+        padding-top: 160px;
         padding-bottom: 20px;
     }
 
@@ -2285,8 +2683,8 @@
     /* banner end */
 
 
-
     /* program start */
+
     .wsus__program_3_item {
         height: 500px;
     }
@@ -2304,6 +2702,7 @@
 
 
     /* join event start */
+
     .wsus__join_event {
         padding-left: 0;
         padding-right: 0;
@@ -2392,6 +2791,7 @@
     }
 
     /* footer end */
+
     /*============================
         HOME PAGE 3 END
     ============================*/
@@ -2401,6 +2801,7 @@
     /*============================
         ABOUT START
     ============================*/
+
     .wsus___breadcrumb_text h1 {
         font-size: 30px;
     }
@@ -2474,9 +2875,11 @@
     ============================*/
 
 
+
     /*============================
         DAY CLASS START
     ============================*/
+
     .wsus__photo_gallery_2 .wsus__photo_gallery_item {
         height: 340px;
     }
@@ -2509,6 +2912,7 @@
     /*============================
         CONTACT START
     ============================*/
+
     .wsus__contact {
         margin-right: 40px;
         margin-left: 40px;
@@ -2539,6 +2943,7 @@
     /*============================
         CART START
     ============================*/
+
     .wsus__payment_manu li a {
         padding: 3px 33px;
     }
@@ -2546,7 +2951,6 @@
     /*============================
         CART END
     ============================*/
-
 
 
 
@@ -2563,9 +2967,11 @@
     ============================*/
 
 
+
     /*============================
         TRAINER START
     ============================*/
+
     .wsus__trainer_page {
         padding-left: 50px;
         padding-right: 50px;
@@ -2574,6 +2980,21 @@
     /*============================
         TRAINER END
     ============================*/
+
+
+
+    /*============================
+        SERVICE START
+    ============================*/
+
+    .decision_last_item .img::after {
+        display: block;
+    }
+
+    /*============================
+        SERVICE END
+    ============================*/
+
 
 
     /*============================
@@ -2624,6 +3045,7 @@
     /*============================
         PRODUCT DETAILS START
     ============================*/
+
     .wsus__product_details_slide_show_img {
         height: 525px;
     }
@@ -2653,11 +3075,10 @@
 
 
 
-
-
     /*============================
         PROGRAM DETAILS START
     ============================*/
+
     .wsus__trainer_details_text {
         padding-left: 0;
         margin-top: 60px;
@@ -2692,6 +3113,7 @@
     /*============================
         TRAINER DETAILS START
     ============================*/
+
     .wsus__experience_img {
         height: 630px;
     }
@@ -2718,13 +3140,101 @@
 
 
 
+    /*============================
+        FAQ'S START
+    ============================*/
+
+    .wsus__faq_accordion_area {
+        margin-bottom: 60px;
+    }
+
+    /*============================
+        FAQ'S END
+    ============================*/
 
 
+
+    /*============================
+        LOGIN & REG START
+    ============================*/
+
+    .wsus__login {
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    .wsus__login_contant {
+        padding: 22px 30px 25px 30px;
+    }
+
+    .wsus__login_contant h2 {
+        font-size: 30px;
+    }
+
+    .wsus__login_others_option {
+        justify-content: center;
+    }
+
+    /*============================
+        LOGIN & REG END
+    ============================*/
+
+
+
+    /*============================
+        ERROR START
+    ============================*/
+
+
+    .wsus__error_area h2 {
+        font-size: 45px;
+    }
+
+    /*============================
+        ERROR END
+    ============================*/
+
+
+
+    /*============================
+        DASHBOARD START
+    ============================*/
+
+    /* profile start */
+
+    .wsus__dashboard_main_contant {
+        margin-top: 60px;
+    }
+
+    /* profile end */
+
+
+    /* invoice start */
+
+    .wsus__dashboard_invoice {
+        padding: 30px 20px 30px 20px;
+    }
+
+    .wsus__dashboard_invoice_logo {
+        width: 50%;
+    }
+
+    .wsus__dashboard_invoice_right {
+        text-align: start;
+    }
+
+    .wsus__dashboard_invoice_logo {
+        margin: 40px 0px;
+    }
+
+    /* invoice end */
+
+    /*============================
+        DASHBOARD END
+    ============================*/
 
 
 }
-
-
 
 
 
@@ -2733,7 +3243,9 @@
     /*============================
     HOME PAGE 1 START
     ============================*/
+
     /* heder start */
+
     .wsus__header_left {
         display: none;
     }
@@ -2746,6 +3258,7 @@
 
 
     /* main menu start */
+
     .navbar>.container {
         padding: 7px 0px;
     }
@@ -2806,12 +3319,13 @@
 
 
     /* banner start */
+
     .wsus__banner_slider {
         height: auto;
     }
 
     .wsus__slider_item {
-        padding: 100px 12px;
+        padding: 120px 12px;
     }
 
     .wsus__banner_slider_text h1,
@@ -2832,6 +3346,7 @@
 
 
     /* program start */
+
     .wsus__section_headeing h2,
     .wsus__section_headeing h2 span {
         font-size: 30px;
@@ -2867,7 +3382,6 @@
     /* program end */
 
 
-
     /* machine start */
 
     .wsus__machine_bg::before {
@@ -2893,7 +3407,6 @@
     }
 
     /* machine end */
-
 
 
     /* triner start */
@@ -2950,8 +3463,8 @@
     /* pricing end */
 
 
-
     /* testimonial start */
+
     .wsus__testimonial_area {
         padding-left: 10px;
         padding-right: 10px;
@@ -2994,8 +3507,8 @@
     /* blog end */
 
 
-
     /* social media start */
+
     .wsus__social_media ul li a {
         padding: 17px 0px 21px;
         font-size: 16px;
@@ -3005,6 +3518,7 @@
 
 
     /* footer start */
+
     .wsus__footer::after {
         display: none;
     }
@@ -3032,6 +3546,7 @@
     }
 
     /* footer end */
+
     /*============================
     HOME PAGE 1 END
     ============================*/
@@ -3041,17 +3556,54 @@
     /*============================
         HOME PAGE 2 START
     ============================*/
+
     /* heder start */
+
+    .wsus__header_2 .wsus__header_right {
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .wsus__header_2 .wsus__header_right li:last-child .nice-select {
+        border-right: 0;
+    }
+
+    .wsus__header_2 .wsus__header_right li a {
+        display: none;
+    }
+
     /* heder end */
 
 
-
     /* main menu start */
+    .main_menu_2 .navbar-brand {
+        position: initial;
+        padding: 0;
+        fill: none;
+        backdrop-filter: blur(0px);
+    }
+
+    .main_menu_2.menu_fix .navbar-brand {
+        padding: 0px 0px 0px 20px;
+    }
+
+    .main_menu_2 .navbar-collapse {
+        margin-top: 12px;
+    }
+
+    .main_menu_2 .navbar-nav {
+        background: var(--colorBlack);
+    }
+
+    .main_menu_2 .right_menu {
+        background: var(--colorBlack);
+    }
+
     /* main menu end */
 
 
-
     /* banner start */
+
     .wsus__banner_2_slider_text h1 {
         font-size: 50px;
         line-height: 50px;
@@ -3069,6 +3621,7 @@
 
 
     /* program start */
+
     .wsus__section_heading_2 h2 {
         font-size: 30px;
         line-height: initial;
@@ -3089,8 +3642,8 @@
     /* program end */
 
 
-
     /* machine start */
+
     .wsus__machine_2_img {
         height: auto;
     }
@@ -3102,7 +3655,6 @@
     /* machine end */
 
 
-
     /* pricing start */
     .wsus__pricing_2_item_1 {
         margin-bottom: 30px;
@@ -3111,8 +3663,8 @@
     /* pricing end */
 
 
-
     /* product start */
+
     .wsus__product_item .img {
         height: auto;
     }
@@ -3125,6 +3677,7 @@
 
 
     /* testimonial start */
+
     .wsus__testimonial_2_area {
         margin-left: 12px;
     }
@@ -3141,25 +3694,37 @@
 
 
     /* blog start */
+
     .wsus__blog_2_img {
         height: 365px;
     }
 
     /* blog end */
+
     /*============================
         HOME PAGE 2 END
     ============================*/
 
 
 
-
-
     /*============================
         HOME PAGE 3 START
     ============================*/
+
     /* main menu start */
+
     .main_menu_3 .container::after {
-        width: 93.2%;
+        width: 100%;
+        left: 0;
+    }
+
+    .main_menu_3>.container {
+        padding: 15px 0px;
+        height: 70px !important;
+    }
+
+    .main_menu_3.menu_fix {
+        top: -8px;
     }
 
     .main_menu .navbar-brand {
@@ -3170,12 +3735,15 @@
         margin-right: 20px;
     }
 
+    .main_menu_3 .navbar-brand {
+        margin-left: 0px;
+    }
+
     /* main menu end */
 
 
-
-
     /* banner start */
+
     .wsus__banner_3_slider .wsus__banner_slider_text h1 {
         font-size: 50px;
         line-height: 50px;
@@ -3196,7 +3764,6 @@
     }
 
     /* banner end */
-
 
 
     /* program start */
@@ -3223,6 +3790,7 @@
 
 
     /* join event start */
+
     .wsus__join_event {
         padding-left: 0;
         padding-right: 0;
@@ -3250,6 +3818,7 @@
 
 
     /* testimonial start */
+
     .wsus__testimonial_3 {
         margin-left: 0px;
         margin-right: 0px;
@@ -3258,7 +3827,6 @@
     .wsus__testimonial_3_slide_text {
         padding: 35px 30px 140px 0px;
     }
-
 
     .wsus__testimonial_3_slide_img_area {
         margin-top: 0px;
@@ -3279,7 +3847,6 @@
     }
 
     /*  blog end */
-
 
 
     /* footer start */
@@ -3308,7 +3875,6 @@
 
     .wsus__footer_3_right {
         padding-top: 30px;
-
     }
 
     .wsus__download_link {
@@ -3327,6 +3893,7 @@
     /*============================
         ABOUT START
     ============================*/
+
     .wsus___breadcrumb_text h1 {
         font-size: 30px;
     }
@@ -3391,9 +3958,11 @@
     ============================*/
 
 
+
     /*============================
         DAY CLASS START
     ============================*/
+
     .wsus__photo_gallery_item {
         height: auto;
     }
@@ -3419,9 +3988,11 @@
     ============================*/
 
 
+
     /*============================
         BLOG START
     ============================*/
+
     .wsus__pagination ul li a {
         width: 35px;
         height: 35px;
@@ -3434,9 +4005,11 @@
     ============================*/
 
 
+
     /*============================
         CONTACT START
     ============================*/
+
     .wsus__contact {
         margin-right: 20px;
         margin-left: 20px;
@@ -3467,6 +4040,7 @@
     /*============================
         CART START
     ============================*/
+
     .wsus__payment_manu {
         gap: 10px;
     }
@@ -3500,6 +4074,7 @@
     /*============================
         CHECKOUT START
     ============================*/
+
     .wsus__checkout_form_btn {
         justify-content: center;
     }
@@ -3522,10 +4097,10 @@
         padding-right: 0;
     }
 
-
     /*============================
         CHECKOUT END
     ============================*/
+
 
 
     /*============================
@@ -3581,6 +4156,7 @@
     /*============================
         PRODUCT START
     ============================*/
+
     .wsus__product_page .modal-body {
         display: none;
     }
@@ -3594,6 +4170,7 @@
     /*============================
         PROGRAMS START
     ============================*/
+
     .wsus__programs_page {
         padding-left: 15px;
         padding-right: 10px;
@@ -3604,9 +4181,11 @@
     ============================*/
 
 
+
     /*============================
         TRAINER START
     ============================*/
+
     .wsus__trainer_page {
         padding-left: 20px;
         padding-right: 20px;
@@ -3617,9 +4196,25 @@
     ============================*/
 
 
+
+    /*============================
+        SERVICE START
+    ============================*/
+
+    .decision_last_item .img::after {
+        display: block;
+    }
+
+    /*============================
+        SERVICE END
+    ============================*/
+
+
+
     /*============================
         BLOG DETAILS START
     ============================*/
+
     .wsus__blog_details_img_1 {
         height: auto;
     }
@@ -3757,6 +4352,10 @@
         margin-top: 60px;
     }
 
+    .wsus__product_review .text .review_icon {
+        margin-top: 8px;
+    }
+
     /*============================
         PRODUCT DETAILS END
     ============================*/
@@ -3764,8 +4363,23 @@
 
 
     /*============================
+        SERVICE START
+    ============================*/
+
+    .wsus__programe_2_item .img {
+        height: auto;
+    }
+
+    /*============================
+        SERVICE END
+    ============================*/
+
+
+
+    /*============================
         PROGRAM DETAILS START
     ============================*/
+
     .wsus__trainer_details_text {
         padding-left: 0;
         margin-top: 60px;
@@ -3796,9 +4410,11 @@
     ============================*/
 
 
+
     /*============================
         TRAINER DETAILS START
     ============================*/
+
     .wsus__experience_img {
         height: auto;
     }
@@ -3825,19 +4441,106 @@
 
 
 
+    /*============================
+        FAQ'S START
+    ============================*/
+
+    .wsus__faq_accordion_area {
+        margin-bottom: 60px;
+    }
+
+    /*============================
+        FAQ'S END
+    ============================*/
 
 
 
+    /*============================
+        LOGIN & REG START
+    ============================*/
+
+    .wsus__login {
+        margin-right: 12px;
+        margin-left: 12px;
+    }
+
+    .wsus__login_contant {
+        padding: 18px 30px 25px 30px;
+    }
+
+    .wsus__login_contant h2 {
+        font-size: 30px;
+    }
+
+    .wsus__login_others_option {
+        justify-content: center;
+    }
+
+    /*============================
+        LOGIN & REG END
+    ============================*/
 
 
 
+    /*============================
+        ERROR START
+    ============================*/
+
+    .wsus__error_area .img {
+        width: auto;
+        height: auto;
+    }
+
+    .wsus__error_area h2 {
+        font-size: 45px;
+    }
+
+    /*============================
+        ERROR END
+    ============================*/
 
 
 
+    /*============================
+        DASHBOARD START
+    ============================*/
+
+    /* profile start */
+
+    .wsus__dashboard_main_contant {
+        margin-top: 60px;
+    }
+
+    .wsus__profile_info {
+        padding: 30px 20px 23px 20px;
+    }
+
+    .wsus__profile_info .common_btn {
+        margin-top: 30px;
+    }
+
+    /* profile end */
 
 
+    /* invoice start */
 
+    .wsus__dashboard_invoice {
+        padding: 30px 20px 30px 20px;
+    }
 
+    .wsus__dashboard_invoice_right {
+        text-align: start;
+    }
+
+    .wsus__dashboard_invoice_logo {
+        margin: 40px 0px;
+    }
+
+    /* invoice end */
+
+    /*============================
+        DASHBOARD END
+    ============================*/
 
 }
 
