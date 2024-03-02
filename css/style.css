@@ -1060,11 +1060,11 @@ header {
     color: var(--colorBlack);
     padding: 0;
     box-shadow: none !important;
-    border-radius: 3px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    -ms-border-radius: 3px;
-    -o-border-radius: 3px;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
     border: none;
 }
 
@@ -3945,7 +3945,7 @@ header {
     position: relative;
     display: inline-block;
     width: 14px;
-    top: -2px;
+    top: -1px;
     margin-right: 7px;
 }
 
@@ -4059,8 +4059,8 @@ header {
 }
 
 .wsus__footer_3_right_link {
-    padding-left: 120px;
-    padding-right: 150px;
+    padding-left: 100px;
+    padding-right: 130px;
 }
 
 .wsus__download_link ul {

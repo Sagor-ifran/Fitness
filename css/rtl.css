@@ -1,0 +1,566 @@
+/*================================
+    RTL CSS START
+================================*/
+* {
+    direction: rtl;
+    text-align: right;
+}
+
+.slick-list {
+    direction: ltr;
+}
+
+.wsus__header_left a span {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+.wsus__header_right li .nice-select::after {
+    right: auto;
+    left: 0px;
+}
+
+.wsus__header_right li .nice-select {
+    padding-left: 30px;
+    padding-right: 0;
+}
+
+.wsus__header_right li a {
+    padding-right: 0;
+    padding-left: 20px;
+    border-right: none;
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.wsus__header_right li .nice-select {
+    padding-left: 30px;
+    padding-right: 0;
+    border-right: none;
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.wsus__header_right li .nice-select::after {
+    right: auto;
+    left: 12px;
+}
+
+
+.main_menu .navbar-nav .nav-item .nav-link i {
+    left: auto;
+    right: 2px;
+}
+
+
+.main_menu .right_menu li .icon {
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.main_menu .right_menu li:first-child .icon {
+    border-left: none;
+}
+
+.main_menu .wsus__droap_menu li a:hover::after,
+.main_menu .wsus__droap_menu li a.active::after {
+    left: auto;
+    right: 0;
+}
+
+
+.main_menu .wsus__droap_menu li a:hover,
+.main_menu .wsus__droap_menu li a.active {
+    padding-left: 0;
+    padding-right: 25px;
+}
+
+.right_menu li .wsus__droap_cart {
+    left: auto;
+    right: 0;
+}
+
+
+.wsus__menu_offconvas .offcanvas.offcanvas-end {
+    right: auto;
+    left: 0;
+}
+
+.wsus__menu_offconvas .btn-close {
+    right: auto;
+    left: 0;
+
+}
+
+.main_menu .wsus__droap_menu li a::after {
+    left: 0;
+    right: -5px;
+}
+
+.wsus__droap_cart_list li .text {
+    margin-left: 0;
+    margin-right: 20px;
+}
+
+
+.main_menu .wsus__droap_menu {
+    left: auto;
+    right: 0;
+}
+
+
+.wsus__banner_slider .slick-dots {
+    right: auto;
+    left: 120px;
+}
+
+.wsus__banner_slider .slick-dots li button::after {
+    right: auto;
+    left: -60px;
+}
+
+.wsus__banner_slider .slick-dots li button::before {
+    left: auto;
+    right: -11px;
+}
+
+
+.wsus__program_item .text .arrow_button {
+    right: auto;
+    left: 74px;
+}
+
+.arrow_button i {
+    transform: rotate(-130deg);
+}
+
+.wsus__program_area::after {
+    right: auto;
+    left: 135px;
+}
+
+.wsus__machine_bg::before {
+    left: auto;
+    right: -22px;
+    transform: rotateY(180deg);
+}
+
+.wsus__machine_bg::after {
+    right: auto;
+    left: -80px;
+    transform: rotateY(180deg);
+}
+
+
+.wsus__machine_text ul li span {
+    left: auto;
+    right: 0;
+
+}
+
+.wsus__machine_text ul li {
+    padding-left: 0;
+    padding-right: 55px;
+}
+
+.common_btn_2 i {
+    margin-left: 0px !important;
+    margin-right: 10px !important;
+    transform: rotate(-135deg);
+}
+
+.common_btn i {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+.wsus__single_trainer ul {
+    right: auto;
+    left: 10px;
+
+}
+
+.wsus__single_trainer.active ul,
+.wsus__single_trainer:hover ul {
+    right: auto;
+    opacity: 1;
+    left: 30px;
+}
+
+
+
+.wsus__timetable_list table tr th,
+.wsus__timetable_list table tr td {
+    border-right: none;
+    border-left: 1px solid rgba(23, 23, 24, 0.1);
+    width: 12.5%;
+}
+
+
+.wsus__timetable::after {
+    left: auto;
+    right: 0;
+    transform: rotateY(180deg);
+}
+
+
+.wsus__single_pricing ul li::after {
+    left: auto;
+    right: 0;
+
+}
+
+.wsus__single_pricing ul li {
+    padding-left: 0;
+    padding-right: 15px;
+}
+
+
+.wsus__blog .prevArrow {
+    right: auto;
+    left: 283px;
+}
+
+.wsus__blog .nextArrow {
+    right: auto;
+    left: 343px;
+
+}
+
+.heading_left h6,
+.heading_left h2,
+.heading_left h2 span {
+    text-align: right;
+}
+
+.wsus__testimonial_content p {
+    text-align: center;
+}
+
+.wsus__testimonial_content h6 {
+    text-align: center;
+}
+
+.wsus__blog_text ul li span {
+    margin-right: 0;
+    margin-left: 8px;
+}
+
+.wsus__social_media ul li {
+    border-right: none;
+    border-left: 1px solid var(--colorWhite);
+}
+
+.wsus__footer_right ul li p span,
+.wsus__footer_right ul li a span {
+    margin-right: 0;
+    margin-left: 8px;
+}
+
+.wsus__copy_right ul li::after {
+    left: auto;
+    right: 0;
+}
+
+.wsus__copy_right ul li a {
+    padding-left: 0;
+    padding-right: 15px;
+}
+
+
+.progress-wrap {
+    position: fixed;
+    right: auto;
+    left: 50px;
+}
+
+
+
+.wsus__header_2 .wsus__header_left p {
+    padding-left: 0;
+    padding-right: 30px;
+}
+
+
+
+.main_menu_2 .navbar-brand {
+    left: auto;
+    right: 0;
+
+}
+
+.main_menu_2 .navbar-nav {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.wsus__section_heading_2 h2 {
+    text-align: center;
+}
+
+
+.wsus__header_right li a span {
+    margin-right: 0;
+    margin-left: 3px;
+}
+
+.wsus__banner_2_slider .prevArrow {
+    right: auto;
+    left: 80px;
+}
+
+.wsus__banner_2_slider .nextArrow {
+    right: auto;
+    left: 140px;
+}
+
+
+
+.wsus__pricing_2_text ul li::after {
+    left: auto;
+    right: 0;
+}
+
+.wsus__pricing_2_text ul li {
+    padding-left: 0;
+    padding-right: 16px;
+}
+
+.wsus__pricing_2_item ul li::after {
+    left: auto;
+    right: 0;
+
+}
+
+.wsus__pricing_2_item ul {
+    margin: 30px 35px 0px 0px;
+}
+
+.wsus__pricing_2_item ul li {
+    padding-left: 0;
+    padding-right: 16px;
+}
+
+.main_menu_3 .navbar-brand {
+    margin-left: 0;
+    margin-right: 18px;
+}
+
+.main_menu_3 .right_menu li:last-child .icon {
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    border-left: none;
+}
+
+
+.wsus__banner_3_slider .slick-dots {
+    left: auto;
+    right: 90%;
+}
+
+.wsus__program_3_overly p {
+    left: auto;
+    right: 40px;
+
+}
+
+.wsus__program_4_overly .text {
+    left: auto;
+    right: 50px;
+}
+
+
+.wsus__join_event_bottom {
+    background: url("../images/join_event_form_bg_2.jpg") center center / cover no-repeat;
+}
+
+.wsus__join_event_form {
+    padding: 100px 147px 110px 60px;
+}
+
+.wsus__section_heading_3 h2 {
+    text-align: center;
+}
+
+
+.wsus__product_item .img ul {
+    right: auto;
+    left: 0;
+}
+
+.wsus__product_item:hover .img ul {
+    right: auto;
+    left: 20px;
+}
+
+.wsus__product_item .img .add_cart span {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.wsus__product_item .new {
+    left: auto;
+    right: 20px;
+}
+
+.wsus__modal_buy_cart .common_btn {
+    border-left: none;
+    border-right: 1px solid var(--colorBlack);
+}
+
+.wsus__modal_quantity button {
+    text-align: center;
+}
+
+.wsus__modal_text .wishlist li a i {
+    margin-right: 0;
+    margin-left: 12px;
+}
+
+.wsus__product_modal .btn-close {
+    right: auto;
+    left: 20px;
+}
+
+.wsus__modal_quantity {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+.wsus__modal_text {
+    margin-left: 0;
+    margin-right: 25px;
+}
+
+
+
+.wsus__testimonial_3_slide_text {
+    padding: 75px 0px 210px 170px;
+}
+
+.wsus__testimonial_3_slide_text_border {
+    border-left: 1px solid rgba(23, 23, 24, 0.1);
+    border-right: none;
+}
+
+.wsus__testimonial_3_slide_img_area {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.wsus__testimonial_3 .slick-dots {
+    left: auto;
+    right: 12px;
+}
+
+
+
+.wsus__blog_3 .prevArrow {
+    right: auto;
+    left: 12px;
+}
+
+.wsus__blog_3 .nextArrow {
+    right: auto;
+    left: 72px;
+}
+
+
+.wsus__blog_3 .wsus__section_heading_3 h2 {
+    text-align: right;
+}
+
+.wsus__blog_3_item p {
+    left: auto;
+    right: 40px;
+
+}
+
+.wsus__blog_3_item p span {
+    margin-right: 0;
+    margin-left: 7px;
+}
+
+
+.wsus__footer_3_right {
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-left: none;
+}
+
+.wsus__footer_3 {
+    padding-left: 0;
+    padding-right: 160px;
+}
+
+.wsus__footer_3_right_link {
+    padding-left: 130px;
+    padding-right: 100px;
+}
+
+.wsus__download_link ul li a span {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+.wsus__breadcrumb::after {
+    left: auto;
+    right: 0;
+}
+
+.wsus__breadcrumb::after {
+    left: auto;
+    right: 0;
+    transform: rotateY(180deg);
+}
+
+.wsus___breadcrumb_text ul li a::after {
+    right: auto;
+    left: -19px;
+}
+
+
+.wsus___breadcrumb_text ul li a i {
+    margin-right: 0px;
+    margin-left: 7px;
+}
+
+.heading_left h6,
+.heading_left h2,
+.heading_left h2 span {
+    text-align: right !important;
+}
+
+.wsus__why_choose_us_text ul li span {
+    margin-right: 0px;
+    margin-left: 10px;
+}
+
+.wsus__why_choose_us::after {
+    right: auto;
+    left: 0;
+    transform: rotateY(180deg);
+}
+
+.wsus__service_details_text .list li::after {
+    left: auto;
+    right: 0;
+}
+
+.wsus__service_details_text .list li {
+    padding-right: 15px;
+    padding-left: 0;
+}
+
+.wsus__join_event_form .wsus__section_heading_3 h2 {
+    text-align: right;
+}
+
+.wsus__join_event_right .wsus__section_heading_3 h2 {
+    text-align: right;
+}
+
+.wsus__breadcrumb {
+    background: url("../images/breadcrumbs_bg_2.jpg") center center / cover no-repeat;
+}
+
+
+
+/*================================
+    RTL CSS END
+================================*/

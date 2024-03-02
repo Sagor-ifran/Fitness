@@ -48,7 +48,6 @@ $(function () {
     });
 
 
-
     //program slider
     $('.program_slider').slick({
         slidesToShow: 3,
@@ -119,6 +118,7 @@ $(function () {
         ]
     });
 
+
     $('.slider-nav').slick({
         slidesToShow: 3,
         slidesToScroll: 1,
@@ -182,7 +182,6 @@ $(function () {
         nextArrow: '<i class="fal fa-angle-right nextArrow"></i>',
         prevArrow: '<i class="fal fa-angle-left prevArrow"></i>',
 
-
         responsive: [
             {
                 breakpoint: 768,
@@ -200,10 +199,6 @@ $(function () {
                 }
             }
         ]
-
-
-
-
     });
 
 
@@ -385,7 +380,6 @@ $(function () {
     });
 
 
-
     // testimonial 3 slide
     $('.slider-for2').slick({
         slidesToShow: 1,
@@ -406,6 +400,7 @@ $(function () {
             }
         ]
     });
+
 
     $('.slider-nav2').slick({
         slidesToShow: 3,
@@ -556,7 +551,6 @@ $(function () {
     });
 
 
-
     // sticky sidebar 
     $(".sticky_sidebar").stickit({
         top: 80,
@@ -573,6 +567,7 @@ $(function () {
         prevArrow: '<i class="fal fa-angle-left prevArrow"></i>',
     });
 
+
     $('.slider-navFive').slick({
         slidesToShow: 5,
         slidesToScroll: 1,
@@ -583,8 +578,6 @@ $(function () {
         focusOnSelect: true,
         centerPadding: 0,
     });
-
-
 
 
     // releted_product  slider
@@ -628,31 +621,14 @@ $(function () {
     });
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
     //WOW js
     new WOW().init();
-
-
 
 
     //=======SMALL DEVICE MENU ICON======
     $(".navbar-toggler").on("click", function () {
         $(".navbar-toggler").toggleClass("show");
     });
-
-
 
 
 });
