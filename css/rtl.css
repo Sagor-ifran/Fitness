@@ -44,12 +44,10 @@
     left: 12px;
 }
 
-
 .main_menu .navbar-nav .nav-item .nav-link i {
     left: auto;
     right: 2px;
 }
-
 
 .main_menu .right_menu li .icon {
     border-left: 1px solid rgba(255, 255, 255, 0.1);
@@ -65,7 +63,6 @@
     right: 0;
 }
 
-
 .main_menu .wsus__droap_menu li a:hover,
 .main_menu .wsus__droap_menu li a.active {
     padding-left: 0;
@@ -77,7 +74,6 @@
     right: 0;
 }
 
-
 .wsus__menu_offconvas .offcanvas.offcanvas-end {
     right: auto;
     left: 0;
@@ -86,7 +82,6 @@
 .wsus__menu_offconvas .btn-close {
     right: auto;
     left: 0;
-
 }
 
 .main_menu .wsus__droap_menu li a::after {
@@ -99,12 +94,14 @@
     margin-right: 20px;
 }
 
+.wsus__menu_offconvas .btn-close {
+    text-align: center;
+}
 
 .main_menu .wsus__droap_menu {
     left: auto;
     right: 0;
 }
-
 
 .wsus__banner_slider .slick-dots {
     right: auto;
@@ -120,7 +117,6 @@
     left: auto;
     right: -11px;
 }
-
 
 .wsus__program_item .text .arrow_button {
     right: auto;
@@ -148,11 +144,9 @@
     transform: rotateY(180deg);
 }
 
-
 .wsus__machine_text ul li span {
     left: auto;
     right: 0;
-
 }
 
 .wsus__machine_text ul li {
@@ -174,7 +168,6 @@
 .wsus__single_trainer ul {
     right: auto;
     left: 10px;
-
 }
 
 .wsus__single_trainer.active ul,
@@ -184,8 +177,6 @@
     left: 30px;
 }
 
-
-
 .wsus__timetable_list table tr th,
 .wsus__timetable_list table tr td {
     border-right: none;
@@ -193,25 +184,21 @@
     width: 12.5%;
 }
 
-
 .wsus__timetable::after {
     left: auto;
     right: 0;
     transform: rotateY(180deg);
 }
 
-
 .wsus__single_pricing ul li::after {
     left: auto;
     right: 0;
-
 }
 
 .wsus__single_pricing ul li {
     padding-left: 0;
     padding-right: 15px;
 }
-
 
 .wsus__blog .prevArrow {
     right: auto;
@@ -221,7 +208,6 @@
 .wsus__blog .nextArrow {
     right: auto;
     left: 343px;
-
 }
 
 .heading_left h6,
@@ -264,26 +250,20 @@
     padding-right: 15px;
 }
 
-
 .progress-wrap {
     position: fixed;
     right: auto;
     left: 50px;
 }
 
-
-
 .wsus__header_2 .wsus__header_left p {
     padding-left: 0;
     padding-right: 30px;
 }
 
-
-
 .main_menu_2 .navbar-brand {
     left: auto;
     right: 0;
-
 }
 
 .main_menu_2 .navbar-nav {
@@ -294,7 +274,6 @@
 .wsus__section_heading_2 h2 {
     text-align: center;
 }
-
 
 .wsus__header_right li a span {
     margin-right: 0;
@@ -311,8 +290,6 @@
     left: 140px;
 }
 
-
-
 .wsus__pricing_2_text ul li::after {
     left: auto;
     right: 0;
@@ -326,7 +303,6 @@
 .wsus__pricing_2_item ul li::after {
     left: auto;
     right: 0;
-
 }
 
 .wsus__pricing_2_item ul {
@@ -336,6 +312,11 @@
 .wsus__pricing_2_item ul li {
     padding-left: 0;
     padding-right: 16px;
+}
+
+.wsus__blog_2_text ul li span {
+    margin-right: 0;
+    margin-left: 8px;
 }
 
 .main_menu_3 .navbar-brand {
@@ -348,7 +329,6 @@
     border-left: none;
 }
 
-
 .wsus__banner_3_slider .slick-dots {
     left: auto;
     right: 90%;
@@ -357,14 +337,12 @@
 .wsus__program_3_overly p {
     left: auto;
     right: 40px;
-
 }
 
 .wsus__program_4_overly .text {
     left: auto;
     right: 50px;
 }
-
 
 .wsus__join_event_bottom {
     background: url("../images/join_event_form_bg_2.jpg") center center / cover no-repeat;
@@ -377,7 +355,6 @@
 .wsus__section_heading_3 h2 {
     text-align: center;
 }
-
 
 .wsus__product_item .img ul {
     right: auto;
@@ -428,8 +405,6 @@
     margin-right: 25px;
 }
 
-
-
 .wsus__testimonial_3_slide_text {
     padding: 75px 0px 210px 170px;
 }
@@ -449,8 +424,6 @@
     right: 12px;
 }
 
-
-
 .wsus__blog_3 .prevArrow {
     right: auto;
     left: 12px;
@@ -461,7 +434,6 @@
     left: 72px;
 }
 
-
 .wsus__blog_3 .wsus__section_heading_3 h2 {
     text-align: right;
 }
@@ -469,14 +441,12 @@
 .wsus__blog_3_item p {
     left: auto;
     right: 40px;
-
 }
 
 .wsus__blog_3_item p span {
     margin-right: 0;
     margin-left: 7px;
 }
-
 
 .wsus__footer_3_right {
     border-right: 1px solid rgba(255, 255, 255, 0.2);
@@ -513,7 +483,6 @@
     right: auto;
     left: -19px;
 }
-
 
 .wsus___breadcrumb_text ul li a i {
     margin-right: 0px;
@@ -559,8 +528,914 @@
     background: url("../images/breadcrumbs_bg_2.jpg") center center / cover no-repeat;
 }
 
+.wsus__testimonial_2 .prevArrow {
+    left: 320px;
+    right: auto;
+}
 
+.wsus__testimonial_2 .nextArrow {
+    right: auto;
+    left: 380px;
+}
+
+.wsus__testimonial_2_area {
+    margin-left: 0;
+    margin-right: 310px;
+}
+
+.wsus__testimonial_2_reviewer .img {
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+.wsus__testimonial_2_item .text::after {
+    left: auto;
+    right: 60px;
+}
+
+.wsus__testimonial_2_reviewer {
+    margin-left: 0;
+    margin-right: 50px;
+}
+
+.wsus__contact_contant {
+    padding: 68px 80px 70px 57px;
+}
+
+.wsus__contact_img {
+    padding: 20px 0px 20px 20px;
+}
+
+.wsus__program_item .text h5::after {
+    left: auto;
+    right: 0;
+}
+
+.wsus__program_item .text h5 {
+    padding-left: 0;
+    padding-right: 12px;
+}
+
+.wsus__cart_list .pro_img {
+    padding-right: 0 !important;
+    padding-left: 115px !important;
+}
+
+.wsus__cart_list .quentity_btn .btn-success {
+    border-left: none;
+    border-right: 2px solid #EFF0F3;
+}
+
+.wsus__cart_list .quentity_btn .btn-danger {
+    border-right: none;
+    border-left: 2px solid rgb(239, 240, 243);
+}
+
+.wsus__cart_list table tbody tr td.pro_icon a {
+    text-align: center;
+}
+
+.wsus__cart_list_pricing h6 span,
+.wsus__cart_list_pricing h5 span,
+.wsus__cart_list_pricing p span {
+    margin-left: 0;
+    margin-right: 55px;
+}
+
+.wsus__cart_list_bottom_btn {
+    padding: 35px 0px 35px 77px;
+}
+
+.wsus__releted_product .prevArrow {
+    right: auto;
+    left: 12px;
+}
+
+.wsus__releted_product .nextArrow {
+    left: 73px;
+    right: auto;
+}
+
+.wsus__releted_product .wsus__section_heading_3 h2 {
+    text-align: right;
+}
+
+.wsus__shipping_address_item .form-check input {
+    float: right;
+}
+
+.wsus__shipping_address_item .form-check label {
+    margin-left: 0;
+    margin-right: 33px;
+}
+
+.wsus__shipping_address_item .form-check-inline {
+    margin-right: 0;
+}
+
+.wsus__shipping_mail_address {
+    margin-left: 0;
+    margin-right: 34px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    right: auto;
+    left: 1px;
+}
+
+.wsus__checkout_form .select2-container--default .select2-selection--single .select2-selection__arrow b {
+    right: auto;
+    left: 20px;
+}
+
+.wsus__billing_product li .text {
+    margin-left: 0;
+    margin-right: 30px;
+}
+
+.wsus__total_price {
+    padding: 25px 0px 25px 40px;
+}
+
+.wsus__billing_summary h5 {
+    padding-right: 0;
+    padding-left: 40px;
+}
+
+.modal_payment_popup .modal_closs_btn {
+    margin-right: 0px !important;
+    margin-left: 10px !important;
+}
+
+.modal_payment_popup .modal-footer {
+    padding-right: 1px;
+    padding-left: 0;
+}
+
+.modal_payment_popup .modal_iteam li::after {
+    left: auto;
+    right: 0;
+}
+
+.modal_payment_popup .modal_iteam li {
+    padding-left: 0;
+    padding-right: 15px;
+}
+
+.modal_payment_popup .nice-select {
+    text-align: right !important;
+    padding-left: 30px;
+    padding-right: 18px;
+}
+
+.modal_payment_popup .single_form .nice-select:after {
+    right: auto;
+    left: 20px;
+}
+
+.modal_payment_popup .nice-select .option {
+    text-align: right;
+}
+
+.modal_payment_success p,
+.modal_payment_success p span {
+    text-align: center;
+}
+
+.wsus__footer::after {
+    right: auto;
+    left: 10px;
+    transform: rotateY(180deg);
+}
+
+.wsus__pagination ul li:last-child .page-link,
+.wsus__pagination ul li:first-child .page-link {
+    transform: rotateY(180deg);
+}
+
+.wsus__decision_item .img::after {
+    left: auto;
+    right: 100%;
+}
+
+.wsus__blog_details_img_info li:first-child span {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+.wsus__blog_details_img_info li span {
+    margin-right: 0;
+    margin-left: 2px;
+}
+
+.wsus__blog_details_img_2 p {
+    text-align: center;
+}
+
+.wsus__blog_details_tag_share .tags h6 {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.wsus__blog_details_tag_share .share i {
+    margin-right: 0;
+    margin-left: 8px;
+}
+
+.wsus__blog_post_direction .prev_post {
+    padding-right: 0;
+    padding-left: 30px;
+}
+
+.wsus__blog_post_direction .prev_post .text {
+    margin-left: 0;
+    margin-right: 25px;
+}
+
+.wsus__blog_post_direction .next_post {
+    padding-left: 0px;
+    padding-right: 30px;
+}
+
+.wsus__blog_post_direction .next_post .text {
+    margin-right: 0;
+    margin-left: 25px;
+}
+
+.wsus__blog_post_direction .next_post .text h6 {
+    text-align: left;
+}
+
+.wsus__blog_post_direction .next_post .text a {
+    text-align: left;
+}
+
+.wsus__blog_post_direction .icon {
+    transform: rotateY(180deg);
+}
+
+.wsus__blog_single_comment .img {
+    margin-right: 0;
+    margin-left: 25px;
+}
+
+.wsus__blog_fitness_coach_name {
+    right: auto;
+    left: -77px;
+}
+
+.wsus__blog_details_right {
+    margin-left: 0;
+    margin-right: 55px;
+}
+
+.wsus__blog_details_right form button {
+    right: auto;
+    left: 4px;
+}
+
+.wsus__blog_sidebar_category li a i {
+    margin-right: 0;
+    margin-left: 7px;
+}
+
+.wsus__blog_sidebar_releted_blog li a b {
+    margin-left: 0;
+    margin-right: 15px;
+}
+
+.wsus__blog_details_form .form-check-input[type="checkbox"] {
+    float: right;
+}
+
+.wsus__blog_details_form .form-check label {
+    padding-left: 0;
+    padding-right: 25px;
+}
+
+.wsus__product_summary {
+    margin-left: 0;
+    margin-right: 85px;
+}
+
+.wsus__product_quantity button {
+    text-align: center;
+}
+
+.wsus__buy_cart_button .common_btn {
+    border-left: none;
+    border-right: 1px solid var(--colorBlack);
+}
+
+.wsus__product_summary .wishlist li a i {
+    margin-right: 0;
+    margin-left: 12px;
+}
+
+.wsus__product_quantity {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+.wsus__product_description_text {
+    margin-left: 0;
+    margin-right: 85px;
+}
+
+.wsus__product_additional_info_text {
+    margin-left: 0;
+    margin-right: 85px;
+}
+
+.wsus__trainer_details_text {
+    padding-left: 0;
+    padding-right: 75px;
+}
+
+.wsus__trainer_details::after {
+    right: auto;
+    left: 0;
+    transform: rotateY(180deg);
+}
+
+.wsus__testimonial_2 .wsus__section_heading_2 h2 {
+    text-align: right;
+}
+
+.barfiller .tip {
+    left: 0 !important;
+    right: auto;
+}
+
+.wsus__experience::after {
+    right: auto;
+    left: 0px;
+    transform: rotateY(180deg);
+}
+
+.wsus__faq_accordion_area .wsus__section_heading_3 h2 {
+    text-align: right;
+}
+
+.wsus__faq_accordion .accordion-button::after {
+    right: auto;
+    left: 30px;
+}
+
+.wsus__dashboard_profile_img label {
+    right: auto;
+    left: -10px;
+}
+
+.wsus__dashboard_sidebar_top h5 {
+    text-align: center;
+}
+
+.wsus__dashboard_sidebar_top p {
+    text-align: center;
+}
+
+.wsus__deshboard_menu li a i {
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+.wsus__profile_overview p {
+    text-align: center;
+}
+
+.wsus__profile_overview h4 {
+    text-align: center !important;
+}
+
+.wsus__dashboard_main_contant h4 {
+    text-align: right;
+}
+
+.wsus__dashboard_profile_edit_info .select2-container--default .select2-selection--single .select2-selection__arrow b {
+    right: auto;
+    left: 20px;
+}
+
+.wsus__dashboard_invoice_left h5 {
+    text-align: right;
+}
+
+.wsus__dashboard_invoice_left p {
+    text-align: right;
+}
+
+.wsus__dashboard_invoice_right h5 {
+    text-align: left;
+}
+
+.wsus__dashboard_invoice_right p {
+    text-align: left;
+}
+
+.wsus__privacy_policy_text ol li::after,
+.wsus__privacy_policy_text ul li::after {
+    left: auto;
+    right: 0;
+}
+
+.wsus__privacy_policy_text ol li,
+.wsus__privacy_policy_text ul li {
+    padding-left: 0;
+    padding-right: 15px;
+}
 
 /*================================
     RTL CSS END
+================================*/
+
+
+
+/*================================
+    RTL RESPONSIVE CSS END
+================================*/
+@media (min-width: 1400px) and (max-width: 1699.99px) {
+    .wsus__testimonial_2 .prevArrow {
+        left: 20px;
+    }
+
+    .wsus__testimonial_2 .nextArrow {
+        left: 80px;
+    }
+
+    .wsus__footer_3 {
+        padding-right: 0;
+    }
+
+    .wsus__footer_3_right_link {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .wsus__login_contant {
+        padding: 28px 15px 35px 40px;
+    }
+
+
+}
+
+
+@media (min-width: 1200px) and (max-width: 1399.99px) {
+    .wsus__program_item .text {
+        padding: 30px 50px;
+    }
+
+    .wsus__program_item .text .arrow_button {
+        left: 50px;
+    }
+
+    .wsus__blog .prevArrow {
+        left: 12px;
+    }
+
+    .wsus__blog .nextArrow {
+        left: 70px;
+    }
+
+    .wsus__header_2 .wsus__header_left p {
+        padding-right: 0;
+    }
+
+    .wsus__testimonial_2_area {
+        margin-right: 0;
+    }
+
+    .wsus__testimonial_2 .prevArrow {
+        left: 20px;
+    }
+
+    .wsus__testimonial_2 .nextArrow {
+        left: 80px;
+    }
+
+    .wsus__footer_3 {
+        padding-right: 0;
+    }
+
+    .wsus__footer_3_right_link {
+        padding-left: 20px;
+        padding-right: 40px;
+    }
+
+    .wsus__blog_sidebar_releted_blog li a b {
+        width: 55%;
+    }
+
+    .wsus__login_contant {
+        padding: 28px 15px 35px 40px;
+    }
+
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.99px) {
+    .wsus__blog .prevArrow {
+        left: 12px;
+    }
+
+    .wsus__blog .nextArrow {
+        left: 70px;
+    }
+
+    .wsus__testimonial_2_area {
+        margin-right: 0;
+    }
+
+    .wsus__testimonial_2 .prevArrow {
+        left: 30px;
+    }
+
+    .wsus__testimonial_2 .nextArrow {
+        left: 90px;
+    }
+
+    .wsus__footer_3 {
+        padding-right: 0;
+    }
+
+    .wsus__footer_3_right_link {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .wsus__footer_3 .wsus__footer_manu {
+        padding-right: 0;
+        margin-right: 30px;
+    }
+
+    .wsus__footer_3 .wsus__footer_right {
+        padding-right: 30px;
+        padding-left: 0;
+    }
+
+    .wsus__footer_3 .wsus__footer_left {
+        padding-right: 30px;
+    }
+
+    .wsus__contact_contant {
+        padding: 48px 37px 40px 40px;
+    }
+
+    .wsus__login_contant {
+        padding: 28px 15px 35px 40px;
+    }
+
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+    .navbar-toggler {
+        margin-left: 12px;
+        text-align: center;
+    }
+
+    .main_menu .navbar-brand {
+        padding-right: 12px;
+    }
+
+    .wsus__header_2 .wsus__header_left p {
+        padding-right: 0;
+    }
+
+    .wsus__program_item .text {
+        padding: 30px 55px;
+    }
+
+    .wsus__program_item .text .arrow_button {
+        left: 30px;
+    }
+
+    .wsus__blog .prevArrow {
+        left: 12px;
+    }
+
+    .wsus__blog .nextArrow {
+        left: 70px;
+    }
+
+    .wsus__testimonial_2_area {
+        margin-right: 12px;
+    }
+
+    .wsus__testimonial_2 .prevArrow {
+        left: 20px;
+    }
+
+    .wsus__testimonial_2 .nextArrow {
+        left: 80px;
+    }
+
+    .main_menu_3 .navbar-toggler {
+        margin-left: 20px;
+    }
+
+    .main_menu_3 .navbar-brand {
+        margin-right: 8px;
+    }
+
+    .wsus__join_event_form {
+        padding: 60px 30px;
+    }
+
+    .wsus__testimonial_3_slide_text {
+        padding: 75px 0px 145px 70px;
+    }
+
+    .wsus__footer_3 {
+        padding-right: 0;
+    }
+
+    .wsus__footer_3 .wsus__footer_left {
+        padding-right: 35px;
+        padding-left: 50px;
+    }
+
+    .wsus__footer_3_right_link {
+        padding-right: 35px;
+    }
+
+    .wsus__contact_contant {
+        padding: 48px 37px 40px 40px;
+    }
+
+    .wsus__contact_img {
+        padding: 40px 40px 40px 40px;
+    }
+
+    .wsus__product_summary {
+        margin-right: 0;
+    }
+
+    .wsus__product_description_text {
+        margin-right: 0;
+    }
+
+    .wsus__product_additional_info_text {
+        margin-right: 0;
+    }
+
+    .wsus__trainer_details_text {
+        padding-right: 0;
+    }
+
+    .wsus__login_contant {
+        padding: 88px 100px 92px 100px;
+    }
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767.99px) {
+
+    .navbar-toggler {
+        text-align: center;
+    }
+
+    .wsus__header_right li a {
+        padding-left: 0;
+        border-left: none;
+    }
+
+    .main_menu .wsus__droap_menu {
+        right: 30px;
+    }
+
+    .main_menu .right_menu li .icon {
+        border-left: none;
+    }
+
+    .wsus__blog .prevArrow {
+        left: 10px;
+    }
+
+    .wsus__blog .nextArrow {
+        left: 70px;
+    }
+
+    .wsus__header_2 .wsus__header_left p {
+        padding-right: 0;
+    }
+
+    .navbar-toggler {
+        margin-right: 0;
+        margin-left: 12px;
+    }
+
+    .main_menu .navbar-brand {
+        padding-right: 12px;
+        margin-left: 0;
+    }
+
+    .wsus__testimonial_2_area {
+        margin-right: 0;
+    }
+
+    .wsus__testimonial_2 .prevArrow {
+        left: 20px;
+    }
+
+    .wsus__testimonial_2 .nextArrow {
+        left: 80px;
+    }
+
+    .main_menu_3 .navbar-brand {
+        margin-right: 8px;
+    }
+
+    .main_menu_3 .navbar-toggler {
+        margin-right: 0;
+        margin-left: 20px;
+    }
+
+    .wsus__join_event_form {
+        padding: 50px 20px;
+    }
+
+    .wsus__testimonial_3_slide_text {
+        padding: 30px 30px 140px 30px;
+    }
+
+    .wsus__testimonial_3_slide_img_area {
+        margin-left: auto;
+    }
+
+    .wsus__footer_3 {
+        padding-right: 0;
+    }
+
+    .wsus__footer_3_right_link {
+        padding-left: 0;
+        padding-right: 30px;
+    }
+
+    .wsus__footer_3 .wsus__footer_left {
+        padding-right: 30px;
+    }
+
+    .wsus__contact_img {
+        padding: 20px 20px 20px 20px;
+    }
+
+    .wsus__product_summary {
+        margin-right: 0;
+    }
+
+    .wsus__product_description_text {
+        margin-right: 0;
+    }
+
+    .wsus__product_additional_info_text {
+        margin-right: 0;
+    }
+
+    .wsus__trainer_details_text {
+        padding-right: 0;
+    }
+
+    .wsus__dashboard_invoice_right h5 {
+        text-align: right;
+    }
+
+    .wsus__dashboard_invoice_right p {
+        text-align: right;
+    }
+
+}
+
+
+
+@media (max-width: 575.99px) {
+
+    .wsus__header_right li a {
+        padding-left: 0;
+        border-left: none;
+    }
+
+    .navbar-toggler {
+        margin-right: 0;
+        margin-left: 12px;
+        text-align: center;
+    }
+
+    .main_menu .navbar-brand {
+        padding-left: 0;
+        padding-right: 12px;
+    }
+
+    .main_menu .wsus__droap_menu {
+        left: auto;
+        right: 30px;
+    }
+
+    .main_menu .right_menu li .icon {
+        border-left: none;
+    }
+
+    .wsus__program_item .text {
+        padding: 20px 40px;
+    }
+
+    .wsus__program_item .text .arrow_button {
+        left: 20px;
+        bottom: 20px;
+    }
+
+    .wsus__header_2 .wsus__header_right li:last-child .nice-select {
+        border-right: 0;
+        border-left: none;
+    }
+
+    .wsus__testimonial_2_area {
+        margin-right: 0;
+    }
+
+    .main_menu_3 .navbar-brand {
+        margin-right: 0;
+    }
+
+    .wsus__join_event_form {
+        padding: 50px 20px;
+    }
+
+    .wsus__testimonial_3_slide_text {
+        padding: 75px 0px 100px 20px;
+    }
+
+    .wsus__testimonial_3_slide_img_area {
+        margin-right: 15px;
+    }
+
+    .wsus__footer_3 {
+        padding-right: 0px;
+    }
+
+    .wsus__footer_3 .wsus__footer_left {
+        padding-right: 12px;
+    }
+
+    .wsus__footer_3_right_link {
+        padding-left: 0;
+        padding-right: 12px;
+    }
+
+    .wsus__contact_contant {
+        padding: 20px;
+    }
+
+    .wsus__contact_img {
+        padding: 20px 20px 20px 20px;
+    }
+
+    .wsus__cart_list_bottom_btn {
+        padding: 35px 0px 35px 0px;
+    }
+
+    .wsus__billing_product li .text {
+        margin-right: 20px;
+    }
+
+    .wsus__total_price {
+        padding: 20px;
+    }
+
+    .wsus__billing_summary h5 {
+        padding-left: 0;
+    }
+
+    .wsus__blog_details_right {
+        margin-right: 0;
+    }
+
+    .wsus__product_summary {
+        margin-right: 0;
+    }
+
+    .wsus__product_description_text {
+        margin-right: 0;
+    }
+
+    .wsus__product_additional_info_text {
+        margin-right: 0;
+    }
+
+    .wsus__trainer_details_text {
+        padding-right: 0;
+    }
+
+    .wsus__faq_accordion .accordion-header .accordion-button {
+        text-align: right;
+    }
+
+}
+
+
+/*================================
+    RTL RESPONSIVE CSS END
 ================================*/
