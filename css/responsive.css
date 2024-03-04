@@ -302,6 +302,10 @@
         padding-left: 0;
     }
 
+    .wsus__banner_2_slider_item {
+        height: 900px;
+    }
+
     .programe_2_slider .wsus__programe_2_item {
         margin: 0 12px;
     }
@@ -687,11 +691,11 @@
     }
 
     .wsus__machine_text {
-        padding: 40px 80px 50px 100px;
+        padding: 40px 40px 50px 40px;
     }
 
     .wsus__single_trainer {
-        height: 520px;
+        height: 400px;
     }
 
     .wsus__timetable::after {
@@ -700,7 +704,12 @@
 
     .wsus__timetable_list table tr th,
     .wsus__timetable_list table tr td {
-        min-width: 150px;
+        min-width: 120px;
+        padding: 10px 20px;
+    }
+
+    .wsus__timetable_list table tr td h4 {
+        font-size: 14px;
     }
 
     .wsus__testimonial_content p {
@@ -710,6 +719,22 @@
 
     .wsus__testimonial::after {
         display: none;
+    }
+
+    .wsus__pricing::after {
+        display: none;
+    }
+
+    .wsus__single_pricing h3 {
+        padding: 20px;
+    }
+
+    .wsus__single_pricing .bottom {
+        padding: 20px;
+    }
+
+    .wsus__single_pricing ul {
+        padding: 18px 30px 43px;
     }
 
     .wsus__blog_img {
@@ -728,8 +753,24 @@
         font-size: 28px;
     }
 
-    .wsus__footer_left {
-        margin-bottom: 70px;
+    .wsus__footer_right ul li p,
+    .wsus__footer_right ul li a {
+        color: rgb(168, 168, 188);
+        font-size: 15px;
+    }
+
+    .wsus__footer_manu ul li a {
+        font-size: 15px;
+    }
+
+    .wsus__footer_left p {
+        font-size: 15px;
+    }
+
+    .wsus__footer_manu h4,
+    .wsus__footer_right h4,
+    .wsus__download_link h4 {
+        font-size: 18px;
     }
 
     .wsus__footer_right {
@@ -772,8 +813,9 @@
     }
 
     .wsus__banner_2_slider_text h1 {
-        font-size: 80px;
-        line-height: 80px;
+        font-size: 90px;
+        line-height: 90px;
+        width: 90%;
     }
 
     .wsus__section_heading_2 h2 {
@@ -853,12 +895,17 @@
 
     .wsus__banner_slider_text h1,
     .wsus__banner_slider_text h1 span {
-        font-size: 80px;
-        line-height: 80px;
+        font-size: 110px;
+        line-height: 110px;
+    }
+
+    .wsus__program_3_overly .text .title {
+        font-size: 24px;
+        line-height: 24px;
     }
 
     .wsus__program_3_item {
-        height: 450px;
+        height: 350px;
     }
 
     .wsus__machine_2_img {
@@ -905,26 +952,21 @@
     }
 
     .wsus__footer_3_right_link {
-        padding-left: 0px;
+        padding-left: 30px;
         padding-right: 0px;
     }
 
-    .wsus__footer_3 .wsus__footer_manu {
+    .wsus__footer_3 .wsus__footer_left {
         padding-left: 30px;
-    }
-
-    .wsus__footer_3 .wsus__footer_right {
-        padding-left: 30px;
-        margin-top: 40px;
+        margin-bottom: 40px;
     }
 
     .wsus__footer_3_right {
         padding-top: 0;
     }
 
-    .wsus__download_link {
-        margin-top: 40px;
-        padding-left: 30px;
+    .wsus__download_link ul li a {
+        padding: 14px 15px;
     }
 
     /* footer end */
@@ -1315,9 +1357,7 @@
     }
 
     .right_menu li .wsus__droap_cart {
-        width: 310px;
-        max-height: 250px;
-        left: -5px;
+        display: none;
     }
 
     .wsus__droap_cart_list li .text a,
@@ -1329,12 +1369,12 @@
 
     .wsus__banner_slider_text h1,
     .wsus__banner_slider_text h1 span {
-        font-size: 49px;
-        line-height: 65px;
+        font-size: 90px;
+        line-height: 90px;
     }
 
     .wsus__banner_slider_text p {
-        max-width: 75%;
+        max-width: 80%;
     }
 
     /* program start */
@@ -1401,12 +1441,22 @@
 
     .wsus__timetable_list table tr th,
     .wsus__timetable_list table tr td {
-        min-width: 150px;
+        min-width: 120px;
+        padding: 20px 10px;
+    }
+
+    .wsus__timetable_list table tr td h4 {
+        font-size: 14px;
     }
 
     .wsus__testimonial_content p {
         font-size: 20px;
         line-height: 28px;
+    }
+
+    .wsus__testimonial_area {
+        padding-left: 70px;
+        padding-right: 70px;
     }
 
     .wsus__testimonial::after {
@@ -1430,12 +1480,19 @@
         right: 70px;
     }
 
+    .title {
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+
     .wsus__social_media ul li a {
         font-size: 28px;
     }
 
     .wsus__footer_left {
-        margin-bottom: 50px;
+        margin-bottom: 17px;
     }
 
     .wsus__footer_right {
@@ -1513,7 +1570,7 @@
     }
 
     .wsus__banner_2_slider_item {
-        height: 700px;
+        height: 800px;
     }
 
     /* banner end */
@@ -1652,8 +1709,8 @@
     /* banner start */
 
     .wsus__banner_3_slider .wsus__banner_slider_text h1 {
-        font-size: 50px;
-        line-height: 50px;
+        font-size: 70px;
+        line-height: 70px;
     }
 
     .wsus__banner_3_slider .wsus__banner_slider_text {
@@ -1667,7 +1724,7 @@
     }
 
     .wsus__banner_3_slider div {
-        height: auto;
+        height: 800px;
     }
 
     /* banner end */
@@ -2221,7 +2278,7 @@
     .main_menu .wsus__droap_menu {
         left: 30px;
         z-index: 1;
-        max-height: 300px;
+        max-height: 250px;
     }
 
     .main_menu .right_menu li .icon {
@@ -2233,9 +2290,7 @@
     }
 
     .right_menu li .wsus__droap_cart {
-        width: 310px;
-        max-height: 250px;
-        left: -5px;
+        display: none;
     }
 
     .wsus__droap_cart_list li .text a,
@@ -2267,7 +2322,7 @@
     }
 
     .wsus__banner_slider_text p {
-        max-width: 60%;
+        max-width: 80%;
     }
 
     .wsus__banner_slider .slick-dots {
@@ -2349,7 +2404,12 @@
 
     .wsus__timetable_list table tr th,
     .wsus__timetable_list table tr td {
-        min-width: 150px;
+        min-width: 120px;
+        padding: 10px;
+    }
+
+    .wsus__timetable_list table tr td h4 {
+        font-size: 14px;
     }
 
     .wsus__timetable_menu .nav {
@@ -2373,6 +2433,11 @@
 
     .wsus__testimonial::after {
         display: none;
+    }
+
+    .wsus__testimonial_area {
+        padding-left: 50px;
+        padding-right: 50px;
     }
 
     .wsus__testimonial_content p {
@@ -2402,6 +2467,13 @@
         height: 275px;
     }
 
+    .title {
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+
     /* blog end */
 
 
@@ -2421,12 +2493,8 @@
         display: none;
     }
 
-    .wsus__footer_manu {
-        margin-top: 40px;
-    }
-
-    .wsus__footer_right {
-        margin-top: 30px;
+    .wsus__footer_left {
+        margin-bottom: 40px;
     }
 
     .progress-wrap {
@@ -2507,16 +2575,16 @@
     /* banner start */
 
     .wsus__banner_2_slider_text h1 {
-        font-size: 50px;
-        line-height: 50px;
+        font-size: 70px;
+        line-height: 70px;
     }
 
     .wsus__banner_2_slider_text {
-        padding: 280px 12px 120px;
+        padding: 240px 12px 120px;
     }
 
     .wsus__banner_2_slider_item {
-        height: 600px;
+        height: 700px;
     }
 
     /* banner end */
@@ -2636,8 +2704,8 @@
 
     .wsus__banner_slider_text h1,
     .wsus__banner_slider_text h1 span {
-        font-size: 49px;
-        line-height: 65px;
+        font-size: 70px;
+        line-height: 70px;
     }
 
     /* main menu start */
@@ -2674,8 +2742,8 @@
     /* banner start */
 
     .wsus__banner_3_slider .wsus__banner_slider_text h1 {
-        font-size: 50px;
-        line-height: 50px;
+        font-size: 70px;
+        line-height: 70px;
     }
 
     .wsus__banner_3_slider .wsus__banner_slider_text {
@@ -2795,6 +2863,7 @@
 
     .wsus__footer_3 .wsus__footer_manu {
         padding-left: 30px;
+        margin-bottom: 40px;
     }
 
     .wsus__footer_3 .wsus__footer_right {
@@ -2802,7 +2871,7 @@
     }
 
     .wsus__footer_3_right {
-        padding-top: 30px;
+        padding-top: 0;
     }
 
     .wsus__download_link {
@@ -3314,7 +3383,7 @@
     .main_menu .wsus__droap_menu {
         left: 30px;
         z-index: 1;
-        max-height: 300px;
+        max-height: 250px;
     }
 
     .main_menu .navbar-nav .nav-item .nav-link {
@@ -3336,8 +3405,7 @@
     }
 
     .right_menu li .wsus__droap_cart {
-        width: 310px;
-        max-height: 250px;
+        display: none;
     }
 
     .wsus__droap_cart_list li .text a,
@@ -3389,8 +3457,8 @@
 
     .wsus__program_item .text .title {
         max-width: 85%;
-        font-size: 20px;
-        line-height: 20px;
+        font-size: 18px;
+        line-height: 18px;
     }
 
     .wsus__program_item .text {
@@ -3456,7 +3524,12 @@
 
     .wsus__timetable_list table tr th,
     .wsus__timetable_list table tr td {
-        min-width: 150px;
+        min-width: 120px;
+        padding: 20px 10px;
+    }
+
+    .wsus__timetable_list table tr td h4 {
+        font-size: 13px;
     }
 
     .wsus__timetable_menu .nav {
@@ -3501,7 +3574,7 @@
     }
 
     .wsus__testimonial_content p {
-        font-size: 20px;
+        font-size: 16px;
         line-height: initial;
         padding: 0px 20px;
     }
@@ -3530,8 +3603,11 @@
     }
 
     .title {
-        font-size: 20px;
+        font-size: 18px;
         line-height: 28px;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
     }
 
     /* blog end */
@@ -3553,12 +3629,12 @@
         display: none;
     }
 
-    .wsus__footer_manu {
-        margin-top: 40px;
+    .wsus__footer_left {
+        margin-bottom: 40px;
     }
 
-    .wsus__footer_right {
-        margin-top: 30px;
+    .wsus__footer_manu {
+        margin-bottom: 40px;
     }
 
     .progress-wrap {
