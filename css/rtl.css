@@ -1259,7 +1259,11 @@
     }
 
     .wsus__testimonial_3_slide_text {
-        padding: 30px 30px 140px 30px;
+        padding: 30px 0px 140px 30px;
+    }
+
+    .wsus__testimonial_3_slide_text_border {
+        border-left: none;
     }
 
     .wsus__testimonial_3_slide_img_area {
@@ -1432,6 +1436,11 @@
     .wsus__faq_accordion .accordion-header .accordion-button {
         text-align: right;
     }
+
+    .wsus__testimonial_3_slide_text_border {
+        border-left: none;
+    }
+
 
 }
 

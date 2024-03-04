@@ -1189,6 +1189,10 @@
         display: none;
     }
 
+    .details_class_time_img {
+        height: 515px;
+    }
+
     /*============================
         TRAINER DETAILS END
     ============================*/
@@ -2739,8 +2743,16 @@
         margin-right: 0px;
     }
 
+    .wsus__testimonial_3_slide_text_border {
+        border-right: none;
+    }
+
+    .wsus__testimonial_3_slide_img_area {
+        padding-bottom: 30px;
+    }
+
     .wsus__testimonial_3_slide_text {
-        padding: 35px 30px 140px 0px;
+        padding: 35px 30px 120px 0px;
     }
 
 
@@ -3722,7 +3734,7 @@
     /* blog start */
 
     .wsus__blog_2_img {
-        height: 365px;
+        height: auto;
     }
 
     /* blog end */
@@ -3845,13 +3857,18 @@
         margin-right: 0px;
     }
 
+    .wsus__testimonial_3_slide_text_border {
+        border-right: none;
+    }
+
     .wsus__testimonial_3_slide_text {
-        padding: 35px 30px 140px 0px;
+        padding: 35px 10px 40px 10px;
     }
 
     .wsus__testimonial_3_slide_img_area {
         margin-top: 0px;
         margin-left: 18px;
+        padding-bottom: 25px;
     }
 
     /* testimonial end */
@@ -4468,6 +4485,10 @@
 
     .wsus__faq_accordion_area {
         margin-bottom: 60px;
+    }
+
+    .wsus__faq_accordion .accordion-header .accordion-button {
+        padding-right: 60px;
     }
 
     /*============================
