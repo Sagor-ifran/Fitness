@@ -111,14 +111,12 @@ $(function () {
             {
                 breakpoint: 768,
                 settings: {
-                    slidesToShow: 2,
                     arrows: false,
                 }
             },
             {
                 breakpoint: 576,
                 settings: {
-                    slidesToShow: 1,
                     arrows: false,
                 }
             }
@@ -220,9 +218,15 @@ $(function () {
 
         responsive: [
             {
-                breakpoint: 1200,
+                breakpoint: 1400,
                 settings: {
                     slidesToShow: 4,
+                }
+            },
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 3,
                 }
             },
             {
@@ -298,9 +302,15 @@ $(function () {
 
         responsive: [
             {
+                breakpoint: 1400,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
                 breakpoint: 1200,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 2,
                 }
             },
             {
@@ -362,13 +372,13 @@ $(function () {
             {
                 breakpoint: 1200,
                 settings: {
-                    slidesToShow: 4,
+                    slidesToShow: 3,
                 }
             },
             {
                 breakpoint: 992,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 2,
                 }
             },
             {
@@ -478,6 +488,12 @@ $(function () {
 
         responsive: [
             {
+                breakpoint: 1600,
+                settings: {
+                    slidesToShow: 4,
+                }
+            },
+            {
                 breakpoint: 1200,
                 settings: {
                     slidesToShow: 4,
@@ -505,7 +521,7 @@ $(function () {
     });
 
 
-    //program slider
+    //gallery 2 slider
     $('.gallery_slider_2').slick({
         slidesToShow: 4,
         slidesToScroll: 1,

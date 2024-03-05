@@ -3183,7 +3183,8 @@ header {
     text-transform: uppercase;
 }
 
-.wsus__modal_text .wishlist li a i {
+.wsus__modal_text .wishlist li a span {
+    display: inline-block;
     width: 46px;
     height: 46px;
     line-height: 46px;
@@ -3204,7 +3205,7 @@ header {
     -o-border-radius: 50%;
 }
 
-.wsus__modal_text .wishlist li a:hover i {
+.wsus__modal_text .wishlist li a:hover span {
     background: var(--colorPrimary);
 }
 
@@ -3238,6 +3239,7 @@ header {
 
 .wsus__testimonial_2 .wsus__section_heading_2 h2 {
     text-align: left;
+    width: 90%;
 }
 
 .wsus__testimonial_2_area {
