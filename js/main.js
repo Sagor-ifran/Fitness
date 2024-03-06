@@ -588,6 +588,16 @@ $(function () {
         asNavFor: '.slider-navFive',
         nextArrow: '<i class="fal fa-angle-right nextArrow"></i>',
         prevArrow: '<i class="fal fa-angle-left prevArrow"></i>',
+
+        responsive: [
+            {
+                breakpoint: 576,
+                settings: {
+                    arrows: false,
+                }
+            }
+        ]
+
     });
 
 

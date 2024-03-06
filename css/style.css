@@ -4768,9 +4768,7 @@ header {
 
 .wsus__details_class_bg {
     background: var(--colorWhite);
-    filter: drop-shadow(rgba(23, 23, 24, 0.06) 0px 20px 40px);
     padding: 15px;
-    -webkit-filter: drop-shadow(rgba(23, 23, 24, 0.06) 0px 20px 40px);
 }
 
 .details_class_time_text h3 {
@@ -5046,7 +5044,8 @@ header {
     text-transform: uppercase;
 }
 
-.wsus__product_summary .wishlist li a i {
+.wsus__product_summary .wishlist li a span {
+    display: inline-block;
     width: 46px;
     height: 46px;
     line-height: 46px;
@@ -5067,7 +5066,7 @@ header {
     -o-border-radius: 50%;
 }
 
-.wsus__product_summary .wishlist li a:hover i {
+.wsus__product_summary .wishlist li a:hover span {
     background: var(--colorPrimary);
 }
 
@@ -7304,6 +7303,7 @@ header {
     margin-top: 18px;
     text-transform: capitalize;
     color: var(--colorBlack);
+    font-size: 16px;
 }
 
 .wsus__profile_info ul li span {

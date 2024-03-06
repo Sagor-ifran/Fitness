@@ -716,13 +716,21 @@
     /*============================
         PRODUCT DETAILS START
     ============================*/
+    .wsus__product_details_slide_show_img {
+        height: 475px;
+    }
+
+    .wsus__product_details .nextArrow,
+    .wsus__product_details .prevArrow {
+        top: 502px;
+    }
 
     .wsus__product_description_img {
         height: 360px;
     }
 
     .wsus__product_additional_info_img {
-        height: 360px;
+        height: 450px;
     }
 
     /*============================
@@ -745,6 +753,10 @@
 
     .wsus__join_event_right a {
         margin-top: 60px;
+    }
+
+    .wsus__program_trainer_details .wsus__single_trainer {
+        height: 500px;
     }
 
     /*============================
@@ -1393,7 +1405,7 @@
     ============================*/
 
     .wsus__product_details_slide_show_img {
-        height: 525px;
+        height: 480px;
     }
 
     .wsus__product_description_img {
@@ -1402,6 +1414,15 @@
 
     .wsus__product_additional_info_img {
         height: 380px;
+    }
+
+    .wsus__product_summary {
+        margin-left: 30px;
+    }
+
+    .wsus__product_details .nextArrow,
+    .wsus__product_details .prevArrow {
+        top: 508px;
     }
 
     /*============================
@@ -1413,12 +1434,6 @@
     /*============================
         PROGRAM DETAILS START
     ============================*/
-
-    .wsus__trainer_details_text {
-        padding-left: 0;
-        margin-top: 60px;
-    }
-
     .wsus__trainer_details::after {
         display: none;
     }
@@ -1429,6 +1444,18 @@
 
     .wsus__service_details_text {
         margin-bottom: 60px;
+    }
+
+    .wsus__trainer_details_text h2 {
+        font-size: 40px;
+    }
+
+    .wsus__trainer_details_text ul li {
+        width: 100%;
+    }
+
+    .wsus__program_trainer_details .wsus__single_trainer {
+        height: 510px;
     }
 
     /*============================
@@ -2446,6 +2473,10 @@
 
     .wsus__join_event_right a {
         margin-top: 60px;
+    }
+
+    .wsus__trainer_details_text h2 {
+        font-size: 40px;
     }
 
     /*============================
@@ -4958,6 +4989,9 @@
     /*============================
         PRODUCT DETAILS START
     ============================*/
+    .wsus__product_details_slider {
+        margin: 0px 15px;
+    }
 
     .wsus__product_details_slide_show_img {
         height: auto;
@@ -5113,6 +5147,15 @@
         padding-right: 60px;
     }
 
+    .wsus__faq_accordion .accordion-header .accordion-button {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .wsus__faq_accordion .accordion-body {
+        line-height: 24px;
+    }
+
     /*============================
         FAQ'S END
     ============================*/
@@ -5181,6 +5224,23 @@
 
     .wsus__profile_info .common_btn {
         margin-top: 30px;
+    }
+
+    .wsus__dashboard_main_contant h4 {
+        font-size: 24px;
+    }
+
+    .wsus__profile_info ul li {
+        font-size: 15px;
+    }
+
+    .wsus__profile_info ul li span {
+        width: 80px;
+        font-size: 15px;
+    }
+
+    .wsus__profile_info ul {
+        margin-top: 15px;
     }
 
     /* profile end */
