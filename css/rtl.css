@@ -81,7 +81,7 @@
 
 .wsus__menu_offconvas .btn-close {
     right: auto;
-    left: 0;
+    left: 20px;
 }
 
 .main_menu .wsus__droap_menu li a::after {
@@ -121,6 +121,29 @@
 .wsus__program_item .text .arrow_button {
     right: auto;
     left: 74px;
+}
+
+.wsus__program_item {
+    padding-right: 0;
+    margin-top: 25px;
+    border-left: 1px solid rgba(23, 23, 24, 0.14);
+    border-right: none;
+    padding-left: 24px;
+}
+
+.wsus__program_area {
+    padding-left: 0px !important;
+    padding-right: 24px;
+}
+
+.wsus__programs_page .wsus__program_area {
+    padding-right: 0;
+}
+
+.wsus__programs_page .wsus__program_item {
+    border-left: 0;
+    border-right: 0;
+    padding-left: 0;
 }
 
 .arrow_button i {
@@ -385,7 +408,7 @@
     text-align: center;
 }
 
-.wsus__modal_text .wishlist li a i {
+.wsus__modal_text .wishlist li a span {
     margin-right: 0;
     margin-left: 12px;
 }
@@ -559,7 +582,7 @@
 }
 
 .wsus__contact_contant {
-    padding: 68px 80px 70px 57px;
+    padding: 50px 57px 50px 57px;
 }
 
 .wsus__contact_img {
@@ -660,6 +683,13 @@
 .wsus__billing_summary h5 {
     padding-right: 0;
     padding-left: 40px;
+}
+
+.wsus__cart_list_pricing h6,
+.wsus__cart_list_pricing h5,
+.wsus__cart_list_pricing p {
+    margin-right: 5px;
+    margin-left: 0;
 }
 
 .modal_payment_popup .modal_closs_btn {
@@ -827,7 +857,7 @@
     border-right: 1px solid var(--colorBlack);
 }
 
-.wsus__product_summary .wishlist li a i {
+.wsus__product_summary .wishlist li a span {
     margin-right: 0;
     margin-left: 12px;
 }
@@ -871,6 +901,10 @@
     right: auto;
     left: 0px;
     transform: rotateY(180deg);
+}
+
+.wsus__login_contant {
+    padding: 88px 76px 92px 100px;
 }
 
 .wsus__faq_accordion_area .wsus__section_heading_3 h2 {
@@ -945,6 +979,11 @@
     padding-right: 15px;
 }
 
+.wsus__dashboard_invoice .common_btn_2 i {
+    margin-left: 10px !important;
+    margin-right: 0px !important;
+}
+
 /*================================
     RTL CSS END
 ================================*/
@@ -954,7 +993,7 @@
 /*================================
     RTL RESPONSIVE CSS END
 ================================*/
-@media (min-width: 1400px) and (max-width: 1699.99px) {
+@media (min-width: 1400px) and (max-width: 1600px) {
     .wsus__testimonial_2 .prevArrow {
         left: 20px;
     }
@@ -974,6 +1013,24 @@
 
     .wsus__login_contant {
         padding: 28px 15px 35px 40px;
+    }
+
+    .wsus__blog .prevArrow {
+        left: 12px;
+    }
+
+    .wsus__blog .nextArrow {
+        left: 70px;
+    }
+
+    .right_menu li .wsus__droap_cart {
+        left: -123px;
+        right: auto;
+    }
+
+    .wsus__testimonial_2_area {
+        margin-left: 0px;
+        margin-right: 57px;
     }
 
 
@@ -1017,9 +1074,13 @@
         padding-right: 0;
     }
 
+    .wsus__footer_manu {
+        margin-left: 0;
+    }
+
     .wsus__footer_3_right_link {
-        padding-left: 20px;
-        padding-right: 40px;
+        padding-left: 0;
+        padding-right: 20px;
     }
 
     .wsus__blog_sidebar_releted_blog li a b {
@@ -1028,6 +1089,29 @@
 
     .wsus__login_contant {
         padding: 28px 15px 35px 40px;
+    }
+
+    .right_menu li .wsus__droap_cart {
+        left: -113px;
+        right: auto;
+    }
+
+    .wsus__testimonial_2_area {
+        margin-left: 0px;
+        margin-right: 46px;
+    }
+
+    .main_menu_3 .right_menu li .wsus__droap_cart {
+        left: -123px;
+    }
+
+    .wsus__program_4_overly .text {
+        padding-right: 0;
+        padding-left: 40px;
+    }
+
+    .wsus__program_item .text {
+        padding: 30px 35px;
     }
 
 
@@ -1064,17 +1148,11 @@
         padding-right: 0;
     }
 
-    .wsus__footer_3 .wsus__footer_manu {
-        padding-right: 0;
-        margin-right: 30px;
-    }
-
-    .wsus__footer_3 .wsus__footer_right {
-        padding-right: 30px;
-        padding-left: 0;
-    }
-
     .wsus__footer_3 .wsus__footer_left {
+        padding-right: 30px;
+    }
+
+    .wsus__footer_3_right_link {
         padding-right: 30px;
     }
 
@@ -1086,6 +1164,47 @@
         padding: 28px 15px 35px 40px;
     }
 
+    .right_menu li .wsus__droap_cart {
+        left: -100px;
+        right: auto;
+    }
+
+    .wsus__testimonial_2_area {
+        margin-left: 0px;
+        margin-right: 30px;
+    }
+
+    .main_menu_3 .right_menu li .wsus__droap_cart {
+        left: -110px;
+    }
+
+    .wsus__program_4_overly .text {
+        padding-right: 0;
+        padding-left: 40px;
+    }
+
+    .wsus__join_event_form {
+        padding: 40px 40px 40px 20px;
+    }
+
+    .wsus__blog_3_overly .text {
+        left: auto;
+        right: 30px;
+        padding-right: 0;
+        padding-left: 40px;
+    }
+
+    .wsus__blog_3_item p {
+        right: 30px;
+    }
+
+    .wsus__product_summary {
+        margin-right: 30px;
+    }
+
+    .wsus__programs_page .wsus__program_item .text {
+        padding: 50px 50px;
+    }
 
 }
 
@@ -1098,18 +1217,11 @@
 
     .main_menu .navbar-brand {
         padding-right: 12px;
+        padding-left: 0;
     }
 
     .wsus__header_2 .wsus__header_left p {
         padding-right: 0;
-    }
-
-    .wsus__program_item .text {
-        padding: 30px 55px;
-    }
-
-    .wsus__program_item .text .arrow_button {
-        left: 30px;
     }
 
     .wsus__blog .prevArrow {
@@ -1189,6 +1301,30 @@
         padding: 88px 100px 92px 100px;
     }
 
+    .wsus__pricing::after {
+        right: auto;
+        left: 0;
+        transform: rotateY(180deg);
+    }
+
+    .wsus__program_4_overly .text {
+        padding-right: 0;
+        padding-left: 40px;
+    }
+
+    .main_menu_3 .navbar-brand {
+        padding-left: 0;
+    }
+
+    .wsus__cart_list .pro_img {
+        padding-left: 50px !important;
+    }
+
+
+    .wsus__programs_page .wsus__program_item .text {
+        padding: 30px 35px;
+    }
+
 }
 
 
@@ -1230,7 +1366,7 @@
 
     .main_menu .navbar-brand {
         padding-right: 12px;
-        margin-left: 0;
+        padding-left: 0;
     }
 
     .wsus__testimonial_2_area {
@@ -1311,6 +1447,57 @@
         text-align: right;
     }
 
+    .wsus__testimonial_2_item {
+        margin-left: 0px;
+        margin-right: 46px;
+    }
+
+    .main_menu_3 .navbar-brand {
+        padding-left: 0;
+    }
+
+    .wsus__program_3_overly .text {
+        left: auto;
+        padding-right: 0;
+        right: 40px;
+        padding-left: 40px;
+    }
+
+    .wsus__program_4_overly .text {
+        padding-right: 0;
+        padding-left: 30px;
+    }
+
+    .wsus__blog_3_overly .text {
+        bottom: 30px;
+        left: auto;
+        right: 30px;
+        padding-left: 40px;
+        padding-right: 0;
+    }
+
+    .wsus__blog_3_item p {
+        right: 30px;
+    }
+
+    .wsus__contact_contant {
+        padding: 48px 37px 40px 40px;
+    }
+
+    .wsus__cart_list .pro_img {
+        padding-left: 60px !important;
+    }
+
+    .wsus__login_contant {
+        padding: 22px 30px 25px 30px;
+    }
+
+
+    .wsus__programs_page .wsus__program_item .text {
+        padding: 50px 50px;
+    }
+
+
 }
 
 
@@ -1342,13 +1529,9 @@
         border-left: none;
     }
 
-    .wsus__program_item .text {
-        padding: 20px 40px;
-    }
-
     .wsus__program_item .text .arrow_button {
-        left: 20px;
-        bottom: 20px;
+        left: 40px;
+        bottom: 15px;
     }
 
     .wsus__header_2 .wsus__header_right li:last-child .nice-select {
@@ -1439,6 +1622,46 @@
 
     .wsus__testimonial_3_slide_text_border {
         border-left: none;
+    }
+
+    .wsus__modal_text {
+        margin-right: 0;
+    }
+
+    .main_menu_2.menu_fix .navbar-brand {
+        padding: 0px 12px 0px 0px;
+    }
+
+    .wsus__testimonial_2_item {
+        margin: 0px 25px 0px 0px;
+    }
+
+    .wsus__program_4_overly .text {
+        padding-left: 40px;
+        padding-right: 0px;
+    }
+
+    .wsus__blog_3_overly .text {
+        left: auto;
+        right: 30px;
+        padding-left: 40px;
+        padding-right: 0;
+    }
+
+    .wsus__blog_3_item p {
+        right: 30px;
+    }
+
+    .wsus__cart_list .pro_img {
+        padding-left: 50px !important;
+    }
+
+    .wsus__program_item .text {
+        padding: 15px 20px;
+    }
+
+    .wsus__programs_page .wsus__login_contant {
+        padding: 18px 30px 25px 30px;
     }
 
 

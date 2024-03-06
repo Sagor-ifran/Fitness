@@ -5962,11 +5962,7 @@ header {
     line-height: 16px;
     margin-top: 10px;
     color: var(--paraColor);
-    border-bottom: 1px solid transparent;
-}
-
-.wsus__contact_item a:hover {
-    border-color: var(--paraColor);
+    display: block;
 }
 
 .wsus__contact_img {

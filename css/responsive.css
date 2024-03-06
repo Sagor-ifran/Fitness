@@ -593,7 +593,7 @@
     }
 
     .wsus__contact_contant {
-        padding: 48px 0px 20px 40px;
+        padding: 48px 40px 0px 40px;
     }
 
     .wsus__contact_item {
@@ -601,7 +601,7 @@
     }
 
     .wsus__contact_img {
-        padding: 40px;
+        display: none;
     }
 
     .wsus__contact_map {
@@ -1293,7 +1293,7 @@
     }
 
     .wsus__contact_img {
-        padding: 40px;
+        display: none;
     }
 
     .wsus__contact_map {
@@ -2266,7 +2266,7 @@
     }
 
     .wsus__contact_img {
-        padding: 40px;
+        display: none;
     }
 
     .wsus__contact_map {
@@ -2275,14 +2275,6 @@
 
     .wsus__contact_item h6 {
         margin-top: 20px;
-    }
-
-    .wsus__contact_item a {
-        font-size: 15px;
-    }
-
-    .wsus__contact_item p {
-        font-size: 15px;
     }
 
     /*============================
@@ -3434,7 +3426,7 @@
     }
 
     .wsus__contact_img {
-        padding: 40px;
+        display: none;
     }
 
     .wsus__contact_map {
@@ -4703,7 +4695,7 @@
     }
 
     .wsus__contact_img {
-        padding: 20px 20px 20px 20px;
+        display: none;
     }
 
     .wsus__contact_map {
