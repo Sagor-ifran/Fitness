@@ -509,7 +509,7 @@ header {
     background: var(--colorBlue);
     top: 0px;
     left: 0px;
-    z-index: 999;
+    z-index: 99;
 }
 
 .wsus__header_left {
@@ -622,7 +622,7 @@ header {
     height: 70px;
     background: rgba(255, 255, 255, 0.06);
     backdrop-filter: blur(65px);
-    z-index: 999;
+    z-index: 9;
     transition: all 0.3s linear 0s;
     -webkit-transition: all 0.3s linear 0s;
     -moz-transition: all 0.3s linear 0s;
