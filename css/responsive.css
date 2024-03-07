@@ -1320,18 +1320,6 @@
     ============================*/
 
 
-
-    /*============================
-        PAYMENT START
-    ============================*/
-
-
-    /*============================
-        PAYMENT END
-    ============================*/
-
-
-
     /*============================
         TRAINER START
     ============================*/
@@ -1387,7 +1375,10 @@
 
     .wsus__blog_details_right {
         margin-left: 0;
-        margin-top: 60px;
+    }
+
+    .wsus__blog_details_left {
+        margin-bottom: 60px;
     }
 
     .wsus__blog_fitness_coach {
@@ -2400,7 +2391,14 @@
 
     .wsus__blog_details_right {
         margin-left: 0;
-        margin-top: 60px;
+    }
+
+    .wsus__blog_details_left {
+        margin-bottom: 60px;
+    }
+
+    .wsus__blog_sidebar_releted_blog li a b {
+        width: 50%;
     }
 
     /*============================
@@ -3548,17 +3546,24 @@
     }
 
     .wsus__blog_single_comment .text {
-        width: 77%;
+        width: 100%;
         margin-top: 10px;
     }
 
     .wsus__blog_details_right {
         margin-left: 0;
-        margin-top: 60px;
+    }
+
+    .wsus__blog_details_left {
+        margin-bottom: 60px;
     }
 
     .wsus__blog_fitness_coach {
         height: 580px;
+    }
+
+    .wsus__blog_details_queto {
+        padding: 53px 65px;
     }
 
     /*============================
@@ -4839,18 +4844,6 @@
 
 
     /*============================
-        PRODUCT START
-    ============================*/
-
-
-
-    /*============================
-        PRODUCT END
-    ============================*/
-
-
-
-    /*============================
         PROGRAMS START
     ============================*/
 
@@ -4940,7 +4933,7 @@
     }
 
     .wsus__blog_single_comment .text {
-        width: 66%;
+        width: 100%;
     }
 
     .wsus__blog_single_comment .text p {
@@ -4957,7 +4950,19 @@
 
     .wsus__blog_details_right {
         margin-left: 0;
-        margin-top: 60px;
+    }
+
+    .wsus__blog_details_left {
+        margin-bottom: 60px;
+    }
+
+    .wsus__blog_sidebar_wizard {
+        padding: 15px 20px 15px;
+    }
+
+    .wsus__blog_details_tag li a {
+        font-size: 14px;
+        padding: 2px 10px 3px;
     }
 
     .wsus__blog_fitness_coach {
@@ -5259,14 +5264,3 @@
     ============================*/
 
 }
-
-
-
-/*============================
-    PROFILE START
-============================*/
-
-
-/*============================
-    PROFILE END
-============================*/

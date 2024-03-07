@@ -622,7 +622,7 @@ header {
     height: 70px;
     background: rgba(255, 255, 255, 0.06);
     backdrop-filter: blur(65px);
-    z-index: 99;
+    z-index: 999;
     transition: all 0.3s linear 0s;
     -webkit-transition: all 0.3s linear 0s;
     -moz-transition: all 0.3s linear 0s;
@@ -1049,7 +1049,7 @@ header {
 .main_menu.menu_fix {
     background: var(--colorBlack);
     top: 0px;
-    z-index: 9999;
+    z-index: 999;
 }
 
 .navbar-toggler {

@@ -654,6 +654,10 @@ $(function () {
     });
 
 
+    // Cursore pointer
+    init_pointer({});
+
+
     //WOW js
     new WOW().init();
 

@@ -1,0 +1,37 @@
+#pointer-dot {
+    left: -6px;
+    top: -6px;
+    width: 0;
+    height: 0;
+    border: 7px solid var(--colorPrimary) !important;
+    position: fixed;
+    border-radius: 7px;
+    z-index: 999999;
+    pointer-events: none;
+    transition: border-color 0.5s;
+    -webkit-transition: border-color 0.5s;
+    -moz-transition: border-color 0.5s;
+    -ms-transition: border-color 0.5s;
+    -o-transition: border-color 0.5s;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+#pointer-ring {
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    padding: 15px;
+    border: 1px solid var(--colorBlack) !important;
+    position: fixed;
+    border-radius: 100px;
+    z-index: 999999;
+    pointer-events: none;
+}
+
+html {
+    cursor: none !important;
+}
