@@ -1649,7 +1649,7 @@ header {
 }
 
 .wsus__single_trainer .text {
-    background: var(--colorBlack);
+    background: var(--colorWhite);
     position: absolute;
     bottom: 10px;
     left: 10%;
@@ -1665,14 +1665,10 @@ header {
 }
 
 .wsus__single_trainer .text .title {
-    color: var(--colorWhite);
+    color: var(--colorBlack);
     text-align: center;
     font-size: 20px;
     font-weight: 600;
-}
-
-.wsus__single_trainer .text .title:hover {
-    color: var(--colorPrimary);
 }
 
 .wsus__single_trainer .text p {
@@ -1702,8 +1698,8 @@ header {
     height: 45px;
     line-height: 45px;
     text-align: center;
-    background: var(--colorBlack);
-    color: var(--colorWhite);
+    background: var(--colorWhite);
+    color: var(--colorBlack);
     font-size: 14px;
     transition: all 0.3s linear 0s;
     -webkit-transition: all 0.3s linear 0s;
@@ -1713,7 +1709,8 @@ header {
 }
 
 .wsus__single_trainer ul li a:hover {
-    color: var(--colorPrimary);
+    color: var(--colorBlack);
+    background: var(--colorPrimary);
 }
 
 .wsus__single_trainer::after {
@@ -1881,7 +1878,150 @@ header {
 /* time table end */
 
 
+
+/* video start */
+
+.wsus__video {
+    position: relative;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+.wsus__video::after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0px;
+    height: 665px;
+    width: 1000px;
+    background: url(../images/video_shape.png);
+}
+
+.wsus__video_area_btn .play_btn {
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    font-size: 24px;
+    background: var(--colorPrimary);
+    position: relative;
+    z-index: 1;
+}
+
+.wsus__video_area_btn .play_btn::after {
+    background: var(--colorPrimary);
+}
+
+.wsus__video .wsus__section_headeing h2 {
+    font-size: 100px;
+    line-height: 100px;
+    color: var(--colorWhite);
+    position: relative;
+    z-index: 1;
+}
+
+/* video end */
+
+
+/* brand start */
+
+.wsus__branding {
+    padding: 65px 0px 65px 0px;
+    background: var(--colorWhite);
+    box-shadow: 0px 10px 10px 0px rgba(23, 23, 24, 0.08);
+}
+
+.wsus__branding_img {
+    margin: 0 12px;
+    display: block;
+}
+
+.wsus__branding_img .img {
+    width: 90px;
+    height: 90px;
+    margin: 0 auto;
+}
+
+.wsus__branding .nextArrow,
+.wsus__branding .prevArrow {
+    top: 23px;
+}
+
+.wsus__branding .nextArrow {
+    right: -40px;
+}
+
+.wsus__branding .prevArrow {
+    border: 1px solid #EFF0F3;
+    background: transparent;
+    box-shadow: none;
+    left: -40px;
+}
+
+.wsus__branding .prevArrow:hover {
+    background: var(--colorPrimary);
+    border-color: var(--colorPrimary);
+}
+
+/* brand end */
+
+
 /* pricing start */
+
+.wsus__pricing_nav {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.wsus__pricing_nav ul {
+    width: 60px;
+    height: 24px;
+    gap: 10px;
+    position: relative;
+    background: var(--colorWhite);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(23, 23, 24, 0.30);
+}
+
+.wsus__pricing_nav ul li button {
+    width: 20px;
+    height: 16px;
+    padding: 0;
+    background: transparent;
+}
+
+.nav-pills .nav-link {
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: var(--colorBlack);
+}
+
+.wsus__pricing_nav ul li button span {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 0px;
+    position: absolute;
+    top: -2px;
+    left: -78px;
+    transition: all 0.3s linear 0s;
+    color: var(--paraColor) !important;
+    background: none !important;
+}
+
+.wsus__pricing_nav ul li:last-child button span {
+    left: auto;
+    right: -62px;
+}
 
 .wsus__pricing {
     position: relative;
@@ -2338,6 +2478,40 @@ header {
 
 .wsus__footer_right ul li a:hover {
     color: var(--colorWhite);
+}
+
+
+
+.wsus__footer_right ul li form {
+    margin-top: 50px;
+    position: relative;
+}
+
+.wsus__footer_right ul li form input {
+    background: transparent;
+    color: var(--colorWhite);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+
+.wsus__footer_right ul li form button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    color: var(--colorBlack);
+    background: var(--colorPrimary);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.wsus__footer_right ul li form button:hover {
+    background: var(--colorWhite);
 }
 
 .wsus__copy_right {

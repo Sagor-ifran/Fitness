@@ -591,7 +591,7 @@
     <!--============================
         TIMETABLE END
     =============================-->
-    <section class="wsus__timetable pt_110 xs_pt_90">
+    <section class="wsus__timetable pt_110 xs_pt_90 pb_120 xs_pb_100">
         <div class="container">
             <div class="row">
                 <div class="col-xl-6 m-auto wow fadeInUp">
@@ -1464,6 +1464,97 @@
     =============================-->
 
 
+
+    <!--============================
+        VIDEO START
+    =============================-->
+    <section class="wsus__video pt_190 xs_pt_100 pb_175 xs_pb_100" style="background: url(./images/video_bg.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-8">
+                    <div class="wsus__video_area_btn">
+                        <a class="play_btn venobox vbox-item" data-autoplay="true" data-vbtype="video"
+                            href="https://youtu.be/dOFZq66cGBs?si=TtJ4iKjmYRuaexyt">
+                            <i class="fas fa-play" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                    <div class="wsus__section_headeing heading_left mt_40">
+                        <h2>IT’S TIME <span></span> TO GET STRONGER</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--============================
+        VIDEO END
+    =============================-->
+
+
+
+    <!--============================
+        BRANDING START
+    =============================-->
+    <section class="wsus__branding">
+        <div class="container">
+            <div class="row branding_slider">
+                <div class="col-xl-2">
+                    <a href="#" class="wsus__branding_img">
+                        <div class="img">
+                            <img src="images/brand_1.png" alt="brand" class="img-fluid w-100">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xl-2">
+                    <a href="#" class="wsus__branding_img">
+                        <div class="img">
+                            <img src="images/brand_2.png" alt="brand" class="img-fluid w-100">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xl-2">
+                    <a href="#" class="wsus__branding_img">
+                        <div class="img">
+                            <img src="images/brand_3.png" alt="brand" class="img-fluid w-100">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xl-2">
+                    <a href="#" class="wsus__branding_img">
+                        <div class="img">
+                            <img src="images/brand_4.png" alt="brand" class="img-fluid w-100">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xl-2">
+                    <a href="#" class="wsus__branding_img">
+                        <div class="img">
+                            <img src="images/brand_5.png" alt="brand" class="img-fluid w-100">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xl-2">
+                    <a href="#" class="wsus__branding_img">
+                        <div class="img">
+                            <img src="images/brand_3.png" alt="brand" class="img-fluid w-100">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xl-2">
+                    <a href="#" class="wsus__branding_img">
+                        <div class="img">
+                            <img src="images/brand_4.png" alt="brand" class="img-fluid w-100">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--============================
+        BRANDING END
+    =============================-->
+
+
+
     <!--============================
         PRICING START
     =============================-->
@@ -1471,64 +1562,147 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-6 m-auto wow fadeInUp">
-                    <div class="wsus__section_headeing mb_25">
+                    <div class="wsus__section_headeing mb_45">
                         <h2>FITNESS CLASSES<span>PRICING PLAN</span></h2>
                     </div>
                 </div>
             </div>
+
             <div class="row">
-                <div class="col-md-6 col-lg-4 wow fadeInUp">
-                    <div class="wsus__single_pricing">
-                        <h3>One Day Pass</h3>
-                        <ul>
-                            <li>Provide a Variety of Modern.</li>
-                            <li>Well-maintained Fitness.</li>
-                            <li>Weightlifting Equipment.</li>
-                            <li>Cardio Machines.</li>
-                            <li>Treadmill gym equipment.</li>
+                <div class="col-xl-4 m-auto text-center">
+                    <div class="wsus__pricing_nav">
+                        <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="pills-homeprice-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-homeprice" type="button" role="tab"
+                                    aria-controls="pills-homeprice" aria-selected="true"><span>Monthly</span></button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-profileprice-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-profileprice" type="button" role="tab"
+                                    aria-controls="pills-profileprice"
+                                    aria-selected="false"><span>Yearly</span></button>
+                            </li>
                         </ul>
-                        <div class="bottom">
-                            <h2>Free</h2>
-                            <a href="checkout.html" class="common_btn white_btn common_btn_2">Join Now <i
-                                    class="far fa-long-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-homeprice" role="tabpanel"
+                    aria-labelledby="pills-homeprice-tab" tabindex="0">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4 wow fadeInUp">
+                            <div class="wsus__single_pricing">
+                                <h3>Monthly Pass</h3>
+                                <ul>
+                                    <li>Provide a Variety of Modern.</li>
+                                    <li>Well-maintained Fitness.</li>
+                                    <li>Weightlifting Equipment.</li>
+                                    <li>Cardio Machines.</li>
+                                    <li>Treadmill gym equipment.</li>
+                                </ul>
+                                <div class="bottom">
+                                    <h2>Free</h2>
+                                    <a href="checkout.html" class="common_btn white_btn common_btn_2">Join Now <i
+                                            class="far fa-long-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 wow fadeInUp">
+                            <div class="wsus__single_pricing">
+                                <h3>Monthly Pass</h3>
+                                <ul>
+                                    <li>Provide a Variety of Modern.</li>
+                                    <li>Well-maintained Fitness.</li>
+                                    <li>Weightlifting Equipment.</li>
+                                    <li>Cardio Machines.</li>
+                                    <li>Treadmill gym equipment.</li>
+                                </ul>
+                                <div class="bottom">
+                                    <h2>$150</h2>
+                                    <a href="checkout.html" class="common_btn white_btn common_btn_2">Join Now <i
+                                            class="far fa-long-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 wow fadeInUp">
+                            <div class="wsus__single_pricing">
+                                <h3>Monthly Pass</h3>
+                                <ul>
+                                    <li>Provide a Variety of Modern.</li>
+                                    <li>Well-maintained Fitness.</li>
+                                    <li>Weightlifting Equipment.</li>
+                                    <li>Cardio Machines.</li>
+                                    <li>Treadmill gym equipment.</li>
+                                </ul>
+                                <div class="bottom">
+                                    <h2>$450</h2>
+                                    <a href="checkout.html" class="common_btn white_btn common_btn_2">Join Now <i
+                                            class="far fa-long-arrow-right"></i></a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp">
-                    <div class="wsus__single_pricing">
-                        <h3>Monthly Pass</h3>
-                        <ul>
-                            <li>Provide a Variety of Modern.</li>
-                            <li>Well-maintained Fitness.</li>
-                            <li>Weightlifting Equipment.</li>
-                            <li>Cardio Machines.</li>
-                            <li>Treadmill gym equipment.</li>
-                        </ul>
-                        <div class="bottom">
-                            <h2>$150</h2>
-                            <a href="checkout.html" class="common_btn white_btn common_btn_2">Join Now <i
-                                    class="far fa-long-arrow-right"></i></a>
+                <div class="tab-pane fade" id="pills-profileprice" role="tabpanel"
+                    aria-labelledby="pills-profileprice-tab" tabindex="0">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4 wow fadeInUp">
+                            <div class="wsus__single_pricing">
+                                <h3>ANNUAL Pass</h3>
+                                <ul>
+                                    <li>Provide a Variety of Modern.</li>
+                                    <li>Well-maintained Fitness.</li>
+                                    <li>Weightlifting Equipment.</li>
+                                    <li>Cardio Machines.</li>
+                                    <li>Treadmill gym equipment.</li>
+                                </ul>
+                                <div class="bottom">
+                                    <h2>Free</h2>
+                                    <a href="checkout.html" class="common_btn white_btn common_btn_2">Join Now <i
+                                            class="far fa-long-arrow-right"></i></a>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp">
-                    <div class="wsus__single_pricing">
-                        <h3>ANNUAL Pass</h3>
-                        <ul>
-                            <li>Provide a Variety of Modern.</li>
-                            <li>Well-maintained Fitness.</li>
-                            <li>Weightlifting Equipment.</li>
-                            <li>Cardio Machines.</li>
-                            <li>Treadmill gym equipment.</li>
-                        </ul>
-                        <div class="bottom">
-                            <h2>$450</h2>
-                            <a href="checkout.html" class="common_btn white_btn common_btn_2">Join Now <i
-                                    class="far fa-long-arrow-right"></i></a>
+                        <div class="col-md-6 col-lg-4 wow fadeInUp">
+                            <div class="wsus__single_pricing">
+                                <h3>ANNUAL Pass</h3>
+                                <ul>
+                                    <li>Provide a Variety of Modern.</li>
+                                    <li>Well-maintained Fitness.</li>
+                                    <li>Weightlifting Equipment.</li>
+                                    <li>Cardio Machines.</li>
+                                    <li>Treadmill gym equipment.</li>
+                                </ul>
+                                <div class="bottom">
+                                    <h2>$150</h2>
+                                    <a href="checkout.html" class="common_btn white_btn common_btn_2">Join Now <i
+                                            class="far fa-long-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 wow fadeInUp">
+                            <div class="wsus__single_pricing">
+                                <h3>ANNUAL Pass</h3>
+                                <ul>
+                                    <li>Provide a Variety of Modern.</li>
+                                    <li>Well-maintained Fitness.</li>
+                                    <li>Weightlifting Equipment.</li>
+                                    <li>Cardio Machines.</li>
+                                    <li>Treadmill gym equipment.</li>
+                                </ul>
+                                <div class="bottom">
+                                    <h2>$450</h2>
+                                    <a href="checkout.html" class="common_btn white_btn common_btn_2">Join Now <i
+                                            class="far fa-long-arrow-right"></i></a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+
         </div>
     </section>
     <!--============================
@@ -1773,16 +1947,16 @@
                                 </p>
                             </li>
                             <li>
-                                <a href="mailto:example@gmail.com">
-                                    <span><img src="images/sms.png" alt="icon" class="img-fluid w-100"></span>
-                                    example@gmail.com
-                                </a>
-                            </li>
-                            <li>
                                 <a href="callto:1234567890">
                                     <span><img src="images/Calling.png" alt="icon" class="img-fluid w-100"></span>
                                     +(402) 763 282 46
                                 </a>
+                            </li>
+                            <li>
+                                <form action="#">
+                                    <input type="text" placeholder="Enter Your Email">
+                                    <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                                </form>
                             </li>
                         </ul>
                     </div>

@@ -654,6 +654,55 @@ $(function () {
     });
 
 
+    // branding  slider
+    $('.branding_slider').slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        dots: false,
+        arrows: true,
+        nextArrow: '<i class="fal fa-angle-right nextArrow"></i>',
+        prevArrow: '<i class="fal fa-angle-left prevArrow"></i>',
+
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                    arrows: false,
+                }
+            }
+        ]
+    });
+
+
+
+
+
+
+
+
+
+
     // Cursore pointer
     init_pointer({});
 
