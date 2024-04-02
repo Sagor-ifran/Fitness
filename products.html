@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="css/scroll_button.css">
     <link rel="stylesheet" href="css/animated_barfiller.css">
     <link rel="stylesheet" href="css/select2.min.css">
+    <link rel="stylesheet" href="css/range_slider.css">
     <link rel="stylesheet" href="css/spacing.css">
     <link rel="stylesheet" href="css/pointer.css">
     <link rel="stylesheet" href="css/style.css">
@@ -274,369 +275,391 @@
     <section class="wsus__product_page pt_95 xs_pt_75 pb_120 xs_pb_100">
         <div class="container">
             <div class="row">
-                <div class="col-sm-6 col-lg-4 col-xl-3 wow fadeInUp">
-                    <div class="wsus__product_item">
-                        <div class="img">
-                            <img src="images/product_1.jpg" alt="equipment" class="img-fluid w-100">
-                            <a href="#" class="add_cart">
-                                <span><img src="images/cart_icon_2.png" alt="cart" class="img-fluid w-100"></span>
-                                Add To Cart
-                            </a>
+                <div class="col-xl-3">
+                    <form action="#" class="wsus__product__sidebar">
+
+                        <div class="wsus__product_searchbox">
+                            <input type="text" placeholder="Product Search">
+                            <button><i class="far fa-search" aria-hidden="true"></i></button>
+                        </div>
+
+                        <div class="wsus__product__sidebar_category">
+                            <h5>CATEGORIES</h5>
                             <ul>
-                                <li><a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i
-                                            class="far fa-search"></i></a></li>
-                                <li><a href="#"><i class="fal fa-heart"></i></a></li>
-                                <li><a href="#"><i class="far fa-random"></i></a></li>
+                                <li>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                        <label class="form-check-label" for="defaultCheck1">
+                                            New ARRIVALS (15)
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                                        <label class="form-check-label" for="defaultCheck2">
+                                            Supplement (15)
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
+                                        <label class="form-check-label" for="defaultCheck3">
+                                            Instrument (18)
+                                        </label>
+                                    </div>
+                                </li>
                             </ul>
                         </div>
-                        <span class="new">new</span>
-                        <div class="text">
-                            <a href="product_details.html" class="title">Black Sneakers</a>
-                            <p>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </p>
-                            <h4>$120.00</h4>
+
+                        <div class="wsus__product_sidebar_range">
+                            <h5>Price Range</h5>
+                            <div class="range_slider"></div>
+                        </div>
+
+                        <div class="wsus__product__sidebar_category wsus__product__sidebar_rating">
+                            <h5>Rating</h5>
+                            <ul>
+                                <li>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck4">
+                                        <label class="form-check-label" for="defaultCheck4">
+                                            <i class="fas fa-star" aria-hidden="true"></i>
+                                            5 star
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck5">
+                                        <label class="form-check-label" for="defaultCheck5">
+                                            <i class="fas fa-star" aria-hidden="true"></i>
+                                            4 star or above
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck6">
+                                        <label class="form-check-label" for="defaultCheck6">
+                                            <i class="fas fa-star" aria-hidden="true"></i>
+                                            3 star or above
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck7">
+                                        <label class="form-check-label" for="defaultCheck7">
+                                            <i class="fas fa-star" aria-hidden="true"></i>
+                                            2 star or above
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck8">
+                                        <label class="form-check-label" for="defaultCheck8">
+                                            <i class="fas fa-star" aria-hidden="true"></i>
+                                            1 star or above
+                                        </label>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </form>
+                </div>
+                <div class="col-xl-9">
+                    <div class="row">
+                        <div class="col-sm-6 col-lg-4 col-xl-4 wow fadeInUp">
+                            <div class="wsus__product_item">
+                                <div class="img">
+                                    <img src="images/product_2.jpg" alt="equipment" class="img-fluid w-100">
+                                    <a href="#" class="add_cart">
+                                        <span><img src="images/cart_icon_2.png" alt="cart"
+                                                class="img-fluid w-100"></span>
+                                        Add To Cart
+                                    </a>
+                                    <ul>
+                                        <li><a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i
+                                                    class="far fa-search"></i></a></li>
+                                        <li><a href="#"><i class="fal fa-heart"></i></a></li>
+                                        <li><a href="#"><i class="far fa-random"></i></a></li>
+                                    </ul>
+                                </div>
+                                <span class="new">new</span>
+                                <div class="text">
+                                    <a href="product_details.html" class="title">Smart Watch</a>
+                                    <p>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </p>
+                                    <h4>$320.00</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 col-xl-4 wow fadeInUp">
+                            <div class="wsus__product_item">
+                                <div class="img">
+                                    <img src="images/product_4.jpg" alt="equipment" class="img-fluid w-100">
+                                    <a href="#" class="add_cart">
+                                        <span><img src="images/cart_icon_2.png" alt="cart"
+                                                class="img-fluid w-100"></span>
+                                        Add To Cart
+                                    </a>
+                                    <ul>
+                                        <li><a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i
+                                                    class="far fa-search"></i></a></li>
+                                        <li><a href="#"><i class="fal fa-heart"></i></a></li>
+                                        <li><a href="#"><i class="far fa-random"></i></a></li>
+                                    </ul>
+                                </div>
+                                <span class="new">new</span>
+                                <div class="text">
+                                    <a href="product_details.html" class="title">Fitness MAT</a>
+                                    <p>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </p>
+                                    <h4>$29.00</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 col-xl-4 wow fadeInUp">
+                            <div class="wsus__product_item">
+                                <div class="img">
+                                    <img src="images/product_5.jpg" alt="equipment" class="img-fluid w-100">
+                                    <a href="#" class="add_cart">
+                                        <span><img src="images/cart_icon_2.png" alt="cart"
+                                                class="img-fluid w-100"></span>
+                                        Add To Cart
+                                    </a>
+                                    <ul>
+                                        <li><a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i
+                                                    class="far fa-search"></i></a></li>
+                                        <li><a href="#"><i class="fal fa-heart"></i></a></li>
+                                        <li><a href="#"><i class="far fa-random"></i></a></li>
+                                    </ul>
+                                </div>
+                                <span class="new">new</span>
+                                <div class="text">
+                                    <a href="product_details.html" class="title">Fitness MAT</a>
+                                    <p>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </p>
+                                    <h4>$29.00</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 col-xl-4 wow fadeInUp">
+                            <div class="wsus__product_item">
+                                <div class="img">
+                                    <img src="images/product_6.jpg" alt="equipment" class="img-fluid w-100">
+                                    <a href="#" class="add_cart">
+                                        <span><img src="images/cart_icon_2.png" alt="cart"
+                                                class="img-fluid w-100"></span>
+                                        Add To Cart
+                                    </a>
+                                    <ul>
+                                        <li><a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i
+                                                    class="far fa-search"></i></a></li>
+                                        <li><a href="#"><i class="fal fa-heart"></i></a></li>
+                                        <li><a href="#"><i class="far fa-random"></i></a></li>
+                                    </ul>
+                                </div>
+                                <span class="new">new</span>
+                                <div class="text">
+                                    <a href="product_details.html" class="title">Black Sneakers</a>
+                                    <p>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </p>
+                                    <h4>$120.00</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 col-xl-4 wow fadeInUp">
+                            <div class="wsus__product_item">
+                                <div class="img">
+                                    <img src="images/product_7.jpg" alt="equipment" class="img-fluid w-100">
+                                    <a href="#" class="add_cart">
+                                        <span><img src="images/cart_icon_2.png" alt="cart"
+                                                class="img-fluid w-100"></span>
+                                        Add To Cart
+                                    </a>
+                                    <ul>
+                                        <li><a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i
+                                                    class="far fa-search"></i></a></li>
+                                        <li><a href="#"><i class="fal fa-heart"></i></a></li>
+                                        <li><a href="#"><i class="far fa-random"></i></a></li>
+                                    </ul>
+                                </div>
+                                <span class="new">new</span>
+                                <div class="text">
+                                    <a href="product_details.html" class="title">Smart Watch</a>
+                                    <p>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </p>
+                                    <h4>$320.00</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 col-xl-4 wow fadeInUp">
+                            <div class="wsus__product_item">
+                                <div class="img">
+                                    <img src="images/product_3.jpg" alt="equipment" class="img-fluid w-100">
+                                    <a href="#" class="add_cart">
+                                        <span><img src="images/cart_icon_2.png" alt="cart"
+                                                class="img-fluid w-100"></span>
+                                        Add To Cart
+                                    </a>
+                                    <ul>
+                                        <li><a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i
+                                                    class="far fa-search"></i></a></li>
+                                        <li><a href="#"><i class="fal fa-heart"></i></a></li>
+                                        <li><a href="#"><i class="far fa-random"></i></a></li>
+                                    </ul>
+                                </div>
+                                <span class="new">new</span>
+                                <div class="text">
+                                    <a href="product_details.html" class="title">weightlifting</a>
+                                    <p>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </p>
+                                    <h4>$54.00</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 col-xl-4 wow fadeInUp">
+                            <div class="wsus__product_item">
+                                <div class="img">
+                                    <img src="images/product_9.jpg" alt="equipment" class="img-fluid w-100">
+                                    <a href="#" class="add_cart">
+                                        <span><img src="images/cart_icon_2.png" alt="cart"
+                                                class="img-fluid w-100"></span>
+                                        Add To Cart
+                                    </a>
+                                    <ul>
+                                        <li><a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i
+                                                    class="far fa-search"></i></a></li>
+                                        <li><a href="#"><i class="fal fa-heart"></i></a></li>
+                                        <li><a href="#"><i class="far fa-random"></i></a></li>
+                                    </ul>
+                                </div>
+                                <span class="new">new</span>
+                                <div class="text">
+                                    <a href="product_details.html" class="title">Fitness MAT</a>
+                                    <p>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </p>
+                                    <h4>$29.00</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 col-xl-4 wow fadeInUp">
+                            <div class="wsus__product_item">
+                                <div class="img">
+                                    <img src="images/product_11.jpg" alt="equipment" class="img-fluid w-100">
+                                    <a href="#" class="add_cart">
+                                        <span><img src="images/cart_icon_2.png" alt="cart"
+                                                class="img-fluid w-100"></span>
+                                        Add To Cart
+                                    </a>
+                                    <ul>
+                                        <li><a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i
+                                                    class="far fa-search"></i></a></li>
+                                        <li><a href="#"><i class="fal fa-heart"></i></a></li>
+                                        <li><a href="#"><i class="far fa-random"></i></a></li>
+                                    </ul>
+                                </div>
+                                <span class="new">new</span>
+                                <div class="text">
+                                    <a href="product_details.html" class="title">Fitness MAT</a>
+                                    <p>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </p>
+                                    <h4>$29.00</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 col-xl-4 wow fadeInUp">
+                            <div class="wsus__product_item">
+                                <div class="img">
+                                    <img src="images/product_10.jpg" alt="equipment" class="img-fluid w-100">
+                                    <a href="#" class="add_cart">
+                                        <span><img src="images/cart_icon_2.png" alt="cart"
+                                                class="img-fluid w-100"></span>
+                                        Add To Cart
+                                    </a>
+                                    <ul>
+                                        <li><a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i
+                                                    class="far fa-search"></i></a></li>
+                                        <li><a href="#"><i class="fal fa-heart"></i></a></li>
+                                        <li><a href="#"><i class="far fa-random"></i></a></li>
+                                    </ul>
+                                </div>
+                                <span class="new">new</span>
+                                <div class="text">
+                                    <a href="product_details.html" class="title">Fitness MAT</a>
+                                    <p>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </p>
+                                    <h4>$29.00</h4>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-sm-6 col-lg-4 col-xl-3 wow fadeInUp">
-                    <div class="wsus__product_item">
-                        <div class="img">
-                            <img src="images/product_2.jpg" alt="equipment" class="img-fluid w-100">
-                            <a href="#" class="add_cart">
-                                <span><img src="images/cart_icon_2.png" alt="cart" class="img-fluid w-100"></span>
-                                Add To Cart
-                            </a>
-                            <ul>
-                                <li><a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i
-                                            class="far fa-search"></i></a></li>
-                                <li><a href="#"><i class="fal fa-heart"></i></a></li>
-                                <li><a href="#"><i class="far fa-random"></i></a></li>
-                            </ul>
+                    <div class="row">
+                        <div class="col-12 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                            <div class="wsus__pagination mt_55">
+                                <nav aria-label="...">
+                                    <ul class="pagination">
+                                        <li class="page-item"><a class="page-link" href="#"><i
+                                                    class="fas fa-arrow-left"></i>Prew</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                        <li class="page-item"><a class="page-link active" href="#">2</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">Next<i
+                                                    class="fas fa-arrow-right"></i></a></li>
+                                    </ul>
+                                </nav>
+                            </div>
                         </div>
-                        <span class="new">new</span>
-                        <div class="text">
-                            <a href="product_details.html" class="title">Smart Watch</a>
-                            <p>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </p>
-                            <h4>$320.00</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4 col-xl-3 wow fadeInUp">
-                    <div class="wsus__product_item">
-                        <div class="img">
-                            <img src="images/product_3.jpg" alt="equipment" class="img-fluid w-100">
-                            <a href="#" class="add_cart">
-                                <span><img src="images/cart_icon_2.png" alt="cart" class="img-fluid w-100"></span>
-                                Add To Cart
-                            </a>
-                            <ul>
-                                <li><a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i
-                                            class="far fa-search"></i></a></li>
-                                <li><a href="#"><i class="fal fa-heart"></i></a></li>
-                                <li><a href="#"><i class="far fa-random"></i></a></li>
-                            </ul>
-                        </div>
-                        <span class="new">new</span>
-                        <div class="text">
-                            <a href="product_details.html" class="title">weightlifting</a>
-                            <p>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </p>
-                            <h4>$54.00</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4 col-xl-3 wow fadeInUp">
-                    <div class="wsus__product_item">
-                        <div class="img">
-                            <img src="images/product_4.jpg" alt="equipment" class="img-fluid w-100">
-                            <a href="#" class="add_cart">
-                                <span><img src="images/cart_icon_2.png" alt="cart" class="img-fluid w-100"></span>
-                                Add To Cart
-                            </a>
-                            <ul>
-                                <li><a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i
-                                            class="far fa-search"></i></a></li>
-                                <li><a href="#"><i class="fal fa-heart"></i></a></li>
-                                <li><a href="#"><i class="far fa-random"></i></a></li>
-                            </ul>
-                        </div>
-                        <span class="new">new</span>
-                        <div class="text">
-                            <a href="product_details.html" class="title">Fitness MAT</a>
-                            <p>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </p>
-                            <h4>$29.00</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4 col-xl-3 wow fadeInUp">
-                    <div class="wsus__product_item">
-                        <div class="img">
-                            <img src="images/product_5.jpg" alt="equipment" class="img-fluid w-100">
-                            <a href="#" class="add_cart">
-                                <span><img src="images/cart_icon_2.png" alt="cart" class="img-fluid w-100"></span>
-                                Add To Cart
-                            </a>
-                            <ul>
-                                <li><a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i
-                                            class="far fa-search"></i></a></li>
-                                <li><a href="#"><i class="fal fa-heart"></i></a></li>
-                                <li><a href="#"><i class="far fa-random"></i></a></li>
-                            </ul>
-                        </div>
-                        <span class="new">new</span>
-                        <div class="text">
-                            <a href="product_details.html" class="title">Fitness MAT</a>
-                            <p>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </p>
-                            <h4>$29.00</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4 col-xl-3 wow fadeInUp">
-                    <div class="wsus__product_item">
-                        <div class="img">
-                            <img src="images/product_6.jpg" alt="equipment" class="img-fluid w-100">
-                            <a href="#" class="add_cart">
-                                <span><img src="images/cart_icon_2.png" alt="cart" class="img-fluid w-100"></span>
-                                Add To Cart
-                            </a>
-                            <ul>
-                                <li><a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i
-                                            class="far fa-search"></i></a></li>
-                                <li><a href="#"><i class="fal fa-heart"></i></a></li>
-                                <li><a href="#"><i class="far fa-random"></i></a></li>
-                            </ul>
-                        </div>
-                        <span class="new">new</span>
-                        <div class="text">
-                            <a href="product_details.html" class="title">Black Sneakers</a>
-                            <p>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </p>
-                            <h4>$120.00</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4 col-xl-3 wow fadeInUp">
-                    <div class="wsus__product_item">
-                        <div class="img">
-                            <img src="images/product_7.jpg" alt="equipment" class="img-fluid w-100">
-                            <a href="#" class="add_cart">
-                                <span><img src="images/cart_icon_2.png" alt="cart" class="img-fluid w-100"></span>
-                                Add To Cart
-                            </a>
-                            <ul>
-                                <li><a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i
-                                            class="far fa-search"></i></a></li>
-                                <li><a href="#"><i class="fal fa-heart"></i></a></li>
-                                <li><a href="#"><i class="far fa-random"></i></a></li>
-                            </ul>
-                        </div>
-                        <span class="new">new</span>
-                        <div class="text">
-                            <a href="product_details.html" class="title">Smart Watch</a>
-                            <p>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </p>
-                            <h4>$320.00</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4 col-xl-3 wow fadeInUp">
-                    <div class="wsus__product_item">
-                        <div class="img">
-                            <img src="images/product_8.jpg" alt="equipment" class="img-fluid w-100">
-                            <a href="#" class="add_cart">
-                                <span><img src="images/cart_icon_2.png" alt="cart" class="img-fluid w-100"></span>
-                                Add To Cart
-                            </a>
-                            <ul>
-                                <li><a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i
-                                            class="far fa-search"></i></a></li>
-                                <li><a href="#"><i class="fal fa-heart"></i></a></li>
-                                <li><a href="#"><i class="far fa-random"></i></a></li>
-                            </ul>
-                        </div>
-                        <span class="new">new</span>
-                        <div class="text">
-                            <a href="product_details.html" class="title">weightlifting</a>
-                            <p>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </p>
-                            <h4>$54.00</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4 col-xl-3 wow fadeInUp">
-                    <div class="wsus__product_item">
-                        <div class="img">
-                            <img src="images/product_9.jpg" alt="equipment" class="img-fluid w-100">
-                            <a href="#" class="add_cart">
-                                <span><img src="images/cart_icon_2.png" alt="cart" class="img-fluid w-100"></span>
-                                Add To Cart
-                            </a>
-                            <ul>
-                                <li><a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i
-                                            class="far fa-search"></i></a></li>
-                                <li><a href="#"><i class="fal fa-heart"></i></a></li>
-                                <li><a href="#"><i class="far fa-random"></i></a></li>
-                            </ul>
-                        </div>
-                        <span class="new">new</span>
-                        <div class="text">
-                            <a href="product_details.html" class="title">Fitness MAT</a>
-                            <p>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </p>
-                            <h4>$29.00</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4 col-xl-3 wow fadeInUp">
-                    <div class="wsus__product_item">
-                        <div class="img">
-                            <img src="images/product_10.jpg" alt="equipment" class="img-fluid w-100">
-                            <a href="#" class="add_cart">
-                                <span><img src="images/cart_icon_2.png" alt="cart" class="img-fluid w-100"></span>
-                                Add To Cart
-                            </a>
-                            <ul>
-                                <li><a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i
-                                            class="far fa-search"></i></a></li>
-                                <li><a href="#"><i class="fal fa-heart"></i></a></li>
-                                <li><a href="#"><i class="far fa-random"></i></a></li>
-                            </ul>
-                        </div>
-                        <span class="new">new</span>
-                        <div class="text">
-                            <a href="product_details.html" class="title">Fitness MAT</a>
-                            <p>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </p>
-                            <h4>$29.00</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4 col-xl-3 wow fadeInUp">
-                    <div class="wsus__product_item">
-                        <div class="img">
-                            <img src="images/product_11.jpg" alt="equipment" class="img-fluid w-100">
-                            <a href="#" class="add_cart">
-                                <span><img src="images/cart_icon_2.png" alt="cart" class="img-fluid w-100"></span>
-                                Add To Cart
-                            </a>
-                            <ul>
-                                <li><a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i
-                                            class="far fa-search"></i></a></li>
-                                <li><a href="#"><i class="fal fa-heart"></i></a></li>
-                                <li><a href="#"><i class="far fa-random"></i></a></li>
-                            </ul>
-                        </div>
-                        <span class="new">new</span>
-                        <div class="text">
-                            <a href="product_details.html" class="title">Fitness MAT</a>
-                            <p>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </p>
-                            <h4>$29.00</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4 col-xl-3 wow fadeInUp">
-                    <div class="wsus__product_item">
-                        <div class="img">
-                            <img src="images/product_12.jpg" alt="equipment" class="img-fluid w-100">
-                            <a href="#" class="add_cart">
-                                <span><img src="images/cart_icon_2.png" alt="cart" class="img-fluid w-100"></span>
-                                Add To Cart
-                            </a>
-                            <ul>
-                                <li><a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i
-                                            class="far fa-search"></i></a></li>
-                                <li><a href="#"><i class="fal fa-heart"></i></a></li>
-                                <li><a href="#"><i class="far fa-random"></i></a></li>
-                            </ul>
-                        </div>
-                        <span class="new">new</span>
-                        <div class="text">
-                            <a href="product_details.html" class="title">Fitness MAT</a>
-                            <p>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </p>
-                            <h4>$29.00</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row mt_60">
-                <div class="col-12 wow fadeInUp">
-                    <div class="wsus__pagination">
-                        <nav aria-label="...">
-                            <ul class="pagination justify-content-center">
-                                <li class="page-item"><a class="page-link" href="#"><i
-                                            class="far fa-angle-left"></i></a></li>
-                                <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                <li class="page-item"><a class="page-link active" href="#">2</a></li>
-                                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                <li class="page-item"><a class="page-link" href="#"><i
-                                            class="far fa-angle-right"></i></a></li>
-                            </ul>
-                        </nav>
                     </div>
                 </div>
             </div>
@@ -846,6 +869,7 @@
     <script src="js/animated_barfiller.js"></script>
     <script src="js/jquery.countup.min.js"></script>
     <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/range_slider.js"></script>
     <script src="js/sticky_sidebar.js"></script>
     <script src="js/select2.min.js"></script>
     <script src="js/pointer.js"></script>
