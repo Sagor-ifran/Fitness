@@ -752,10 +752,6 @@ $(function () {
     };
 
 
-
-
-
-
     // Cursore pointer
     init_pointer({});
 

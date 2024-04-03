@@ -449,27 +449,42 @@ button {
 
 /* pagination start */
 .wsus__pagination ul {
-    gap: 10px;
+    gap: 15px;
 }
 
 .wsus__pagination ul li a {
     width: 45px;
     height: 45px;
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: 400;
     font-family: var(--headingFont);
     color: var(--colorBlack);
     line-height: 45px;
     text-align: center;
     padding: 0px;
     text-transform: uppercase;
-    border: 1px solid rgba(23, 23, 24, 0.10);
-    background: transparent;
-    border-radius: 0px !important;
-    -webkit-border-radius: 0px !important;
-    -moz-border-radius: 0px !important;
-    -ms-border-radius: 0px !important;
-    -o-border-radius: 0px !important;
+    background: var(--lightBg);
+    border: 1px solid var(--lightBg);
+    border-radius: 3px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.wsus__pagination ul li a i {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.wsus__pagination ul li a:last-child,
+.wsus__pagination ul li a:first-child {
+    border-radius: 3px 3px 3px 3px !important;
+    -webkit-border-radius: 3px 3px 3px 3px !important;
+    -moz-border-radius: 3px 3px 3px 3px !important;
+    -ms-border-radius: 3px 3px 3px 3px !important;
+    -o-border-radius: 3px 3px 3px 3px !important;
 }
 
 .wsus__pagination ul li a.active,
@@ -482,24 +497,6 @@ button {
 .wsus__pagination ul li a:focus {
     box-shadow: none;
     color: var(--colorBlack);
-}
-
-.wsus__pagination ul li:last-child .page-link,
-.wsus__pagination ul li:first-child .page-link {
-    width: 100px;
-    border-radius: 3px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    -ms-border-radius: 3px;
-    -o-border-radius: 3px;
-}
-
-.wsus__pagination ul li:first-child .page-link i {
-    margin-right: 5px;
-}
-
-.wsus__pagination ul li:last-child .page-link i {
-    margin-left: 5px;
 }
 
 /* pagination end */
@@ -4460,6 +4457,10 @@ header {
     background: url("../images/pricing_shape_dark.png");
 }
 
+.home_4_dark .wsus__single_pricing:hover {
+    border-color: var(--colorWhite);
+}
+
 .home_4_dark .wsus__testimonial::after {
     background: url("../images/testimonial_shape_dark.png");
 }
@@ -6128,6 +6129,8 @@ header {
     font-weight: 400;
     color: var(--paraColor);
     text-transform: uppercase;
+    margin-top: 0;
+    line-height: normal;
 }
 
 .wsus__blog_post_direction .title {
@@ -7039,34 +7042,6 @@ header {
     CART  START
 ===================================*/
 
-.wsus__payment_manu {
-    gap: 25px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 6px;
-    border: 1px solid rgba(23, 23, 24, 0.10);
-}
-
-.wsus__payment_manu li a {
-    font-size: 16px;
-    font-weight: 500;
-    padding: 3px 23px;
-    color: var(--paraColor);
-    text-transform: capitalize;
-    transition: all linear .3s;
-    -webkit-transition: all linear .3s;
-    -moz-transition: all linear .3s;
-    -ms-transition: all linear .3s;
-    -o-transition: all linear .3s;
-}
-
-.wsus__payment_manu li a:hover,
-.wsus__payment_manu li a.active {
-    color: var(--colorBlack);
-    background: var(--colorPrimary);
-}
-
 .wsus__cart_list {
     padding-bottom: 35px;
     border-bottom: 1px solid rgba(23, 23, 24, 0.12);
@@ -7657,7 +7632,7 @@ header {
 }
 
 .wsus__payment .modal .modal-content {
-    padding: 44px 50px 50px;
+    padding: 44px 50px 40px;
 }
 
 .modal_payment_popup .modal .modal-content p {
@@ -7820,7 +7795,7 @@ header {
 }
 
 .modal_payment_success .common_btn {
-    margin: 0 auto;
+    margin: 0 auto 10px;
 }
 
 .modal_payment_success .common_btn:hover {
@@ -7838,8 +7813,72 @@ header {
 
 
 /*===================================
-    DASHBOARD PROFILE START
+    AWARD END
 ===================================*/
+
+.wsus__award_heading {
+    text-align: center;
+}
+
+.wsus__award_heading h2 {
+    font-size: 60px;
+    font-weight: 700;
+    font-family: var(--paraFont);
+    text-transform: capitalize;
+}
+
+.wsus__award_item .name {
+    width: 25%;
+    text-align: start;
+}
+
+.wsus__award_item .award {
+    width: 55%;
+    text-align: center;
+}
+
+.wsus__award_item .winner {
+    width: 20%;
+    text-align: end;
+}
+
+.wsus__award_item {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 35px 45px;
+    margin-top: 10px;
+    justify-content: space-between;
+    background: var(--lightBg);
+}
+
+.wsus__award_item p,
+.wsus__award_item p a {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--colorBlack);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.wsus__award_item p a:hover {
+    color: var(--colorBlue);
+}
+
+/*===================================
+    AWARD END
+===================================*/
+
+
+
+/*===================================
+    DASHBOARD START
+===================================*/
+
+/* dashboard profile start */
 
 .wsus__dashboard_sidebar {
     background: var(--lightBg);
@@ -8021,14 +8060,11 @@ header {
     font-weight: 600;
 }
 
-/*===================================
-    DASHBOARD PROFILE END
-===================================*/
+/* dashboard profile end */
 
 
-/*===================================
-    DASHBOARD PROFILE EDIT START
-===================================*/
+
+/* dashboard profile edit start */
 
 .wsus__dashboard_main_contant h4 {
     font-size: 28px;
@@ -8091,14 +8127,10 @@ header {
     color: var(--colorWhite);
 }
 
-/*===================================
-    DASHBOARD PROFILE EDIT END
-===================================*/
+/* dashboard profile edit end */
 
 
-/*===================================
-    DASHBOARD ORDER START
-===================================*/
+/* dashboard order start */
 
 .wsus__dashboard_order {
     margin-top: 30px;
@@ -8188,14 +8220,11 @@ header {
     color: var(--colorWhite);
 }
 
-/*===================================
-    DASHBOARD ORDER END
-===================================*/
+/* dashboard order end */
 
 
-/*===================================
-    DASHBOARD INVOICE START
-===================================*/
+
+/* dashboard invoice start */
 
 .wsus__dashboard_invoice {
     margin-top: 30px;
@@ -8284,14 +8313,10 @@ header {
     -o-transform: rotate(0deg);
 }
 
-/*===================================
-    DASHBOARD INVOICE END
-===================================*/
+/* dashboard invoice end */
 
 
-/*===================================
-    DASHBOARD WISHLIST START
-===================================*/
+/* dashboard wishlist start */
 
 .wsus__dashboard_wishlist {
     margin-top: 30px;
@@ -8429,14 +8454,12 @@ header {
     font-size: 15px;
 }
 
-/*===================================
-    DASHBOARD WISHLIST END
-===================================*/
+/* dashboard wishlist end */
 
 
-/*===================================
-    DASHBOARD PRICING START
-===================================*/
+
+/* dashboard pricing start */
+
 .wsus__dashboard_pricing .wsus__single_pricing {
     margin-top: 0;
     margin-bottom: 25px;
@@ -8451,15 +8474,12 @@ header {
     -o-transform: translateY(0px);
 }
 
-/*===================================
-    DASHBOARD PRICING END
-===================================*/
+/* dashboard pricing end */
 
 
 
-/*===================================
-    DASHBOARD REVIEW START
-===================================*/
+/* dashboard review start */
+
 .wsus__dashboard_review {
     margin-top: 30px;
 }
@@ -8473,14 +8493,11 @@ header {
     margin-bottom: 60px;
 }
 
-/*===================================
-    DASHBOARD REVIEW END
-===================================*/
+/* dashboard review end */
 
 
-/*===================================
-    DASHBOARD CHANGE PASSWORD START
-===================================*/
+/* dashboard password change start */
+
 .wsus__dashboard_change_password {
     margin-top: 30px;
 }
@@ -8516,6 +8533,8 @@ header {
     color: var(--colorWhite);
 }
 
+/* dashboard password change end */
+
 /*===================================
-    DASHBOARD CHANGE PASSWORD END
+    DASHBOARD END
 ===================================*/
