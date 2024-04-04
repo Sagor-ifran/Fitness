@@ -1573,7 +1573,50 @@ header {
 
 /* machine end */
 
+
+/* home counter start */
+
+.wsus__home_counter_item {
+    text-align: center;
+    margin-top: 25px;
+    padding: 40px 30px 60px 30px;
+    background: var(--colorWhite);
+    box-shadow: 0px 16px 30px 0px rgba(23, 23, 24, 0.06);
+}
+
+.wsus__home_counter_item h2,
+.wsus__home_counter_item h2 span {
+    font-size: 90px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: black;
+    -webkit-text-fill-color: white;
+    /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.wsus__home_counter_item h2 span {
+    display: inline-block;
+    font-family: var(--headingFont);
+}
+
+.wsus__home_counter_item p {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: var(--headingFont);
+    text-transform: uppercase;
+    color: rgba(23, 23, 24, 0.40);
+}
+
+/* home counter end */
+
+
 /* call to action start */
+
+.wsus__call_to_action {
+    background: var(--colorWhite);
+}
 
 .wsus__call_to_action_item {
     display: flex;
@@ -1581,8 +1624,7 @@ header {
     justify-content: center;
     align-items: center;
     gap: 20px;
-    background: var(--colorWhite);
-    box-shadow: rgba(23, 23, 24, 0.06) 0px 16px 30px 0px;
+    background: #EFF0F3;
     padding: 40px;
     margin-top: 25px;
 }
@@ -4749,6 +4791,15 @@ header {
     position: relative;
 }
 
+
+.gray_bg_area .wsus__call_to_action {
+    background: var(--lightBg);
+}
+
+.gray_bg_area .wsus__call_to_action .wsus__call_to_action_item {
+    background: var(--colorWhite);
+}
+
 /*===================================
     ABOUT US END
 ===================================*/
@@ -4954,6 +5005,225 @@ header {
 /*===================================
     PRODUCT START
 ===================================*/
+
+
+
+/*===================================
+    WORKOUT START
+===================================*/
+
+.wsus__workout_item {
+    margin-top: 25px;
+}
+
+.wsus__workout_item .img {
+    height: 270px;
+    position: relative;
+    overflow: hidden;
+}
+
+.wsus__workout_item .img img {
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.wsus__workout_item .img p {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 4px 12px;
+    color: var(--colorBlack);
+    background: var(--colorPrimary);
+}
+
+.wsus__workout_item:hover .img img {
+    transform: scale(1.05) rotate(-2deg);
+    -webkit-transform: scale(1.05) rotate(-2deg);
+    -moz-transform: scale(1.05) rotate(-2deg);
+    -ms-transform: scale(1.05) rotate(-2deg);
+    -o-transform: scale(1.05) rotate(-2deg);
+}
+
+.wsus__workout_item_text {
+    background: var(--lightBg);
+    padding: 30px 30px 50px 30px;
+}
+
+.wsus__workout_item_text span {
+    font-size: 13px;
+    font-weight: 500;
+    padding: 5px 14px;
+    display: inline-block;
+    background: rgb(216, 218, 225);
+    color: var(--colorBlack);
+    text-transform: capitalize;
+}
+
+.wsus__workout_item_text span img {
+    position: relative;
+    top: -1px;
+    width: 14px !important;
+    height: 14px !important;
+    margin-right: 8px;
+}
+
+.wsus__workout_item_text .title {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.wsus__workout_item_text p {
+    font-weight: 500;
+    line-height: 26px;
+    margin-top: 6px;
+}
+
+.wsus__workout_item_text .common_btn {
+    margin-top: 34px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+/*===================================
+    WORKOUT END
+===================================*/
+
+
+
+/*===================================
+    WORKOUT DETAILS START
+===================================*/
+
+.wsus__workout_clocktime {
+    font-size: 13px;
+    font-weight: 500;
+    padding: 5px 14px;
+    display: inline-block;
+    background: rgb(216, 218, 225);
+    color: var(--colorBlack);
+    text-transform: capitalize;
+    margin-top: 30px;
+}
+
+.wsus__workout_clocktime img {
+    position: relative;
+    top: -1px;
+    width: 14px !important;
+    height: 14px !important;
+    margin-right: 8px;
+}
+
+.wsus__workout_details_triner .wsus__single_trainer {
+    height: 330px;
+}
+
+.wsus__workout_details_triner .wsus__single_trainer .text {
+    padding: 10px 20px 13px;
+}
+
+.wsus__workout_details_triner .wsus__single_trainer .text p {
+    font-size: 16px;
+    margin-top: 0;
+    line-height: normal;
+}
+
+.wsus__workout_details_right_searchbox {
+    margin-top: 0 !important;
+
+}
+
+.wsus__workout_details_right_searchbox form {
+    margin-top: 25px;
+    position: relative;
+}
+
+.wsus__workout_details_right_searchbox input {
+    background: transparent;
+    border-color: rgba(23, 23, 24, 0.14);
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+.wsus__workout_details_right_searchbox button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: var(--colorBlack);
+    background: var(--colorPrimary);
+    transition: all 0.3s linear 0s;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
+}
+
+.wsus__workout_details_right_searchbox button:hover {
+    color: var(--colorWhite);
+    background: var(--colorBlack);
+}
+
+.wsus__workout_apply_coupon form {
+    margin-top: 25px;
+    position: relative;
+}
+
+.wsus__workout_apply_coupon input {
+    background: transparent;
+    border-color: rgba(23, 23, 24, 0.14);
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+.wsus__workout_apply_coupon button {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    width: 76px;
+    height: 48px;
+    line-height: 48px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    color: var(--colorBlack);
+    background: var(--colorPrimary);
+    transition: all 0.3s linear 0s;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
+}
+
+.wsus__workout_apply_coupon button:hover {
+    color: var(--colorWhite);
+    background: var(--colorBlack);
+}
+
+.wsus__workout_details_right .wsus__program_pdf_download_btn .common_btn i {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+}
+
+/*===================================
+    WORKOUT DETAILS END
+===================================*/
+
 
 
 /*===================================
@@ -5469,7 +5739,7 @@ header {
 }
 
 .wsus__program_details_sidebar_form {
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .wsus__program_details_sidebar_form .input {
@@ -6199,6 +6469,8 @@ header {
     font-size: 20px;
     font-weight: 500;
     text-transform: uppercase;
+    margin-top: 0;
+    line-height: normal;
 }
 
 .wsus__blog_single_comment {
@@ -6225,6 +6497,8 @@ header {
     font-weight: 500;
     font-family: var(--headingFont);
     text-transform: uppercase;
+    margin-top: 0;
+    line-height: normal;
 }
 
 .wsus__blog_single_comment .text .date {
@@ -6291,6 +6565,8 @@ header {
     font-size: 20px;
     font-weight: 500;
     text-transform: uppercase;
+    margin-top: 0;
+    line-height: normal;
 }
 
 .wsus__blog_details_form_input input,
@@ -6452,7 +6728,7 @@ header {
 }
 
 .wsus__blog_sidebar_wizard {
-    margin-top: 20px;
+    margin-top: 30px;
     padding: 30px 30px 40px;
     background: var(--lightBg);
 }
