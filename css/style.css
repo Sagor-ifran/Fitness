@@ -1993,6 +1993,8 @@ header {
     margin: 0 auto;
 }
 
+.wsus__branding_img:hover .img img {}
+
 .wsus__branding .nextArrow,
 .wsus__branding .prevArrow {
     top: 23px;
@@ -2713,6 +2715,7 @@ header {
 
 
 /* banner 2 start */
+
 .wsus__banner_2_slider_item {
     background-size: cover !important;
     background-position: center center !important;
@@ -4405,11 +4408,12 @@ header {
     color: var(--colorBlack);
 }
 
-.home_4_dark .wsus__call_to_action_item {
+
+.home_4_dark .wsus__home_counter_item {
     background: var(--DarkVersion);
 }
 
-.home_4_dark .wsus__call_to_action_item p {
+.home_4_dark .wsus__home_counter_item p {
     color: var(--colorWhite);
 }
 
@@ -8123,16 +8127,10 @@ header {
     flex-wrap: wrap;
     padding: 35px 45px;
     margin-top: 10px;
+    position: relative;
     justify-content: space-between;
     background: var(--lightBg);
-}
-
-.wsus__award_item p,
-.wsus__award_item p a {
-    font-size: 16px;
-    font-weight: 500;
-    text-transform: uppercase;
-    color: var(--colorBlack);
+    border-left: 10px solid transparent;
     transition: all linear .3s;
     -webkit-transition: all linear .3s;
     -moz-transition: all linear .3s;
@@ -8140,8 +8138,45 @@ header {
     -o-transition: all linear .3s;
 }
 
-.wsus__award_item p a:hover {
-    color: var(--colorBlue);
+.wsus__award_item p {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--colorBlack);
+}
+
+.wsus__award_item:hover {
+    border-color: var(--colorBlack);
+}
+
+.wsus__award_item span {
+    position: absolute;
+    bottom: 44px;
+    right: 120px;
+    width: 300px;
+    height: 370px;
+    display: inline-block;
+    transform: rotate(20deg);
+}
+
+.wsus__award_item span {
+    position: absolute;
+    bottom: 32px;
+    right: 150px;
+    width: 210px;
+    height: 250px;
+    opacity: 0;
+    display: inline-block;
+    transform: rotate(20deg);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.wsus__award_item:hover span {
+    opacity: 1;
 }
 
 /*===================================

@@ -247,6 +247,32 @@
 
 
     /*============================
+        WORKOUT DETAILS START
+    ============================*/
+
+    .wsus__program_details_img_1 {
+        height: 450px;
+    }
+
+    .wsus__program_photo_gallery .wsus__photo_gallery_item {
+        height: 340px;
+    }
+
+    .wsus__program_details_img_2 {
+        height: 400px;
+    }
+
+    .wsus__workout_details_triner .wsus__single_trainer {
+        height: 340px;
+    }
+
+    /*============================
+        WORKOUT DETAILS START
+    ============================*/
+
+
+
+    /*============================
         LOGIN & REG START
     ============================*/
 
@@ -684,6 +710,20 @@
 
 
     /*============================
+        WORKOUT START
+    ============================*/
+
+    .wsus__workout_item .img {
+        height: 230px;
+    }
+
+    /*============================
+        WORKOUT END
+    ============================*/
+
+
+
+    /*============================
         BLOG DETAILS START
     ============================*/
 
@@ -780,6 +820,50 @@
 
 
     /*============================
+        WORKOUT DETAILS START
+    ============================*/
+
+    .wsus__program_details_img_1 {
+        height: 400px;
+    }
+
+    .wsus__program_photo_gallery .wsus__photo_gallery_item {
+        height: 280px;
+    }
+
+    .wsus__program_details_img_2 {
+        height: 350px;
+    }
+
+    .wsus__workout_details_triner .wsus__single_trainer {
+        height: 300px;
+    }
+
+    /*============================
+        WORKOUT DETAILS START
+    ============================*/
+
+
+
+    /*============================
+        PHOTO AND VIDEO START
+    ============================*/
+
+    .wsus__gallery_page .wsus__photo_gallery_item {
+        height: 320px;
+    }
+
+    .wsus__video_gallery_item {
+        height: 350px;
+    }
+
+    /*============================
+        PHOTO AND VIDEO END
+    ============================*/
+
+
+
+    /*============================
         LOGIN & REG START
     ============================*/
 
@@ -870,6 +954,11 @@
 
     .wsus__timetable_list table tr td h4 {
         font-size: 14px;
+    }
+
+    .wsus__video .wsus__section_headeing h2 {
+        font-size: 80px;
+        line-height: 80px;
     }
 
     .wsus__testimonial_content p {
@@ -1482,15 +1571,63 @@
 
 
     /*============================
-        FAQ'S START
+        WORKOUT START
     ============================*/
 
-    .wsus__faq_accordion_area {
+    .wsus__workout_item .img {
+        height: 300px;
+    }
+
+    /*============================
+        WORKOUT END
+    ============================*/
+
+
+
+    /*============================
+        WORKOUT DETAILS START
+    ============================*/
+
+    .wsus__program_details_img_1 {
+        height: 450px;
+    }
+
+    .wsus__program_photo_gallery .wsus__photo_gallery_item {
+        height: 350px;
+    }
+
+    .wsus__program_details_img_2 {
+        height: 300px;
+    }
+
+    .wsus__workout_details_triner .wsus__single_trainer {
+        height: 340px;
+    }
+
+    .wsus__program_details .wsus__faq_accordion {
         margin-bottom: 60px;
     }
 
     /*============================
-        FAQ'S END
+        WORKOUT DETAILS START
+    ============================*/
+
+
+
+    /*============================
+        PHOTO AND VIDEO START
+    ============================*/
+
+    .wsus__gallery_page .wsus__photo_gallery_item {
+        height: 350px;
+    }
+
+    .wsus__video_gallery_item {
+        height: 300px;
+    }
+
+    /*============================
+        PHOTO AND VIDEO END
     ============================*/
 
 
@@ -1667,6 +1804,10 @@
 
     /* machine end */
 
+    .wsus__home_counter_item h2,
+    .wsus__home_counter_item h2 span {
+        font-size: 70px;
+    }
 
     .wsus__single_trainer {
         height: 400px;
@@ -1688,6 +1829,15 @@
 
     .wsus__timetable_list table tr td h4 {
         font-size: 14px;
+    }
+
+    .wsus__video .wsus__section_headeing h2 {
+        font-size: 70px;
+        line-height: 70px;
+    }
+
+    .wsus__video::after {
+        display: none;
     }
 
     .wsus__testimonial_content p {
@@ -2358,6 +2508,34 @@
 
 
     /*============================
+        WORKOUT START
+    ============================*/
+
+    .wsus__workout_item .img {
+        height: 220px;
+    }
+
+    /*============================
+        WORKOUT END
+    ============================*/
+
+
+
+    /*============================
+        PRODUCT START
+    ============================*/
+
+    .wsus__product__sidebar {
+        margin-bottom: 40px;
+    }
+
+    /*============================
+        PRODUCT END
+    ============================*/
+
+
+
+    /*============================
         BLOG DETAILS START
     ============================*/
 
@@ -2506,15 +2684,68 @@
 
 
     /*============================
-        FAQ'S START
+        WORKOUT DETAILS START
     ============================*/
 
-    .wsus__faq_accordion_area {
+    .wsus__program_details_img_1 {
+        height: 370px;
+    }
+
+    .wsus__program_photo_gallery .wsus__photo_gallery_item {
+        height: 400px;
+    }
+
+    .wsus__program_details_img_2 {
+        height: 350px;
+    }
+
+    .wsus__workout_details_triner .wsus__single_trainer {
+        height: 380px;
+
+    }
+
+    .wsus__program_details .wsus__faq_accordion {
         margin-bottom: 60px;
     }
 
     /*============================
-        FAQ'S END
+        WORKOUT DETAILS START
+    ============================*/
+
+
+
+    /*============================
+        PHOTO AND VIDEO START
+    ============================*/
+
+    .wsus__gallery_page .wsus__photo_gallery_item {
+        height: 400px;
+    }
+
+    .wsus__timetable_menu .nav .nav-item button {
+        font-size: 14px;
+    }
+
+    .wsus__video_gallery_item {
+        height: 400px;
+    }
+
+    /*============================
+        PHOTO AND VIDEO END
+    ============================*/
+
+
+
+    /*============================
+        AWARD START
+    ============================*/
+
+    .wsus__award_item {
+        padding: 35px 25px;
+    }
+
+    /*============================
+        AWARD END
     ============================*/
 
 
@@ -2737,6 +2968,18 @@
     /* machine end */
 
 
+
+    /* counter start */
+
+    .wsus__home_counter_item h2,
+    .wsus__home_counter_item h2 span {
+        font-size: 70px;
+    }
+
+    /* counter end */
+
+
+
     /* triner start */
 
     .wsus__single_trainer {
@@ -2768,6 +3011,26 @@
     }
 
     /* timetable end */
+
+
+    /* video start */
+
+    .wsus__video::after {
+        display: none;
+    }
+
+    .wsus__video .wsus__section_headeing h2 {
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    .wsus__video_area_btn .play_btn {
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+    }
+
+    /* video end */
 
 
     /* pricing start */
@@ -3438,6 +3701,34 @@
 
 
     /*============================
+        PRODUCT START
+    ============================*/
+
+    .wsus__product__sidebar {
+        margin-bottom: 40px;
+    }
+
+    /*============================
+        PRODUCT END
+    ============================*/
+
+
+
+    /*============================
+        WORKOUT START
+    ============================*/
+
+    .wsus__workout_item .img {
+        height: 300px;
+    }
+
+    /*============================
+        WORKOUT END
+    ============================*/
+
+
+
+    /*============================
         CART START
     ============================*/
 
@@ -3526,6 +3817,11 @@
 
     .wsus__blog_details_img_1 {
         height: 300px;
+    }
+
+    .wsus__blog_details_left h2 {
+        font-size: 30px;
+        line-height: 36px;
     }
 
     .wsus__blog_details_img_2 .img {
@@ -3671,15 +3967,28 @@
 
 
     /*============================
-        FAQ'S START
+        WORKOUT DETAILS START
     ============================*/
 
-    .wsus__faq_accordion_area {
+    .wsus__program_details_img_1 {
+        height: 280px;
+    }
+
+    .wsus__program_photo_gallery .wsus__photo_gallery_item {
+        height: 300px;
+    }
+
+    .wsus__program_details_img_2 {
+        height: 300px;
+    }
+
+
+    .wsus__program_details .wsus__faq_accordion {
         margin-bottom: 60px;
     }
 
     /*============================
-        FAQ'S END
+        WORKOUT DETAILS START
     ============================*/
 
 
@@ -3707,6 +4016,62 @@
 
     /*============================
         LOGIN & REG END
+    ============================*/
+
+
+
+    /*============================
+        PHOTO AND VIDEO START
+    ============================*/
+
+    .wsus__video_gallery_item {
+        height: 280px;
+    }
+
+    .wsus__gallery_page .wsus__photo_gallery_item {
+        height: 300px;
+    }
+
+    /*============================
+        PHOTO AND VIDEO END
+    ============================*/
+
+
+
+
+    /*============================
+        AWARD START
+    ============================*/
+
+    .wsus__award_heading h2 {
+        font-size: 30px;
+    }
+
+    .wsus__award_item span {
+        display: none;
+    }
+
+    .wsus__award_item .name {
+        width: 100%;
+        text-align: center;
+    }
+
+    .wsus__award_item .award {
+        width: 100%;
+        text-align: center;
+    }
+
+    .wsus__award_item .winner {
+        width: 100%;
+        text-align: center;
+    }
+
+    .wsus__award_item {
+        padding: 35px 20px;
+    }
+
+    /*============================
+        AWARD END
     ============================*/
 
 
@@ -3949,6 +4314,16 @@
     /* machine end */
 
 
+    /* counter start */
+
+    .wsus__home_counter_item h2,
+    .wsus__home_counter_item h2 span {
+        font-size: 50px;
+    }
+
+    /* counter end */
+
+
     /* triner start */
 
     .wsus__single_trainer {
@@ -3980,6 +4355,28 @@
     }
 
     /* timetable end */
+
+
+
+    /* video start */
+
+    .wsus__video::after {
+        display: none;
+    }
+
+    .wsus__video .wsus__section_headeing h2 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .wsus__video_area_btn .play_btn {
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+    }
+
+    /* video end */
+
 
 
     /* pricing start */
@@ -4683,6 +5080,20 @@
 
 
     /*============================
+        WORKOUT START
+    ============================*/
+
+    .wsus__workout_item .img {
+        height: auto;
+    }
+
+    /*============================
+        WORKOUT END
+    ============================*/
+
+
+
+    /*============================
         CONTACT START
     ============================*/
 
@@ -4859,6 +5270,20 @@
 
 
     /*============================
+        PRODUCT START
+    ============================*/
+
+    .wsus__product__sidebar {
+        margin-bottom: 40px;
+    }
+
+    /*============================
+        PRODUCT END
+    ============================*/
+
+
+
+    /*============================
         TRAINER START
     ============================*/
 
@@ -4888,11 +5313,49 @@
 
 
     /*============================
+        WORKOUT DETAILS START
+    ============================*/
+    .wsus__program_details_img_1 {
+        height: auto;
+    }
+
+    .wsus__program_photo_gallery .wsus__photo_gallery_item {
+        height: auto;
+    }
+
+    .wsus__program_details_img_2 {
+        height: auto;
+    }
+
+    .wsus__workout_details_triner .wsus__single_trainer {
+        height: auto;
+    }
+
+    .wsus__program_tags ul li a {
+        padding: 4px 14px;
+    }
+
+    .wsus__program_details .wsus__faq_accordion {
+        margin-bottom: 60px;
+    }
+
+    /*============================
+        WORKOUT DETAILS START
+    ============================*/
+
+
+
+    /*============================
         BLOG DETAILS START
     ============================*/
 
     .wsus__blog_details_img_1 {
         height: auto;
+    }
+
+    .wsus__blog_details_left h2 {
+        font-size: 26px;
+        line-height: 30px;
     }
 
     .wsus__blog_details_img_2 .img {
@@ -5136,25 +5599,30 @@
         FAQ'S START
     ============================*/
 
-    .wsus__faq_accordion_area {
-        margin-bottom: 60px;
-    }
-
-    .wsus__faq_accordion .accordion-header .accordion-button {
-        padding-right: 60px;
-    }
-
-    .wsus__faq_accordion .accordion-header .accordion-button {
-        font-size: 18px;
-        font-weight: 500;
-    }
-
-    .wsus__faq_accordion .accordion-body {
-        line-height: 24px;
+    .wsus__faq .wsus__section_heading_3 h2 {
+        font-size: 30px;
     }
 
     /*============================
         FAQ'S END
+    ============================*/
+
+
+
+    /*============================
+        PHOTO AND VIDEO START
+    ============================*/
+
+    .wsus__gallery_page .wsus__photo_gallery_item {
+        height: auto;
+    }
+
+    .wsus__video_gallery_item {
+        height: auto;
+    }
+
+    /*============================
+        PHOTO AND VIDEO END
     ============================*/
 
 
@@ -5182,6 +5650,43 @@
 
     /*============================
         LOGIN & REG END
+    ============================*/
+
+
+
+    /*============================
+        AWARD START
+    ============================*/
+
+    .wsus__award_heading h2 {
+        font-size: 30px;
+    }
+
+    .wsus__award_item span {
+        display: none;
+    }
+
+    .wsus__award_item .name {
+        width: 100%;
+        text-align: center;
+    }
+
+    .wsus__award_item .award {
+        width: 100%;
+        text-align: center;
+    }
+
+    .wsus__award_item .winner {
+        width: 100%;
+        text-align: center;
+    }
+
+    .wsus__award_item {
+        padding: 35px 20px;
+    }
+
+    /*============================
+        AWARD END
     ============================*/
 
 

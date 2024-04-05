@@ -667,27 +667,37 @@ $(function () {
 
         responsive: [
             {
+                breakpoint: 1600,
+                settings: {
+                    slidesToShow: 6,
+                    arrows: false,
+                }
+            },
+            {
                 breakpoint: 1200,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 5,
+                    arrows: false,
                 }
             },
             {
                 breakpoint: 992,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 4,
+                    arrows: false,
                 }
             },
             {
                 breakpoint: 768,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 3,
+                    arrows: false,
                 }
             },
             {
                 breakpoint: 576,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 2,
                     arrows: false,
                 }
             }
