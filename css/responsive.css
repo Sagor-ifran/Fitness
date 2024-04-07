@@ -853,7 +853,7 @@
         height: 320px;
     }
 
-    .wsus__video_gallery_item {
+    .wsus__video_gallery_item iframe {
         height: 350px;
     }
 
@@ -888,9 +888,7 @@
         LOGIN & REG END
     ============================*/
 
-
 }
-
 
 
 @media (min-width: 992px) and (max-width: 1199.99px) {
@@ -1622,7 +1620,7 @@
         height: 350px;
     }
 
-    .wsus__video_gallery_item {
+    .wsus__video_gallery_item iframe {
         height: 300px;
     }
 
@@ -2726,7 +2724,7 @@
         font-size: 14px;
     }
 
-    .wsus__video_gallery_item {
+    .wsus__video_gallery_item iframe {
         height: 400px;
     }
 
@@ -4024,8 +4022,8 @@
         PHOTO AND VIDEO START
     ============================*/
 
-    .wsus__video_gallery_item {
-        height: 280px;
+    .wsus__video_gallery_item iframe {
+        height: 300px;
     }
 
     .wsus__gallery_page .wsus__photo_gallery_item {
@@ -5617,8 +5615,8 @@
         height: auto;
     }
 
-    .wsus__video_gallery_item {
-        height: auto;
+    .wsus__video_gallery_item iframe {
+        height: 200px;
     }
 
     /*============================

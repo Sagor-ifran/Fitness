@@ -188,6 +188,28 @@
     margin-left: 5px;
 }
 
+
+.wsus__home_counter_item h2,
+.wsus__home_counter_item h2 span {
+    text-align: center;
+}
+
+.wsus__home_counter_item p {
+    text-align: center;
+}
+
+
+.wsus__pricing_nav ul li button span {
+    left: auto;
+    right: -78px;
+}
+
+
+.wsus__pricing_nav ul li:last-child button span {
+    right: auto;
+    left: -62px;
+}
+
 .wsus__single_trainer ul {
     right: auto;
     left: 10px;
@@ -261,6 +283,15 @@
 .wsus__footer_right ul li a span {
     margin-right: 0;
     margin-left: 8px;
+}
+
+.wsus__footer_right ul li form button {
+    right: auto;
+    left: 5px;
+}
+
+.wsus__footer_right ul li form button i {
+    transform: rotate(-90deg);
 }
 
 .wsus__copy_right ul li::after {
@@ -907,13 +938,68 @@
     padding: 88px 76px 92px 100px;
 }
 
-.wsus__faq_accordion_area .wsus__section_heading_3 h2 {
-    text-align: right;
-}
-
 .wsus__faq_accordion .accordion-button::after {
     right: auto;
+    left: 10px;
+}
+
+.wsus__product_searchbox button {
+    right: auto;
+    left: 5px;
+}
+
+.wsus__product_searchbox input {
+    padding: 12px 20px 12px 60px;
+}
+
+.form-check .form-check-input {
+    float: right;
+}
+
+.wsus__product__sidebar_category ul li label {
+    margin-right: 25px;
+}
+
+.wsus__workout_item_text span img {
+    margin-left: 8px;
+}
+
+.wsus__workout_item .img p {
+    right: auto;
     left: 30px;
+}
+
+.wsus__workout_clocktime img {
+    margin-right: 0;
+    margin-left: 8px;
+}
+
+.wsus__workout_apply_coupon button {
+    right: auto !important;
+    left: 1px !important;
+}
+
+.wsus__program_pdf_download_btn a i {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.wsus__award_heading h2 {
+    text-align: center;
+}
+
+.wsus__award_item span {
+    right: auto;
+    left: 150px;
+}
+
+.wsus__award_item {
+    border-left: none;
+    border-right: 10px solid transparent;
+}
+
+.wsus__faq_accordion .accordion-header .accordion-button {
+    padding: 16px 40px 16px 70px;
 }
 
 .wsus__dashboard_profile_img label {
@@ -1206,6 +1292,10 @@
         padding: 50px 50px;
     }
 
+    .wsus__blog_details_right {
+        margin-right: 0;
+    }
+
 }
 
 
@@ -1320,9 +1410,13 @@
         padding-left: 50px !important;
     }
 
-
     .wsus__programs_page .wsus__program_item .text {
         padding: 30px 35px;
+    }
+
+    .wsus__blog_details_right {
+        margin-left: 0;
+        margin-right: 0;
     }
 
 }
@@ -1492,11 +1586,14 @@
         padding: 22px 30px 25px 30px;
     }
 
-
     .wsus__programs_page .wsus__program_item .text {
         padding: 50px 50px;
     }
 
+    .wsus__blog_details_right {
+        margin-left: 0;
+        margin-right: 0;
+    }
 
 }
 
@@ -1663,7 +1760,6 @@
     .wsus__programs_page .wsus__login_contant {
         padding: 18px 30px 25px 30px;
     }
-
 
 }
 
