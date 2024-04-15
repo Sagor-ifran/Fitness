@@ -502,6 +502,7 @@ button {
     HOME PAGE START
 ===================================*/
 /* header start */
+
 header {
     position: fixed;
     width: 100%;
@@ -846,6 +847,15 @@ header {
     font-family: var(--paraFont);
     color: var(--colorPrimary);
     text-transform: capitalize;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.wsus__droap_cart h5 a:hover {
+    color: var(--colorWhite);
 }
 
 .wsus__droap_cart_list {
@@ -913,7 +923,7 @@ header {
 }
 
 .wsus__droap_cart_list li span:hover {
-    color: red;
+    color: var(--colorPrimary);
 }
 
 .wsus__droap_total_price {
@@ -1920,7 +1930,6 @@ header {
 /* time table end */
 
 
-
 /* video start */
 
 .wsus__video {
@@ -2357,6 +2366,7 @@ header {
 .wsus__blog_img {
     height: 320px;
     overflow: hidden;
+    display: block;
 }
 
 .wsus__blog_img img {
@@ -3543,11 +3553,15 @@ header {
     justify-content: center;
 }
 
-.wsus__testimonial_2_reviewer .name h4 {
+.wsus__testimonial_2_reviewer .name .title {
     font-size: 18px;
     font-weight: 600;
     text-transform: uppercase;
     line-height: normal;
+}
+
+.wsus__testimonial_2_reviewer .name .title:hover {
+    text-decoration: none;
 }
 
 .wsus__testimonial_2_reviewer .name p {
@@ -4964,14 +4978,14 @@ header {
     height: 40px;
     line-height: 42px;
     text-align: center;
-    color: var(--colorBlack);
-    background: var(--colorPrimary);
+    color: var(--colorWhite);
+    background: var(--colorBlack);
     transition: all 0.3s linear 0s;
 }
 
 .wsus__product_searchbox button:hover {
-    color: var(--colorWhite);
-    background: var(--colorBlack);
+    color: var(--colorBlack);
+    background: var(--colorPrimary);
 }
 
 .wsus__product__sidebar_category {
@@ -5194,8 +5208,8 @@ header {
     height: 40px;
     line-height: 42px;
     text-align: center;
-    color: var(--colorBlack);
-    background: var(--colorPrimary);
+    color: var(--colorWhite);
+    background: var(--colorBlack);
     transition: all 0.3s linear 0s;
     -webkit-transition: all 0.3s linear 0s;
     -moz-transition: all 0.3s linear 0s;
@@ -5204,8 +5218,8 @@ header {
 }
 
 .wsus__workout_details_right_searchbox button:hover {
-    color: var(--colorWhite);
-    background: var(--colorBlack);
+    color: var(--colorBlack);
+    background: var(--colorPrimary);
 }
 
 .wsus__workout_apply_coupon form {
@@ -5434,6 +5448,10 @@ header {
 
 .wsus__trainer_details {
     position: relative;
+}
+
+.wsus__trainer_details .wsus__single_trainer .title:hover {
+    text-decoration: none;
 }
 
 .wsus__trainer_details_text {
@@ -6748,8 +6766,8 @@ header {
     height: 40px;
     line-height: 42px;
     text-align: center;
-    color: var(--colorBlack);
-    background: var(--colorPrimary);
+    color: var(--colorWhite);
+    background: var(--colorBlack);
     transition: all 0.3s linear 0s;
     -webkit-transition: all 0.3s linear 0s;
     -moz-transition: all 0.3s linear 0s;
@@ -6758,8 +6776,8 @@ header {
 }
 
 .wsus__blog_details_right_form button:hover {
-    color: var(--colorWhite);
-    background: var(--colorBlack);
+    color: var(--colorBlack);
+    background: var(--colorPrimary);
 }
 
 .wsus__blog_sidebar_wizard {
@@ -7048,14 +7066,23 @@ header {
 }
 
 .wsus__login_others_option {
-    gap: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 0px;
+    background: var(--colorWhite);
+    color: var(--colorBlack);
+    text-transform: capitalize;
     margin-top: 18px;
 }
 
-.wsus__login_others_option li a {
-    display: block;
-    width: 115px;
-    height: 40px;
+.wsus__login_others_option img {
+    width: 17px !important;
+    height: 17px !important;
+    margin-right: 10px;
 }
 
 .wsus__login_contant .sign_up {
@@ -7826,6 +7853,10 @@ header {
     font-family: var(--headingFont);
     color: var(--colorBlack);
     text-transform: uppercase;
+}
+
+.wsus__billing_product li .text a:hover {
+    text-decoration: underline;
 }
 
 .wsus__billing_product li .text h6 {

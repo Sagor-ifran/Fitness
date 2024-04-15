@@ -2,19 +2,34 @@ $(function () {
 
     "use strict";
 
-    //======menu fix js======
-    if ($('.main_menu').offset() != undefined) {
-        var navoff = $('.main_menu').offset().top;
-        $(window).scroll(function () {
-            var scrolling = $(this).scrollTop();
-
-            if (scrolling > navoff) {
-                $('.main_menu').addClass('menu_fix');
-            } else {
-                $('.main_menu').removeClass('menu_fix');
-            }
-        });
+    //=======MENU FIX======
+    if ($(window).scrollTop() > 1) {
+        if ($('.main_menu').offset() != undefined) {
+            $('.main_menu').addClass('menu_fix');
+        }
+    } else {
+        if ($('.main_menu').offset() != undefined) {
+            $('.main_menu').removeClass('menu_fix');
+        }
     }
+
+
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 1) {
+
+            if ($('.main_menu').offset() != undefined) {
+                // check if menu_if class is already added
+                if (!$('.main_menu').hasClass("menu_fix")) {
+                    $('.main_menu').addClass("menu_fix");
+                }
+            }
+        }
+        else {
+            if ($('.main_menu').offset() != undefined) {
+                $('.main_menu').removeClass("menu_fix");
+            }
+        }
+    });
 
 
     // nice select js
@@ -102,6 +117,8 @@ $(function () {
     $('.slider-for').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 4000,
         arrows: true,
         asNavFor: '.slider-nav',
         nextArrow: '<i class="fal fa-angle-right nextArrow"></i>',

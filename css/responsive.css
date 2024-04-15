@@ -877,10 +877,6 @@
     }
 
     .wsus__login_others_option {
-        gap: 25px;
-    }
-
-    .wsus__login_others_option {
         justify-content: center;
     }
 
@@ -1641,10 +1637,6 @@
 
     .wsus__login_contant {
         padding: 28px 40px 35px 15px;
-    }
-
-    .wsus__login_others_option {
-        gap: 25px;
     }
 
     .wsus__login_others_option {
@@ -2755,6 +2747,10 @@
     .wsus__login {
         margin-right: 35px;
         margin-left: 36px;
+    }
+
+    .wsus__login_contant {
+        padding: 88px 100px 92px 100px;
     }
 
     .wsus__login_contant h2 {
