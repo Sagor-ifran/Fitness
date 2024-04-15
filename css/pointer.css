@@ -1,9 +1,9 @@
 #pointer-dot {
-    left: -6px;
-    top: -6px;
+    left: -2px;
+    top: -2px;
     width: 0;
     height: 0;
-    border: 7px solid var(--colorPrimary) !important;
+    border: 3px solid #555 !important;
     position: fixed;
     border-radius: 7px;
     z-index: 999999;
@@ -25,7 +25,7 @@
     width: 0;
     height: 0;
     padding: 15px;
-    border: 1px solid var(--colorBlack) !important;
+    border: 1px solid #555 !important;
     position: fixed;
     border-radius: 100px;
     z-index: 999999;

@@ -51,15 +51,6 @@ body {
     color: var(--paraColor);
 }
 
-body::-webkit-scrollbar {
-    width: 7px;
-}
-
-body::-webkit-scrollbar-thumb {
-    background: rgb(163, 162, 162);
-    width: 7px;
-}
-
 img {
     width: 100% !important;
     height: 100% !important;
@@ -2061,8 +2052,8 @@ header {
     -o-border-radius: 0;
 }
 
-.nav-pills .nav-link.active,
-.nav-pills .show>.nav-link {
+.wsus__pricing .nav-pills .nav-link.active,
+.wsus__pricing .nav-pills .show>.nav-link {
     background-color: var(--colorBlack);
 }
 
@@ -2077,6 +2068,11 @@ header {
     transition: all 0.3s linear 0s;
     color: var(--paraColor) !important;
     background: none !important;
+}
+
+.wsus__pricing_nav ul li button span:hover,
+.wsus__pricing_nav ul li button.active span {
+    color: var(--colorBlack) !important;
 }
 
 .wsus__pricing_nav ul li:last-child button span {
@@ -2287,6 +2283,24 @@ header {
     -o-border-radius: 50%;
 }
 
+@keyframes rotate_animi {
+    from {
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+    }
+}
+
 .wsus__slider_small_img::after {
     position: absolute;
     content: "";
@@ -2297,6 +2311,8 @@ header {
     left: -8px;
     opacity: 0;
     transition: all 0.2s linear 0s;
+    animation: rotate_animi 30s linear infinite;
+    -webkit-animation: rotate_animi 30s linear infinite;
     -webkit-transition: all 0.2s linear 0s;
     -moz-transition: all 0.2s linear 0s;
     -ms-transition: all 0.2s linear 0s;
@@ -4422,19 +4438,6 @@ header {
     color: var(--colorWhite);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .home_4_dark .wsus__timetable_menu .nav {
     border: 1px solid #ffffff10;
 }
@@ -4446,10 +4449,6 @@ header {
 .home_4_dark .wsus__timetable_list table tr {
     border-bottom: 1px solid #ffffff10;
 }
-
-/* .home_4_dark .wsus__timetable_list table tr:last-child {
-    border-bottom: none;
-} */
 
 .home_4_dark .wsus__timetable_list table tbody tr:last-child {
     border-bottom: 1px solid #272732;
@@ -4469,28 +4468,13 @@ header {
     background: url("../images/time_table_shapes_dark.png");
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .home_4_dark .wsus__video .wsus__section_headeing h2 {
     color: var(--colorWhite);
+}
+
+.home_4_dark .wsus__branding .prevArrow:hover {
+    border: 1px solid var(--colorPrimary);
+    background: var(--colorPrimary);
 }
 
 .home_4_dark .wsus__branding {
@@ -4512,6 +4496,11 @@ header {
 }
 
 .home_4_dark .wsus__pricing_nav ul li button span {
+    color: var(--paraColor) !important;
+}
+
+.home_4_dark .wsus__pricing_nav ul li button span:hover,
+.home_4_dark .wsus__pricing_nav ul li button.active span {
     color: var(--colorWhite) !important;
 }
 
