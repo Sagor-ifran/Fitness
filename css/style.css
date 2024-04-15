@@ -4414,7 +4414,6 @@ header {
     color: var(--colorBlack);
 }
 
-
 .home_4_dark .wsus__home_counter_item {
     background: var(--DarkVersion);
 }
@@ -4422,6 +4421,19 @@ header {
 .home_4_dark .wsus__home_counter_item p {
     color: var(--colorWhite);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .home_4_dark .wsus__timetable_menu .nav {
     border: 1px solid #ffffff10;
@@ -4435,8 +4447,12 @@ header {
     border-bottom: 1px solid #ffffff10;
 }
 
-.home_4_dark .wsus__timetable_list table tr:last-child {
-    border-bottom: 0;
+/* .home_4_dark .wsus__timetable_list table tr:last-child {
+    border-bottom: none;
+} */
+
+.home_4_dark .wsus__timetable_list table tbody tr:last-child {
+    border-bottom: 1px solid #272732;
 }
 
 .home_4_dark .wsus__timetable_list table tr th,
@@ -4452,6 +4468,26 @@ header {
 .home_4_dark .wsus__timetable::after {
     background: url("../images/time_table_shapes_dark.png");
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .home_4_dark .wsus__video .wsus__section_headeing h2 {
     color: var(--colorWhite);
