@@ -1226,7 +1226,7 @@ header {
     top: 50%;
     right: 120px;
     transform: translateY(-50%);
-    z-index: 9;
+    z-index: 3;
     width: auto;
     height: auto;
     -webkit-transform: translateY(-50%);
@@ -7636,11 +7636,9 @@ header {
     border-bottom: 1px solid rgba(23, 23, 24, 0.12);
 }
 
-
 .wsus__cart_list_bottom_btn .cont_shop {
     background: var(--lightBg);
 }
-
 
 .wsus__cart_list_bottom_btn .common_btn::after {
     background: var(--colorBlack);
